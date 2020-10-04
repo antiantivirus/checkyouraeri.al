@@ -55,22 +55,24 @@ function checkTime() {
 
   var CurrentDate = moment().tz('Europe/London');
 
-  var live = 'brb';
+  console.log(CurrentDate)
 
-  if (CurrentDate.isAfter('2020-10-04T14:00:00Z')) {
+  var live = 'gate will open at 1400';
+
+  if (CurrentDate.isAfter('2020-10-04T14:00:00')) {
     live = 'doyoudre.am';
-  } else if (CurrentDate.isAfter('2020-10-04T15:30:00Z')) {
+  } else if (CurrentDate.isAfter('2020-10-04T15:30:00')) {
     live = 'lindo forms';
-  } else if (CurrentDate.isAfter('2020-10-04T16:00:00Z')) {
+  } else if (CurrentDate.isAfter('2020-10-04T16:00:00')) {
     live = 'mod.r';
-  } else if (CurrentDate.isAfter('2020-10-04T17:00:00Z')) {
+  } else if (CurrentDate.isAfter('2020-10-04T17:00:00')) {
     live = 'ZEMA';
-  } else if (CurrentDate.isAfter('2020-10-04T18:00:00Z')) {
+  } else if (CurrentDate.isAfter('2020-10-04T18:00:00')) {
     live = 'KAVARI';
-  } else if (CurrentDate.isAfter('2020-10-04T19:00:00Z')) {
+  } else if (CurrentDate.isAfter('2020-10-04T19:00:00')) {
     live = 'zloto';
-  } else if (CurrentDate.isAfter('2020-10-04T20:00:00Z')) {
-    live = 'thanks for tuning in :)';
+  } else if (CurrentDate.isAfter('2020-10-04T20:00:00')) {
+    live = 'thanks for checking in :)';
   }
 
   console.log(liveNow);

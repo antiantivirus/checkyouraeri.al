@@ -11,6 +11,16 @@ html {
 
 }
 
+.content {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pad-me-mobile {
+  padding-left: 50px;
+}
+
 h1, h2, h3, h4, h5, p, a {
   font-family: 'Arial Narrow', Arial, sans-serif;
 /*   text-align: center; */
@@ -164,7 +174,7 @@ h4 {
   display: grid;
   grid-template-columns: 50px auto;
   align-items: center;
-  padding: 0px 50px;
+  /* padding: 0px 50px; */
   position: fixed;
   bottom: 0px;
   left: 0px;
@@ -233,6 +243,7 @@ h4 {
 .sub-grid {
   display: grid;
   grid-template-rows: min-content;
+  grid-row-gap: 50px;
   height: 100%;
 }
 
@@ -347,6 +358,14 @@ h4 {
 
   .desktop {
     display: block;
+  }
+
+  .sub-grid {
+    grid-row-gap: 0px;
+  }
+
+  .pad-me-mobile {
+    padding-left: 0px;
   }
 
 }
