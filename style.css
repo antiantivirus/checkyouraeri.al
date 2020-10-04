@@ -1,17 +1,44 @@
 /* CSS files add styling rules to your content */
 
-
-
-
 html, body {
-  font-family: arial, sans-serif;
-  margin: 2em;
-  background-color: #B5B5B5;
+  margin: 1em;
+  margin-bottom: 150px;
+/*   background-color: #B5B5B5; */
 }
 
-h1, h2 {
-  color: black;
+html {
+  background-color: #B5B5B5;
+
+}
+
+h1, h2, h3, h4, h5, p, a {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+/*   text-align: center; */
+/*   color: #1F1F1F; */
+  font-stretch: condensed;
+  color: white;
+}
+
+
+p {
+  font-size: 16px;
+}
+
+h3 {
+    font-size: 20px;
+  }
+
+h4 {
+  font-size: 20px;
   text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 #aerial-anim-container {
@@ -25,12 +52,13 @@ h1, h2 {
 
 
 #aerial-anim {
-  width: 200px;
-  transform: rotateX(90deg);
+  width: 100px;
   transition: transform 0.5s;
-  opacity: 1;
-/*   top: 10%; */
   animation: spin 20s infinite;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  z-index: 0;
 }
 
 @keyframes spin {
@@ -85,108 +113,247 @@ h1, h2 {
   overflow: auto;
 }
 
+/* stars in your eyezzz */
 
+#star-container {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+}
 
-/* floating text */
-
-.floating-top-text span {
+.star {
+  width: 50px;
+  height: 50px;
+  background-image: url('https://cdn.glitch.com/2f49f9f1-055f-4a35-b428-e64ac2824440%2Faerial-logo.svg?v=1601724407185');
   position: absolute;
-  font-style: italic;
-}
-
-
-#floating-skybound {
-  left: 5%;
-  top: 50%;
-  animation: float-up-skybound forwards 7s;
+  background-repeat: no-repeat;
+  background-size: auto;
+  animation: rise 5s forwards;
   opacity: 0;
 }
 
-#floating-sounds {
-  left: 30%;
-  top: 50%;
-  animation: float-up-sounds forwards 8.5s;
-  animation-delay: 0.5s;
-  opacity: 0;
-}
-
-#floating-from {
-  left: 50%;
-  top: 50%;
-  animation: float-up-from forwards 6s;
-  animation-delay: 1s;
-  opacity: 0;
-}
-
-#floating-the {
-  left: 70%;
-  top: 50%;
-  animation: float-up-the forwards 7.5s;
-  animation-delay: 1.5s;
-  opacity: 0;
-}
-
-#floating-north {
-  left: 90%;
-  top: 50%;
-  animation: float-up-north forwards 6.5s;
-  animation-delay: 2s;
-  opacity: 0;
-}
-
-
-
-@keyframes float-up-skybound {
-  from {
-    top: 50%;
+@keyframes rise {
+  0% {
     opacity: 0;
+    margin-top: 50px;
   }
-  to {
-    top: 40px;
-    opacity: 1
+  50% {
+    opacity: 1;
   }
+  100% {
+    margin-top: -50px;
+  }
+
 }
 
-@keyframes float-up-sounds {
-  from {
-    top: 50%;
-    opacity: 0;
-  }
-  to {
-    top: 75px;
-    opacity: 1
-  }
+
+/* skybound */
+
+.skybound-container {
 }
 
-@keyframes float-up-from {
-  from {
-    top: 50%;
-    opacity: 0;
-  }
-  to {
-    top: 30px;
-    opacity: 1
-  }
+.skybound-container svg {
+
 }
 
-@keyframes float-up-the {
-  from {
-    top: 50%;
-    opacity: 0;
-  }
-  to {
-    top: 78px;
-    opacity: 1
-  }
+.live-now-container {
+  height: 150px;
+  display: grid;
+  grid-template-columns: 50px auto;
+  align-items: center;
+  padding: 0px 50px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
 }
 
-@keyframes float-up-north {
-  from {
-    top: 50%;
-    opacity: 0;
+.live-now-container .grid-item {
+  z-index: 9;
+}
+
+.purple-blur {
+  background: #5e509c;
+  filter: blur(40px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+/*   background: radial-gradient(#5e509c 0%, rgba(103, 90, 158, 0) 100%); */
+}
+
+.less-blur-mobile {
+  filter: blur(20px);
+}
+
+.live-now-container p {
+  color: white;
+  z-index: 9;
+}
+
+/* play-pause */
+
+#play-pause {
+  background-image: url('https://cdn.glitch.com/2f49f9f1-055f-4a35-b428-e64ac2824440%2Fplay.svg?v=1601468493701');
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.listening {
+  background-image: url('https://cdn.glitch.com/2f49f9f1-055f-4a35-b428-e64ac2824440%2Fpause.svg?v=1601746384767') !important;
+}
+
+
+/* grid */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  flex-direction: row-reverse;
+  grid-row-gap: 100px;
+}
+
+.grid-container .grid-item:nth-of-type(2) {
+  order: 1;
+}
+
+.grid-container .grid-item:nth-of-type(1) {
+  order: 2;
+}
+
+.sub-grid {
+  display: grid;
+  grid-template-rows: min-content;
+  height: 100%;
+}
+
+/* departures */
+
+.departures-container {
+  position: relative;
+}
+
+.departures {
+  z-index: 9;
+}
+
+.departures-container .purple-blur {
+  left: -50px;
+}
+
+
+/* full screen video background */
+
+.vimeo-wrapper {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -5;
+   pointer-events: none;
+   overflow: hidden;
+   display: none;
+   -webkit-transform: translateZ(-9999px);
+}
+
+.vimeo-wrapper iframe {
+   width: 100vw;
+   height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+   min-height: 100vh;
+   min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none
+}
+
+@media only screen and (min-width: 900px) {
+
+  html, body {
+    margin: 2em;
   }
-  to {
-    top: 48px;
-    opacity: 1
+
+  p {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 30% 70%;
+  /*   justify-items: center; */
+    align-items: center;
+    height: 100%;
+  }
+
+  h4 {
+    font-size: 45px;
+  }
+
+  .grid-container .grid-item:nth-of-type(2) {
+  order: 2;
+  }
+
+  .grid-container .grid-item:nth-of-type(1) {
+    order: 1;
+  }
+
+  .live-now-container {
+    position: relative;
+    bottom: 75px;
+    width: 30%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-items: center;
+    padding: 0px 50px;
+  }
+
+  .vimeo-wrapper {
+    display: block;
+  }
+
+  .less-blur-mobile {
+    filter: blur(40px);
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .grid-container {
+    grid-template-columns: 20% 60% 20%;
   }
 }
