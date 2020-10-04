@@ -28,14 +28,22 @@ starsInYourEyez();
 //listen to the radio
 
 var listen = document.getElementById('play-pause');
-var radio = ''
+var radio = new Audio('https://checkyouraerial.radioca.st/skybound');
 
 listen.addEventListener('click', function(){
   //play the rrrrrradio
-  // radio.load();
-  // radio.play();
+
+  console.log(listen.classList);
+
+  if (listen.classList.contains('listening')) {
+    radio.pause();
+  } else {
+    radio.load();
+    radio.play();
+  }
 
   listen.classList.toggle('listening');
+
 });
 
 
