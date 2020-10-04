@@ -61,17 +61,23 @@ function checkTime() {
 
   if (CurrentDate.isAfter('2020-10-04T14:00:00')) {
     live = 'doyoudre.am';
-  } else if (CurrentDate.isAfter('2020-10-04T15:30:00')) {
+  }
+  if (CurrentDate.isAfter('2020-10-04T15:30:00')) {
     live = 'lindo forms';
-  } else if (CurrentDate.isAfter('2020-10-04T16:00:00')) {
+  }
+   if (CurrentDate.isAfter('2020-10-04T16:00:00')) {
     live = 'mod.r';
-  } else if (CurrentDate.isAfter('2020-10-04T17:00:00')) {
+  }
+   if (CurrentDate.isAfter('2020-10-04T17:00:00')) {
     live = 'ZEMA';
-  } else if (CurrentDate.isAfter('2020-10-04T18:00:00')) {
+  }
+   if (CurrentDate.isAfter('2020-10-04T18:00:00')) {
     live = 'KAVARI';
-  } else if (CurrentDate.isAfter('2020-10-04T19:00:00')) {
+  }
+   if (CurrentDate.isAfter('2020-10-04T19:00:00')) {
     live = 'zloto';
-  } else if (CurrentDate.isAfter('2020-10-04T20:00:00')) {
+  }
+   if (CurrentDate.isAfter('2020-10-04T20:00:00')) {
     live = 'thanks for checking in :)';
   }
 
