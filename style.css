@@ -17,9 +17,9 @@ html {
   margin-right: auto;
 }
 
-.pad-me-mobile {
+/* .pad-me-mobile {
   padding-left: 50px;
-}
+} */
 
 h1, h2, h3, h4, h5, p, a {
   font-family: 'Arial Narrow', Arial, sans-serif;
@@ -174,7 +174,7 @@ h4 {
   display: grid;
   grid-template-columns: 50px auto;
   align-items: center;
-  /* padding: 0px 50px; */
+  padding: 0px 50px;
   position: fixed;
   bottom: 0px;
   left: 0px;
