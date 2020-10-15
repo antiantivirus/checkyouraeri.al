@@ -80,11 +80,17 @@ a p {
   margin: 50px 0px;
 }
 
+.space {
+  height: 100px;
+}
+
 #aerial-anim-container {
   /* pointer-events: none; */
   width: 100%;
   max-width: 300px;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
   /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); */
@@ -93,7 +99,7 @@ a p {
 
 #aerial-anim {
   width: 100%;
-  max-width: 400px;
+  /* max-width: 400px; */
   transition: transform 0.5s;
   animation: spin 20s infinite;
   margin-left: auto;
@@ -224,6 +230,10 @@ a p {
 
 .full-height {
   height: 100vh;
+}
+
+.almost-full-spacer {
+  height: 75vh;
 }
 
 /* floating text */
@@ -370,7 +380,7 @@ a p {
   display: none
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 992px) {
 
   html, body {
     margin: 2em;
@@ -378,11 +388,15 @@ a p {
   }
 
   p {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   h3 {
     font-size: 20px;
+  }
+
+  .space {
+    height: 150px;
   }
 
   .grid-container {
@@ -392,6 +406,16 @@ a p {
   /*   justify-items: center; */
     align-items: center;
     height: 100%;
+  }
+
+  .two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   h4 {
@@ -406,7 +430,7 @@ a p {
     order: 1;
   }
 
-  .live-now-container {
+  /* .live-now-container {
     position: fixed;
     bottom: 50px;
     width: 100%;
@@ -420,6 +444,10 @@ a p {
     padding: 0px 50px;
     left: 50%;
     transform: translate(-50%);
+  } */
+
+  .live-now-container {
+    grid-template-columns: 75px auto max-content;
   }
 
   .vimeo-wrapper {
@@ -446,9 +474,32 @@ a p {
     padding-left: 0px;
   }
 
+  h1 {
+    font-size: 30px;
+  }
+
+  #aerial-anim-container {
+    max-width: 400px;
+    pointer-events: none;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+
+  #co-ordinates {
+    top: 15%;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
+
+
+  .space {
+      height: 200px;
+  }
 
   .grid-container {
     grid-template-columns: 20% 60% 20%;
@@ -466,6 +517,39 @@ a p {
   .item {
     align-self: center;
   }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 60px;
+  }
+
+  .footer h4 {
+    font-size: 120px;
+  }
+
+  #aerial-anim-container {
+    max-width: 600px;
+  }
+
+  #co-ordinates {
+    top: 8%;
+    left: 15%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+
+  h1 {
+    font-size: 50px;
+  }
+
 }
 
 
