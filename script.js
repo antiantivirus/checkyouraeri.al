@@ -28,7 +28,7 @@ starsInYourEyez();
 //listen to the radio
 
 var listen = document.getElementById('play-pause');
-var radio = new Audio('https://checkyouraerial.radioca.st/skybound');
+var radio = new Audio('https://s4.radio.co/s67e8e7da0/listen');
 
 listen.addEventListener('click', function(){
   //play the rrrrrradio
