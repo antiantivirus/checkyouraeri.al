@@ -576,9 +576,8 @@ a p {
 
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 400px) {
   #co-ordinates {
-    top: 25%;
     left: 5%;
   }
 }
