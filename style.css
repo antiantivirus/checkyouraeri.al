@@ -8,7 +8,6 @@ html, body {
 
 html {
   background-color: #B5B5B5;
-
 }
 
 .content {
@@ -29,9 +28,14 @@ h1, h2, h3, h4, h5, p, a {
   color: white;
 }
 
+h1 {
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+}
 
 p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 h3 {
@@ -39,7 +43,20 @@ h3 {
   }
 
 h4 {
-  font-size: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.footer h4 {
+  font-size: 52px;
+}
+
+a p {
+  font-size: 40px;
+}
+
+.text-center {
   text-align: center;
 }
 
@@ -51,13 +68,26 @@ h4 {
   font-weight: bold;
 }
 
+.text-italic {
+  font-style: italic;
+}
+
+.relative {
+  position: relative;
+}
+
+.section {
+  margin: 50px 0px;
+}
+
 #aerial-anim-container {
-  pointer-events: none;
-  width: 200px;
-  position: fixed;
-  top: 50%;
+  /* pointer-events: none; */
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 
@@ -72,6 +102,24 @@ h4 {
   z-index: 0;
 }
 
+#pointer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#co-ordinates {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  text-align: right;
+}
+
+#co-ordinates p {
+  color: #5E509C;
+}
+
 #aerial-anim svg {
   width: 100%;
 }
@@ -84,50 +132,6 @@ h4 {
         transform:rotateY(360deg);
     }
 }
-
-#inner {
-  border-radius: 50%;
-  border: black solid 2px;
-  width: 90%;
-  height: 100%;
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  position: absolute;
-}
-
-#outer {
-  border-radius: 50%;
-  border: black dashed 2px;
-  width: 100%;
-  height: 100%;
-  display: inline;
-  position: absolute;
-}
-
-#hi_there {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#left {
-  max-width: 450px;
-  float: left;
-  max-height: 90vh;
-  overflow: auto;
-}
-
-#right {
-  max-width: 450px;
-  float: right;
-  max-height: 90vh;
-  overflow: auto;
-}
-
 /* stars in your eyezzz */
 
 #star-container {
@@ -164,32 +168,6 @@ h4 {
 
 }
 
-
-/* skybound */
-
-.skybound-container {
-}
-
-.skybound-container svg {
-
-}
-
-.live-now-container {
-  height: 150px;
-  display: grid;
-  grid-template-columns: 50px auto;
-  align-items: center;
-  padding: 0px 50px;
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-}
-
-.live-now-container .grid-item {
-  z-index: 9;
-}
-
 .purple-blur {
   background: #5e509c;
   filter: blur(40px);
@@ -204,6 +182,24 @@ h4 {
 
 .less-blur-mobile {
   filter: blur(20px);
+}
+
+/* live now */
+
+.live-now-container {
+  position: relative;
+  /* bottom: 0px; */
+  width: 100%;
+  max-width: 900px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 50px auto max-content;
+  align-items: center;
+  padding: 0px 25px;
+  /* left: 50%; */
+  /* transform: translate(-50%); */
 }
 
 .live-now-container p {
@@ -226,44 +222,114 @@ h4 {
   background-image: url('/images/pause.svg') !important;
 }
 
-
-/* grid */
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  flex-direction: row-reverse;
-  grid-row-gap: 100px;
+.full-height {
+  height: 100vh;
 }
 
-.grid-container .grid-item:nth-of-type(2) {
-  order: 1;
+/* floating text */
+
+/* floating text */
+
+.floating-top-text span {
+  position: absolute;
+  font-style: italic;
 }
 
-.grid-container .grid-item:nth-of-type(1) {
-  order: 2;
+
+#floating-skybound {
+  left: 5%;
+  top: 50%;
+  animation: float-up-skybound forwards 7s;
+  opacity: 0;
 }
 
-.sub-grid {
-  display: grid;
-  grid-template-rows: min-content;
-  grid-row-gap: 50px;
-  height: 100%;
+#floating-sounds {
+  left: 30%;
+  top: 50%;
+  animation: float-up-sounds forwards 8.5s;
+  animation-delay: 0.5s;
+  opacity: 0;
 }
 
-/* departures */
-
-.departures-container {
-  position: relative;
+#floating-from {
+  left: 50%;
+  top: 50%;
+  animation: float-up-from forwards 6s;
+  animation-delay: 1s;
+  opacity: 0;
 }
 
-.departures {
-  z-index: 9;
+#floating-the {
+  left: 70%;
+  top: 50%;
+  animation: float-up-the forwards 7.5s;
+  animation-delay: 1.5s;
+  opacity: 0;
 }
 
-.departures-container .purple-blur {
-  left: -50px;
+#floating-north {
+  left: 90%;
+  top: 50%;
+  animation: float-up-north forwards 6.5s;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+
+
+@keyframes float-up-skybound {
+  from {
+    top: 25%;
+    opacity: 0;
+  }
+  to {
+    top: 40px;
+    opacity: 1
+  }
+}
+
+@keyframes float-up-sounds {
+  from {
+    top: 25%;
+    opacity: 0;
+  }
+  to {
+    top: 75px;
+    opacity: 1
+  }
+}
+
+@keyframes float-up-from {
+  from {
+    top: 25%;
+    opacity: 0;
+  }
+  to {
+    top: 30px;
+    opacity: 1
+  }
+}
+
+@keyframes float-up-the {
+  from {
+    top: 25%;
+    opacity: 0;
+  }
+  to {
+    top: 78px;
+    opacity: 1
+  }
+}
+
+@keyframes float-up-north {
+  from {
+    top: 25%;
+    opacity: 0;
+  }
+  to {
+    top: 48px;
+    opacity: 1
+  }
 }
 
 
@@ -280,6 +346,9 @@ h4 {
    overflow: hidden;
    display: none;
    -webkit-transform: translateZ(-9999px);
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
 
 .vimeo-wrapper iframe {
@@ -305,6 +374,7 @@ h4 {
 
   html, body {
     margin: 2em;
+    margin-bottom: 150px;
   }
 
   p {
@@ -337,16 +407,19 @@ h4 {
   }
 
   .live-now-container {
-    position: relative;
-    bottom: 75px;
-    width: 30%;
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+    max-width: 900px;
     height: 150px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 75px auto max-content;
     align-items: center;
     padding: 0px 50px;
+    left: 50%;
+    transform: translate(-50%);
   }
 
   .vimeo-wrapper {
@@ -393,9 +466,15 @@ h4 {
   .item {
     align-self: center;
   }
+}
 
-  html, body {
-    height: 100%;
-    margin: 0;
-  }
+
+/* bootstrap bits */
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-bottom: 0px;
 }
