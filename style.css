@@ -492,7 +492,7 @@ a p {
   #aerial-anim-container {
     max-width: 400px;
     pointer-events: none;
-    width: 40%;
+    width: 100%;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -549,22 +549,29 @@ a p {
     padding-left: 50px;
   }
 
-  #aerial-anim-container {
-    max-width: 600px;
-  }
-
-  #co-ordinates {
-    /* top: 8%;
-    left: 15%; */
-    top: 15%;
-    left: 23%;
-  }
+  /* #co-ordinates {
+    top: 17%;
+    left: 11%;
+  } */
 }
 
 @media only screen and (min-width: 1500px) {
 
   h1 {
     font-size: 50px;
+  }
+
+}
+
+@media only screen and (min-width: 2000px) {
+
+  #aerial-anim-container {
+    max-width: 600px;
+  }
+
+  #co-ordinates {
+    top: 15%;
+    left: 23%;
   }
 
 }
