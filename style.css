@@ -458,7 +458,7 @@ a p {
 
   .live-now-container {
     grid-template-columns: 75px auto max-content;
-    padding: 0px 50px; 
+    padding: 0px 50px;
   }
 
   .vimeo-wrapper {
@@ -554,8 +554,10 @@ a p {
   }
 
   #co-ordinates {
-    top: 8%;
-    left: 15%;
+    /* top: 8%;
+    left: 15%; */
+    top: 15%;
+    left: 23%;
   }
 }
 
