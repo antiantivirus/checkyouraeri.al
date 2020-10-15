@@ -2,7 +2,7 @@
 
 html, body {
   margin: 1em;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 /*   background-color: #B5B5B5; */
 }
 
@@ -389,7 +389,7 @@ a p {
 
   html, body {
     margin: 2em;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
   }
 
   p {
@@ -491,7 +491,7 @@ a p {
   #aerial-anim-container {
     max-width: 400px;
     pointer-events: none;
-    width: 100%;
+    width: 40%;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -529,11 +529,11 @@ a p {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   p {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   h4 {
@@ -541,7 +541,7 @@ a p {
   }
 
   .footer h4 {
-    font-size: 120px;
+    font-size: 100px;
   }
 
   .lineup {
