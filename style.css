@@ -458,6 +458,7 @@ a p {
 
   .live-now-container {
     grid-template-columns: 75px auto max-content;
+    padding: 0px 50px; 
   }
 
   .vimeo-wrapper {
