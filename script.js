@@ -28,7 +28,7 @@ starsInYourEyez();
 //listen to the radio
 
 var listen = document.getElementById('play-pause');
-var radio = new Audio('https://checkyouraerial.radioca.st/skybound');
+var radio = new Audio('https://s4.radio.co/s67e8e7da0/listen');
 
 listen.addEventListener('click', function(){
   //play the rrrrrradio
@@ -57,31 +57,29 @@ function checkTime() {
 
   console.log(CurrentDate)
 
-  var live = 'gate will open at 1400';
+  var live = 'back soon :)';
 
-  if (CurrentDate.isAfter('2020-10-04T14:00:00')) {
-    live = 'doyoudre.am';
-  }
-  if (CurrentDate.isAfter('2020-10-04T15:30:00')) {
-    live = 'lindo forms';
-  }
-   if (CurrentDate.isAfter('2020-10-04T16:00:00')) {
-    live = 'mod.r';
-  }
-   if (CurrentDate.isAfter('2020-10-04T17:00:00')) {
-    live = 'ZEMA';
-  }
-   if (CurrentDate.isAfter('2020-10-04T18:00:00')) {
-    live = 'KAVARI';
-  }
-   if (CurrentDate.isAfter('2020-10-04T19:00:00')) {
-    live = 'zloto';
-  }
-   if (CurrentDate.isAfter('2020-10-04T20:00:00')) {
-    live = 'thanks for checking in :)';
-  }
-
-  console.log(liveNow);
+  if (CurrentDate.isAfter('2020-10-16T14:00:00')) {
+    live = 'warp and weft';
+  };
+  if (CurrentDate.isAfter('2020-10-16T15:00:00')) {
+    live = 'CLXO';
+  };
+   if (CurrentDate.isAfter('2020-10-16T16:00:00')) {
+    live = 'dj youtube algorithm';
+  };
+   if (CurrentDate.isAfter('2020-10-16T17:00:00')) {
+    live = 'novy mir';
+  };
+   if (CurrentDate.isAfter('2020-10-16T18:00:00')) {
+    live = 'terrace 2';
+  };
+   if (CurrentDate.isAfter('2020-10-16T19:00:00')) {
+    live = 'lockdown sessions w/ .CORPSE';
+  };
+   if (CurrentDate.isAfter('2020-10-16T20:00:00')) {
+    live = 'back soon :)';
+  };
 
   liveNow.innerHTML = live;
 
@@ -100,7 +98,7 @@ checkTime();
 //   // Init
 //   var container = document.getElementById("aerial-anim-container"),
 //   inner = document.getElementById("aerial-anim");
-
+//
 //   // Mouse
 //   var mouse = {
 //     _x: 0,
@@ -120,32 +118,32 @@ checkTime();
 //       return "(" + this.x + ", " + this.y + ")";
 //     }
 //   };
-
+//
 //   // Track the mouse position relative to the center of the container.
 //   mouse.setOrigin(container);
-
+//
 //   //-----------------------------------------
-
+//
 //   var counter = 0;
 //   var updateRate = 10;
 //   var isTimeToUpdate = function() {
 //     return counter++ % updateRate === 0;
 //   };
-
+//
 //   //-----------------------------------------
-
+//
 //   var onMouseEnterHandler = function(event) {
 //     update(event);
 //   };
-
+//
 //   var onMouseMoveHandler = function(event) {
 //     if (isTimeToUpdate()) {
 //       update(event);
 //     }
 //   };
-
+//
 //   //-----------------------------------------
-
+//
 //   var update = function(event) {
 //     mouse.updatePosition(event);
 //     updateTransformStyle(
@@ -153,7 +151,7 @@ checkTime();
 //       (mouse.x / 10).toFixed(2)
 //     );
 //   };
-
+//
 //   var updateTransformStyle = function(x, y) {
 //     x = 50 - x;
 //     var style = "rotateX(" + x + "deg) rotateY(" + y + "deg)";
@@ -163,8 +161,38 @@ checkTime();
 //     inner.style.msTransform = style;
 //     inner.style.oTransform = style;
 //   };
-
+//
 //   //-----------------------------------------
-
+//
 //   document.onmousemove = onMouseMoveHandler;
 // })();
+
+var xMovement = document.getElementById('x-movement');
+var yMovement = document.getElementById('y-movement');
+
+
+window.addEventListener('mousemove', function (e) {
+    var x = e.clientX - (window.innerWidth / 2) ;
+    var y = e.clientY - ( window.innerHeight / 2);
+
+    // console.log(x);
+    // console.log(y);
+
+    xMovement.innerHTML = ( 42.2 + (x / 100) ).toFixed(1);
+    yMovement.innerHTML = ( 25.7 + (y / 100) ).toFixed(1);
+    // $("#results").text("Left:" + (event.pageX - objCenterX) + ", Top:" + (event.pageY - objCenterY));
+})
+
+
+function round(value, precision) {
+    var multiplier = Math.pow(10, precision || 0);
+    return Math.round(value * multiplier) / multiplier;
+}
+
+
+
+
+//remove chat on mobile
+
+// var chat = document.getElementById('CV');
+// CV.style.display = 'none';
