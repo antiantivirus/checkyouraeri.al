@@ -63,7 +63,7 @@ function checkTime() {
     live = 'warp and weft';
   };
   if (CurrentDate.isAfter('2020-10-16T15:00:00')) {
-    live = 'CLXO';
+    live = 'CXLO';
   };
    if (CurrentDate.isAfter('2020-10-16T16:00:00')) {
     live = 'dj youtube algorithm';
