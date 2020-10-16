@@ -188,3 +188,11 @@ function round(value, precision) {
     var multiplier = Math.pow(10, precision || 0);
     return Math.round(value * multiplier) / multiplier;
 }
+
+
+
+
+//remove chat on mobile
+
+// var chat = document.getElementById('CV');
+// CV.style.display = 'none';
