@@ -585,9 +585,18 @@ a p {
 
 /* hide chatroom on mobile */
 
-  /* #CV {
-    display: none !important;
-  } */
+#chat-mobile {
+  position: fixed;
+  z-index: 999999999999;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  height: 40px;
+}
+
+#chat-mobile img {
+  width: 100%
+}
 
 
 /* bootstrap bits */

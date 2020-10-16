@@ -196,3 +196,11 @@ function round(value, precision) {
 
 // var chat = document.getElementById('CV');
 // CV.style.display = 'none';
+
+
+
+
+document.getElementById('5d05460020000263782092450').onload = function() {
+  document.getElementById('CV').style.display = 'none';
+  console.log('loaded');
+}
