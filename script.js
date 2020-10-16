@@ -57,31 +57,29 @@ function checkTime() {
 
   console.log(CurrentDate)
 
-  var live = 'gate will open at 1400';
+  var live = 'back soon :)';
 
-  if (CurrentDate.isAfter('2020-10-04T14:00:00')) {
-    live = 'doyoudre.am';
+  if (CurrentDate.isAfter('2020-10-16T14:00:00')) {
+    live = 'warp and weft';
   };
-  if (CurrentDate.isAfter('2020-10-04T15:30:00')) {
-    live = 'lindo forms';
+  if (CurrentDate.isAfter('2020-10-16T15:00:00')) {
+    live = 'CLXO';
   };
-   if (CurrentDate.isAfter('2020-10-04T16:00:00')) {
-    live = 'mod.r';
+   if (CurrentDate.isAfter('2020-10-16T16:00:00')) {
+    live = 'dj youtube algorithm';
   };
-   if (CurrentDate.isAfter('2020-10-04T17:00:00')) {
-    live = 'ZEMA';
+   if (CurrentDate.isAfter('2020-10-16T17:00:00')) {
+    live = 'novy mir';
   };
-   if (CurrentDate.isAfter('2020-10-04T18:00:00')) {
-    live = 'KAVARI';
+   if (CurrentDate.isAfter('2020-10-16T18:00:00')) {
+    live = 'terrace 2';
   };
-   if (CurrentDate.isAfter('2020-10-04T19:00:00')) {
-    live = 'zloto';
+   if (CurrentDate.isAfter('2020-10-16T19:00:00')) {
+    live = 'lockdown sessions w/ .CORPSE';
   };
-   if (CurrentDate.isAfter('2020-10-04T20:00:00')) {
-    live = 'thanks for checking in :)';
+   if (CurrentDate.isAfter('2020-10-16T20:00:00')) {
+    live = 'back soon :)';
   };
-
-  console.log(liveNow);
 
   liveNow.innerHTML = live;
 
@@ -177,8 +175,8 @@ window.addEventListener('mousemove', function (e) {
     var x = e.clientX - (window.innerWidth / 2) ;
     var y = e.clientY - ( window.innerHeight / 2);
 
-    console.log(x);
-    console.log(y);
+    // console.log(x);
+    // console.log(y);
 
     xMovement.innerHTML = ( 42.2 + (x / 100) ).toFixed(1);
     yMovement.innerHTML = ( 25.7 + (y / 100) ).toFixed(1);
