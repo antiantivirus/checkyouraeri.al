@@ -213,7 +213,7 @@ canvas.add(twitter);
 
 
 
-fabric.loadSVGFromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7e%2Faerial-mouse.svg?v=1602946338045',function(objects, options){
+fabric.loadSVGFromURL('/images/check-your-aerial.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = padding;
   svgData.left = (pageWidth - padding);
@@ -225,7 +225,7 @@ fabric.loadSVGFromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c
   svgData.scaleToHeight(100);
 });
 
-fabric.loadSVGFromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7e%2Faerial-comp.svg?v=1602946644776',function(objects, options){
+fabric.loadSVGFromURL('/images/aerial-comp.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = padding;
   svgData.left = (pageWidth - (150 + padding));
@@ -235,7 +235,7 @@ fabric.loadSVGFromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c
   svgData.scaleToHeight(100);
 });
 
-fabric.loadSVGFromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7e%2Flogo.svg?v=1603141734880',function(objects, options){
+fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = 300;
   svgData.left = (pageWidth - 300);
@@ -245,7 +245,7 @@ fabric.loadSVGFromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c
   svgData.scaleToHeight(50);
 });
 
-fabric.loadSVGFromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7e%2Flogo.svg?v=1603141734880',function(objects, options){
+fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = (pageHeight - 100);
   svgData.left = (pageWidth - 150);
@@ -255,7 +255,7 @@ fabric.loadSVGFromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c
   svgData.scaleToHeight(50);
 });
 
-fabric.loadSVGFromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7e%2Flogo.svg?v=1603141734880',function(objects, options){
+fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = (centerY + 25);
   svgData.left = 450;
@@ -266,7 +266,7 @@ fabric.loadSVGFromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c
 });
 
 
-fabric.Image.fromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7e%2Faerial-image-1.jpg?v=1602951319736', function(myImg) {
+fabric.Image.fromURL('/images/aerial-3.jpg', function(myImg) {
  //i create an extra var for to change some image properties
  var img2 = myImg.set({
    left: (padding + 100),
@@ -277,7 +277,7 @@ fabric.Image.fromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7
  img2.sendToBack();
 });
 
-fabric.Image.fromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7e%2Faerial-image-2.jpg?v=1602951322530', function(myImg) {
+fabric.Image.fromURL('/images/aerial-2.jpg', function(myImg) {
  //i create an extra var for to change some image properties
  var img1 = myImg.set({
    left: (padding + 150),
@@ -288,7 +288,7 @@ fabric.Image.fromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7
  img1.sendToBack();
 });
 
-fabric.Image.fromURL('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7e%2Fthe-aerial.jpg?v=1603138803051', function(myImg) {
+fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
  //i create an extra var for to change some image properties
  var img3 = myImg.set({
    left: padding,
