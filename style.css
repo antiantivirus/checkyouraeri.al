@@ -98,6 +98,7 @@ a p {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  z-index: 9999;
   /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); */
@@ -234,7 +235,7 @@ a p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 99;
+  z-index: 99999;
 }
 
 .listening {
