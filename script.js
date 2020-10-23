@@ -29,7 +29,7 @@ var liveNow = document.querySelectorAll('.who-is-live-now');
 //listen to the radio
 
 var listen = document.querySelectorAll('.play-pause');
-// var radio = new Audio('https://s4.radio.co/s67e8e7da0/listen');
+var radio = new Audio('https://s4.radio.co/s3f1d8bc0f/listen');
 var listening = false;
 
 
@@ -39,10 +39,10 @@ for (let i = 0; i < listen.length; i++) {
      listen[i].addEventListener("click", function() {
 
          if (listen[i].classList.contains('listening')) {
-           // radio.pause();
+           radio.pause();
          } else {
-           // radio.load();
-           // radio.play();
+           radio.load();
+           radio.play();
          }
 
          listen[0].classList.toggle('listening');
