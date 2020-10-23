@@ -1,26 +1,26 @@
 //random aerial logos appearing and floating upwards
 
-var width = window.innerWidth;
-var height = window.innerHeight;
-var starContainer = document.getElementById('star-container');
-var liveNow = document.querySelectorAll('.who-is-live-now');
-
-function starsInYourEyez(){
-
-  var x = Math.floor(Math.random() * width) + 1;
-  var y = Math.floor(Math.random() * height) + 1;
-
-  // console.log(x);
-  // console.log(y);
-
-  starContainer.innerHTML = `<div class="star" style="left: ${x}px; top: ${y}px"></div>`
-
-  // console.log('star');
-
-  setTimeout(starsInYourEyez, 7000);
-}
-
-starsInYourEyez();
+// var width = window.innerWidth;
+// var height = window.innerHeight;
+// var starContainer = document.getElementById('star-container');
+// var liveNow = document.querySelectorAll('.who-is-live-now');
+//
+// function starsInYourEyez(){
+//
+//   var x = Math.floor(Math.random() * width) + 1;
+//   var y = Math.floor(Math.random() * height) + 1;
+//
+//   // console.log(x);
+//   // console.log(y);
+//
+//   starContainer.innerHTML = `<div class="star" style="left: ${x}px; top: ${y}px"></div>`
+//
+//   // console.log('star');
+//
+//   setTimeout(starsInYourEyez, 7000);
+// }
+//
+// starsInYourEyez();
 
 
 
