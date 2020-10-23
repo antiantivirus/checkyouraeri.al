@@ -1,50 +1,55 @@
-//random aerial logos appearing and floating upwards
-
 var width = window.innerWidth;
 var height = window.innerHeight;
 var starContainer = document.getElementById('star-container');
-var liveNow = document.getElementById('live-now');
+var liveNow = document.querySelectorAll('.who-is-live-now');
 
-function starsInYourEyez(){
 
-  var x = Math.floor(Math.random() * width) + 1;
-  var y = Math.floor(Math.random() * height) + 1;
-
-  // console.log(x);
-  // console.log(y);
-
-  starContainer.innerHTML = `<div class="star" style="left: ${x}px; top: ${y}px"></div>`
-
-  // console.log('star');
-
-  setTimeout(starsInYourEyez, 7000);
-}
-
-starsInYourEyez();
+//random aerial logos appearing and floating upwards
+//
+// function starsInYourEyez(){
+//
+//   var x = Math.floor(Math.random() * width) + 1;
+//   var y = Math.floor(Math.random() * height) + 1;
+//
+//   // console.log(x);
+//   // console.log(y);
+//
+//   starContainer.innerHTML = `<div class="star" style="left: ${x}px; top: ${y}px"></div>`
+//
+//   // console.log('star');
+//
+//   setTimeout(starsInYourEyez, 7000);
+// }
+//
+// starsInYourEyez();
 
 
 
 
 //listen to the radio
 
-var listen = document.getElementById('play-pause');
-var radio = new Audio('https://s4.radio.co/s67e8e7da0/listen');
+var listen = document.querySelectorAll('.play-pause');
+// var radio = new Audio('https://s4.radio.co/s67e8e7da0/listen');
+var listening = false;
 
-listen.addEventListener('click', function(){
-  //play the rrrrrradio
 
-  console.log(listen.classList);
 
-  if (listen.classList.contains('listening')) {
-    radio.pause();
-  } else {
-    radio.load();
-    radio.play();
-  }
 
-  listen.classList.toggle('listening');
+for (let i = 0; i < listen.length; i++) {
+     listen[i].addEventListener("click", function() {
 
-});
+         if (listen[i].classList.contains('listening')) {
+           // radio.pause();
+         } else {
+           // radio.load();
+           // radio.play();
+         }
+
+         listen[0].classList.toggle('listening');
+         listen[1].classList.toggle('listening');
+
+     });
+ }
 
 
 
@@ -58,30 +63,44 @@ function checkTime() {
   console.log(CurrentDate)
 
   var live = 'back soon :)';
+  var isItLive = '';
 
-  if (CurrentDate.isAfter('2020-10-16T14:00:00')) {
-    live = 'warp and weft';
+  if (CurrentDate.isAfter('2020-10-23T09:00:00')) {
+    live = 'live from 1400 :)'
   };
-  if (CurrentDate.isAfter('2020-10-16T15:00:00')) {
-    live = 'CXLO';
+  if (CurrentDate.isAfter('2020-10-23T11:00:00')) {
+    live = 'discolour(ed)';
+    isItLive = 'live now:<br>'
   };
-   if (CurrentDate.isAfter('2020-10-16T16:00:00')) {
-    live = 'dj youtube algorithm';
+  if (CurrentDate.isAfter('2020-10-23T15:00:00')) {
+    live = 'downtown arts club';
   };
-   if (CurrentDate.isAfter('2020-10-16T17:00:00')) {
-    live = 'novy mir';
+   if (CurrentDate.isAfter('2020-10-23T16:00:00')) {
+    live = 'fair play crew';
   };
-   if (CurrentDate.isAfter('2020-10-16T18:00:00')) {
-    live = 'terrace 2';
+   if (CurrentDate.isAfter('2020-10-23T18:00:00')) {
+    live = 'gloam';
   };
-   if (CurrentDate.isAfter('2020-10-16T19:00:00')) {
-    live = 'lockdown sessions w/ .CORPSE';
+   if (CurrentDate.isAfter('2020-10-23T19:00:00')) {
+    live = 'THETAMORPH';
   };
-   if (CurrentDate.isAfter('2020-10-16T20:00:00')) {
+   if (CurrentDate.isAfter('2020-10-23T21:00:00')) {
+    live = 'frequency bias';
+  };
+   if (CurrentDate.isAfter('2020-10-23T22:00:00')) {
+    live = 'bacteriocene';
+  };
+  if (CurrentDate.isAfter('2020-10-23T22:40:00')) {
+   live = 'xASHLAND';
+  };
+  if (CurrentDate.isAfter('2020-10-23T23:20:00')) {
     live = 'back soon :)';
+    isItLive = '';
   };
 
-  liveNow.innerHTML = live;
+  for (let i = 0; i < liveNow.length; i++) {
+    liveNow[i].innerHTML = isItLive + live;
+  }
 
   setTimeout(checkTime, 30000);
 }
@@ -187,20 +206,4 @@ window.addEventListener('mousemove', function (e) {
 function round(value, precision) {
     var multiplier = Math.pow(10, precision || 0);
     return Math.round(value * multiplier) / multiplier;
-}
-
-
-
-
-//remove chat on mobile
-
-// var chat = document.getElementById('CV');
-// CV.style.display = 'none';
-
-
-
-
-document.getElementById('5d05460020000263782092450').onload = function() {
-  document.getElementById('CV').style.display = 'none';
-  console.log('loaded');
 }
