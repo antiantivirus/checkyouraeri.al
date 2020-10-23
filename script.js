@@ -65,7 +65,7 @@ function checkTime() {
   var isItLive = '';
 
   if (CurrentDate.isAfter('2020-10-23T09:00:00')) {
-    live = 'live from 1400 bst :)'
+    live = 'live from 1400 :)'
   };
   if (CurrentDate.isAfter('2020-10-23T14:00:00')) {
     live = 'discolour(ed)';
