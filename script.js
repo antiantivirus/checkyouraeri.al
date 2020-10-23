@@ -1,9 +1,10 @@
-//random aerial logos appearing and floating upwards
+var width = window.innerWidth;
+var height = window.innerHeight;
+var starContainer = document.getElementById('star-container');
+var liveNow = document.querySelectorAll('.who-is-live-now');
 
-// var width = window.innerWidth;
-// var height = window.innerHeight;
-// var starContainer = document.getElementById('star-container');
-// var liveNow = document.querySelectorAll('.who-is-live-now');
+
+//random aerial logos appearing and floating upwards
 //
 // function starsInYourEyez(){
 //
@@ -67,7 +68,7 @@ function checkTime() {
   if (CurrentDate.isAfter('2020-10-23T09:00:00')) {
     live = 'live from 1400 :)'
   };
-  if (CurrentDate.isAfter('2020-10-23T14:00:00')) {
+  if (CurrentDate.isAfter('2020-10-23T11:00:00')) {
     live = 'discolour(ed)';
     isItLive = 'live now:<br>'
   };
