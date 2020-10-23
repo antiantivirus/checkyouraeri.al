@@ -517,7 +517,10 @@ a p {
     left: 0;
     width: 100%;
     height: 100%;
+  }
 
+  .grid-wrapper {
+    display: grid;
   }
 
   #co-ordinates-container {
