@@ -52,7 +52,15 @@ for (let i = 0; i < listen.length; i++) {
  }
 
 
+//listen to the radio bottom
+var listen = document.getElementById('play-ze-radio');
+var aerial = document.getElementById('aerial-anim');
 
+listen.addEventListener('click', function(){
+  listen.classList.toggle('listening-aye');
+  aerial.classList.toggle('play-animation');
+
+})
 
 //schedule
 
@@ -62,7 +70,7 @@ function checkTime() {
 
   console.log(CurrentDate)
 
-  var live = 'back soon :)';
+  var live = 'back soon :) check the archives';
   var isItLive = '';
 
   if (CurrentDate.isAfter('2020-10-23T09:00:00')) {
@@ -70,7 +78,7 @@ function checkTime() {
   };
   if (CurrentDate.isAfter('2020-10-23T14:00:00')) {
     live = 'discolour(ed)';
-    isItLive = 'live now:<br>'
+    isItLive = 'live now: '
   };
   if (CurrentDate.isAfter('2020-10-23T15:00:00')) {
     live = 'downtown arts club';
@@ -93,8 +101,8 @@ function checkTime() {
   if (CurrentDate.isAfter('2020-10-23T22:40:00')) {
    live = 'xASHLAND';
   };
-  if (CurrentDate.isAfter('2020-10-23T23:20:00')) {
-    live = 'back soon :)';
+  if (CurrentDate.isAfter('2020-10-27T23:20:00')) {
+    live = 'back soon :) check the archives';
     isItLive = '';
   };
 

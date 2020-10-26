@@ -70,7 +70,7 @@ var schedule = new fabric.IText(
   fontSize: h4,
   textAlign: 'left',
   left: padding,
-  top: (pageHeight - padding),
+  top: (pageHeight - (padding + 25)),
   originX: 'left',
   originY: 'bottom',
   scaleX: scale,
@@ -114,7 +114,7 @@ var community = new fabric.IText('community \nradio \n is \nsick\n get involved 
   fontSize: h3,
   textAlign: 'center',
   left: centerX,
-  top: (pageHeight - padding),
+  top: (pageHeight - (padding + 25)),
   originX: 'center',
   originY: 'bottom',
   hoverCursor: "pointer",
@@ -309,10 +309,7 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 canvas.selectionColor = 'rgba(238, 238, 255, 0.25)';
 canvas.selectionBorderColor = '#5E509C';
 canvas.objectCaching = false;
-
-
-
-
+canvas.defaultCursor = 'url("/images/ghost-cursor.png"), auto';
 
 // full width and height canvas
 window.addEventListener('resize', resizeCanvas, false);
