@@ -100,7 +100,7 @@ var text = new fabric.IText('aerial community radio', {
 var group = new fabric.Group([ circle, text ], {
   left: padding,
   top: padding,
-  angle: -10,
+  // angle: -10,
   scaleX: scale,
   scaleY: scale
 });
