@@ -216,7 +216,7 @@ canvas.add(twitter);
 fabric.loadSVGFromURL('/images/check-your-aerial.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = padding;
-  svgData.left = (pageWidth - padding);
+  svgData.left = (pageWidth - (150 + padding));
   canvas.add(svgData);
   originX: 'center';
   originY: 'center';
@@ -228,7 +228,7 @@ fabric.loadSVGFromURL('/images/check-your-aerial.svg',function(objects, options)
 fabric.loadSVGFromURL('/images/aerial-comp.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = padding;
-  svgData.left = (pageWidth - (150 + padding));
+  svgData.left = (pageWidth - (300 + padding));
   canvas.add(svgData);
   svgData.originX = 'right';
   svgData.originY = 'top';
@@ -302,7 +302,51 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 });
 
 
+//support
 
+// var supportImage;
+// fabric.Image.fromURL('/images/support.png', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  supportImage = myImg.set({
+//    top: padding,
+//    left: (pageWidth - (250 + padding))
+//  });
+//  supportImage.originX = 'right';
+//  supportImage.originY = 'top';
+//  supportImage.scaleToHeight(100);
+//  canvas.add(supportImage);
+// });
+
+
+fabric.loadSVGFromURL('/images/support.svg',function(objects, options){
+  var svgData = fabric.util.groupSVGElements(objects, options);
+  svgData.top = padding;
+  svgData.left = (pageWidth - padding);
+  canvas.add(svgData);
+  svgData.originX = 'right';
+  svgData.originY = 'top';
+  svgData.scaleToHeight(100);
+});
+
+
+// var supportText = new fabric.IText('support the aerial <3', {
+//   fontSize: h3,
+//   fontFamily: 'Arial Narrow',
+//   fill: 'white',
+//   textAlign: 'center',
+//   originX: 'right',
+//   hoverCursor: "pointer",
+//   scaleX: scale,
+//   scaleY: scale
+// });
+//
+// var support = new fabric.Group([ supportImage, supportText], {
+//   left: padding,
+//   top: padding,
+//   // angle: -10,
+//   scaleX: scale,
+//   scaleY: scale
+// });
 
 
 // customise it baby
