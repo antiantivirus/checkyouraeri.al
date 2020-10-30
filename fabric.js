@@ -300,7 +300,7 @@ fabric.Image.fromURL('/images/scary2.png', function(myImg) {
  });
  img2.scaleToWidth(150);
  canvas.add(img2);
- img2.sendToBack();
+ // img2.sendToBack();
 });
 
 
