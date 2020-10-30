@@ -265,7 +265,40 @@ fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
   svgData.scaleToHeight(50);
 });
 
+fabric.Image.fromURL('/images/scary7.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img4 = myImg.set({
+   left: (centerX - 6),
+   top: (centerY)
+ });
+ img4.originX = 'left';
+ img4.originY = 'bottom';
+ img4.scaleToWidth(150);
+ canvas.add(img4);
+ // img2.sendToBack();
+});
 
+fabric.Image.fromURL('/images/scary6.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img5 = myImg.set({
+   left: (pageWidth - 500),
+   top: (pageHeight - 275)
+ });
+ img5.scaleToWidth(150);
+ canvas.add(img5);
+ // img2.sendToBack();
+});
+
+fabric.Image.fromURL('/images/scary8.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img8 = myImg.set({
+   left: 400,
+   top: (centerY + 50)
+ });
+ img8.scaleToWidth(100);
+ canvas.add(img8);
+ // img2.sendToBack();
+});
 
 
 fabric.Image.fromURL('/images/scary1.png', function(myImg) {
