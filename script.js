@@ -1,8 +1,8 @@
 var width = window.innerWidth;
 var height = window.innerHeight;
 var starContainer = document.getElementById('star-container');
-var liveNow = document.querySelectorAll('.who-is-live-now');
-
+var liveNow = document.getElementById('who-is-live-now');
+var liveNowMobile = document.getElementById('who-is-live-now-mobile')
 
 //random aerial logos appearing and floating upwards
 //
@@ -31,8 +31,7 @@ var liveNow = document.querySelectorAll('.who-is-live-now');
 var listen = document.querySelectorAll('.play-pause');
 var radio = new Audio('https://s4.radio.co/s3f1d8bc0f/listen');
 var listening = false;
-
-
+var aerial = document.getElementById('aerial-anim');
 
 
 for (let i = 0; i < listen.length; i++) {
@@ -47,6 +46,7 @@ for (let i = 0; i < listen.length; i++) {
 
          listen[0].classList.toggle('listening');
          listen[1].classList.toggle('listening');
+         aerial.classList.toggle('animate-the-aerial');
 
      });
  }
@@ -62,45 +62,38 @@ function checkTime() {
 
   console.log(CurrentDate)
 
-  var live = 'back soon :)';
-  var isItLive = '';
+  var live = "";
+  var isItLive = 'back soon :)';
 
-  if (CurrentDate.isAfter('2020-10-23T09:00:00')) {
-    live = 'live from 1400 :)'
+  if (CurrentDate.isAfter('2020-10-30T09:00:00')) {
+    isItLive = 'live from 1400 :)'
   };
-  if (CurrentDate.isAfter('2020-10-23T14:00:00')) {
-    live = 'discolour(ed)';
-    isItLive = 'live now:<br>'
+  if (CurrentDate.isAfter('2020-10-30T14:00:00')) {
+    live = 'warp and weft';
+    isItLive = 'live now:'
   };
-  if (CurrentDate.isAfter('2020-10-23T15:00:00')) {
-    live = 'downtown arts club';
+  if (CurrentDate.isAfter('2020-10-30T15:00:00')) {
+    live = "let's meet in the beautiful and new decade w/ antivirus b2b dj leaf 🍂";
   };
-   if (CurrentDate.isAfter('2020-10-23T16:00:00')) {
-    live = 'fair play crew';
+   if (CurrentDate.isAfter('2020-10-30T16:30:00')) {
+    live = 'all night passion';
   };
-   if (CurrentDate.isAfter('2020-10-23T18:00:00')) {
-    live = 'gloam';
+   if (CurrentDate.isAfter('2020-10-30T18:00:00')) {
+    live = 'the placid howff';
   };
-   if (CurrentDate.isAfter('2020-10-23T19:00:00')) {
+   if (CurrentDate.isAfter('2020-10-30T19:00:00')) {
     live = 'THETAMORPH';
   };
-   if (CurrentDate.isAfter('2020-10-23T21:00:00')) {
-    live = 'frequency bias';
+   if (CurrentDate.isAfter('2020-10-30T20:30:00')) {
+    live = '『82.99 F.M』';
   };
-   if (CurrentDate.isAfter('2020-10-23T22:00:00')) {
-    live = 'bacteriocene';
-  };
-  if (CurrentDate.isAfter('2020-10-23T22:40:00')) {
-   live = 'xASHLAND';
-  };
-  if (CurrentDate.isAfter('2020-10-23T23:20:00')) {
+  if (CurrentDate.isAfter('2020-10-30T22:30:00')) {
     live = 'back soon :)';
     isItLive = '';
   };
 
-  for (let i = 0; i < liveNow.length; i++) {
-    liveNow[i].innerHTML = isItLive + live;
-  }
+  liveNow.innerHTML = isItLive + '<marquee>' + live + '</marquee>';
+  liveNowMobile.innerHTML = '<marquee>' + isItLive + live + '</marquee>'
 
   setTimeout(checkTime, 30000);
 }

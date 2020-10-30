@@ -4,8 +4,8 @@ html, body {
 /*   margin: 1em; */
 /*   margin-bottom: 50px; */
 /*   background-color: #B5B5B5; */
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw; */
+  /* height: 100vh; */
 }
 
 html {
@@ -84,17 +84,20 @@ a p {
 }
 
 .space {
-  height: 100px;
+  height: 50px;
 }
 
 .lineup {
   text-align: center;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #aerial-anim-container {
   /* pointer-events: none; */
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -109,11 +112,18 @@ a p {
   width: 100%;
   /* max-width: 400px; */
   transition: transform 0.5s;
-  animation: spin 20s infinite;
   margin-left: auto;
   margin-right: auto;
   /* margin-top: 100px; */
   z-index: 99;
+}
+
+#aerial-anim svg {
+  height: 200px;
+}
+
+.animate-the-aerial {
+  animation: spin 20s infinite;
 }
 
 #pointer {
@@ -207,18 +217,18 @@ a p {
 
 /* live now */
 
-.live-now-container {
-  position: relative;
-  /* bottom: 0px; */
+.live-now-container-mobile {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
   width: 100%;
-  max-width: 900px;
-  height: 150px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 40px;
   display: grid;
-  grid-template-columns: 50px auto max-content;
+  grid-template-columns: 30px auto 90px;
   align-items: center;
-  padding: 0px 45px;
+  padding: 0px 10px;
+  background-color: #eef;
+  z-index: 99;
   /* left: 50%; */
   /* transform: translate(-50%); */
 }
@@ -233,16 +243,15 @@ a p {
 .play-pause {
   background-image: url('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7e%2Fplay.svg?v=1603137845459');
   background-repeat: no-repeat;
-  background-size: auto;
-  width: 35px;
-  height: 45px;
-  cursor: pointer;
-
+  background-size: 30px 30px;
+  background-position: 10px center;
+  cursor: url('images/ghost-cursor.png'), pointer;
   z-index: 99999;
 }
 
 .listening {
   background-image: url('https://cdn.glitch.com/16fc26e9-4cbb-49e5-8a04-d70255a35c7e%2Fpause.svg?v=1603137845459') !important;
+  margin-left: 0px !important;
 }
 
 .full-height {
@@ -569,6 +578,11 @@ a p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 35px;
+    height: 45px;
+    margin-left: 3px;
+    background-position: center top;
+    background-size: auto;
   }
 
 }

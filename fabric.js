@@ -64,7 +64,7 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 canvas.add(about);
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 23.10.20 ✳︎\n1400 — discolour(ed)\n1500 — downtown arts club\n1600 — fair play crew\n1800 — gloam\n1900 — THETAMORPH\n2100 — frequency bias\n2200 — bacteriocene\n2240 — xASHLAND", {
+  "✳︎ schedule 30.10.20 ✳︎\n1400 — warp and weft\n1500 — let's meet in the beautiful and\nnew decade w/ antivirus b2b dj leaf 🍂\n1630 — all night passion\n1800 — the placid howff\n1900 — THETAMORPH\n2030 — 『82.99 F.M』", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -266,22 +266,13 @@ fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
 });
 
 
-fabric.Image.fromURL('/images/aerial-3.jpg', function(myImg) {
- //i create an extra var for to change some image properties
- var img2 = myImg.set({
-   left: (padding + 100),
-   top: (centerY - 50)
- });
- img2.scaleToWidth(200);
- canvas.add(img2);
- img2.sendToBack();
-});
 
-fabric.Image.fromURL('/images/aerial-2.jpg', function(myImg) {
+
+fabric.Image.fromURL('/images/scary1.png', function(myImg) {
  //i create an extra var for to change some image properties
  var img1 = myImg.set({
-   left: (padding + 150),
-   top: (centerY - 150)
+   left: (padding + 100),
+   top: (centerY - 200)
  });
  img1.scaleToWidth(200);
  canvas.add(img1);
@@ -301,6 +292,16 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
  img3.sendToBack();
 });
 
+fabric.Image.fromURL('/images/scary2.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+   left: (padding + 75),
+   top: (centerY - 100)
+ });
+ img2.scaleToWidth(150);
+ canvas.add(img2);
+ // img2.sendToBack();
+});
 
 
 
