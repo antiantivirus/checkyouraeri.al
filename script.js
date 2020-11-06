@@ -70,7 +70,7 @@ function checkTime() {
   };
   if (CurrentDate.isAfter('2020-11-06T14:00:00')) {
     live = 'discolour(ed)';
-    isItLive = 'live now:'
+    isItLive = 'live now: '
   };
   if (CurrentDate.isAfter('2020-11-06T15:00:00')) {
     live = "spin records @ littlejohn street";
