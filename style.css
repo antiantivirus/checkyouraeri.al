@@ -245,7 +245,7 @@ a p {
   background-repeat: no-repeat;
   background-size: 30px 30px;
   background-position: 10px center;
-  cursor: url('images/ghost-cursor.png'), pointer;
+  cursor: pointer;
   z-index: 99999;
 }
 
@@ -710,6 +710,6 @@ a p {
 
 
 marquee {
-  font-size: 25px;
+  /* font-size: 25px; */
   color: #5e509c;
 }

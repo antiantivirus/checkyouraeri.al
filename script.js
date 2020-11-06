@@ -65,29 +65,32 @@ function checkTime() {
   var live = "";
   var isItLive = 'back soon :)';
 
-  if (CurrentDate.isAfter('2020-10-30T09:00:00')) {
+  if (CurrentDate.isAfter('2020-11-06T09:00:00')) {
     isItLive = 'live from 1400 :)'
   };
-  if (CurrentDate.isAfter('2020-10-30T14:00:00')) {
-    live = 'warp and weft';
+  if (CurrentDate.isAfter('2020-10-06T14:00:00')) {
+    live = 'discolour(ed)';
     isItLive = 'live now:'
   };
-  if (CurrentDate.isAfter('2020-10-30T15:00:00')) {
-    live = "let's meet in the beautiful and new decade w/ antivirus b2b dj leaf 🍂";
+  if (CurrentDate.isAfter('2020-11-06T15:00:00')) {
+    live = "spin records @ littlejohn street";
   };
-   if (CurrentDate.isAfter('2020-10-30T16:30:00')) {
-    live = 'all night passion';
+   if (CurrentDate.isAfter('2020-11-06T17:00:00')) {
+    live = 'gloam';
   };
-   if (CurrentDate.isAfter('2020-10-30T18:00:00')) {
-    live = 'the placid howff';
+   if (CurrentDate.isAfter('2020-11-06T18:00:00')) {
+    live = 'mklztr';
   };
-   if (CurrentDate.isAfter('2020-10-30T19:00:00')) {
-    live = 'THETAMORPH';
+   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
+    live = 'spital selectors: dusk till dawn';
   };
-   if (CurrentDate.isAfter('2020-10-30T20:30:00')) {
-    live = '『82.99 F.M』';
+   if (CurrentDate.isAfter('2020-11-06T21:00:00')) {
+    live = 'terrace 2';
   };
-  if (CurrentDate.isAfter('2020-10-30T22:30:00')) {
+  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
+   live = 'bleep clique';
+ };
+  if (CurrentDate.isAfter('2020-11-06T23:00:00')) {
     live = 'back soon :)';
     isItLive = '';
   };
