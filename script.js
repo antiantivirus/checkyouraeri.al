@@ -68,7 +68,7 @@ function checkTime() {
   if (CurrentDate.isAfter('2020-11-06T09:00:00')) {
     isItLive = 'live from 1400 :)'
   };
-  if (CurrentDate.isAfter('2020-10-06T14:00:00')) {
+  if (CurrentDate.isAfter('2020-11-06T14:00:00')) {
     live = 'discolour(ed)';
     isItLive = 'live now:'
   };
