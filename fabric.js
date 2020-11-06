@@ -64,7 +64,7 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 canvas.add(about);
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 30.10.20 ✳︎\n1400 — warp and weft\n1500 — let's meet in the beautiful and\nnew decade w/ antivirus b2b dj leaf 🍂\n1630 — all night passion\n1800 — the placid howff\n1900 — THETAMORPH\n2030 — 『82.99 F.M』", {
+  "✳︎ schedule 06.11.20 ✳︎\n1400 — discolour(ed)\n1500 — spin records @ littlejohn street\n1700 — gloam\n1800 — mklztr\n1900 — spital selectors: dusk till dawn\n2100 — terrace 2\n2200 — bleep clique", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -265,47 +265,22 @@ fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
   svgData.scaleToHeight(50);
 });
 
-fabric.Image.fromURL('/images/scary7.png', function(myImg) {
+fabric.Image.fromURL('/images/aerial-3.jpg', function(myImg) {
  //i create an extra var for to change some image properties
- var img4 = myImg.set({
-   left: (centerX - 6),
-   top: (centerY)
+ var img2 = myImg.set({
+   left: (padding + 100),
+   top: (centerY - 50)
  });
- img4.originX = 'left';
- img4.originY = 'bottom';
- img4.scaleToWidth(150);
- canvas.add(img4);
- // img2.sendToBack();
+ img2.scaleToWidth(200);
+ canvas.add(img2);
+ img2.sendToBack();
 });
 
-fabric.Image.fromURL('/images/scary6.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img5 = myImg.set({
-   left: (pageWidth - 500),
-   top: (pageHeight - 275)
- });
- img5.scaleToWidth(150);
- canvas.add(img5);
- // img2.sendToBack();
-});
-
-fabric.Image.fromURL('/images/scary8.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img8 = myImg.set({
-   left: 400,
-   top: (centerY + 50)
- });
- img8.scaleToWidth(100);
- canvas.add(img8);
- // img2.sendToBack();
-});
-
-
-fabric.Image.fromURL('/images/scary1.png', function(myImg) {
+fabric.Image.fromURL('/images/aerial-2.jpg', function(myImg) {
  //i create an extra var for to change some image properties
  var img1 = myImg.set({
-   left: (padding + 100),
-   top: (centerY - 200)
+   left: (padding + 150),
+   top: (centerY - 150)
  });
  img1.scaleToWidth(200);
  canvas.add(img1);
@@ -323,17 +298,6 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
  img3.scaleToHeight(200);
  canvas.add(img3);
  img3.sendToBack();
-});
-
-fabric.Image.fromURL('/images/scary2.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img2 = myImg.set({
-   left: (padding + 75),
-   top: (centerY - 100)
- });
- img2.scaleToWidth(150);
- canvas.add(img2);
- // img2.sendToBack();
 });
 
 
