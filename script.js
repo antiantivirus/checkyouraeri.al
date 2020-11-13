@@ -65,32 +65,32 @@ function checkTime() {
   var live = "";
   var isItLive = 'back soon :)';
 
-  if (CurrentDate.isAfter('2020-11-06T09:00:00')) {
-    isItLive = 'live from 1400 :)'
+  if (CurrentDate.isAfter('2020-11-13T09:00:00')) {
+    isItLive = 'live from 1600 :)'
   };
-  if (CurrentDate.isAfter('2020-11-06T14:00:00')) {
-    live = 'discolour(ed)';
+  if (CurrentDate.isAfter('2020-11-13T16:00:00')) {
+    live = 'warp and weft';
     isItLive = 'live now: '
   };
-  if (CurrentDate.isAfter('2020-11-06T15:00:00')) {
-    live = "spin records @ littlejohn street";
+  if (CurrentDate.isAfter('2020-11-13T17:00:00')) {
+    live = "dj youtube algorithm";
   };
-   if (CurrentDate.isAfter('2020-11-06T17:00:00')) {
-    live = 'gloam';
+   if (CurrentDate.isAfter('2020-11-13T18:00:00')) {
+    live = 'novy mir';
   };
-   if (CurrentDate.isAfter('2020-11-06T18:00:00')) {
-    live = 'mklztr';
+   if (CurrentDate.isAfter('2020-11-13T19:00:00')) {
+    live = 'lockdown sessions w/ .CORPSE';
   };
-   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
-    live = 'spital selectors: dusk till dawn';
-  };
-   if (CurrentDate.isAfter('2020-11-06T21:00:00')) {
-    live = 'terrace 2';
-  };
-  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
-   live = 'bleep clique';
- };
-  if (CurrentDate.isAfter('2020-11-06T23:00:00')) {
+ //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
+ //    live = 'spital selectors: dusk till dawn';
+ //  };
+ //   if (CurrentDate.isAfter('2020-11-06T21:00:00')) {
+ //    live = 'terrace 2';
+ //  };
+ //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
+ //   live = 'bleep clique';
+ // };
+  if (CurrentDate.isAfter('2020-11-13T23:00:00')) {
     live = 'back soon :)';
     isItLive = '';
   };
