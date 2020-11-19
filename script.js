@@ -79,7 +79,7 @@ function checkTime() {
     live = 'discolour(ed)';
   };
    if (CurrentDate.isAfter('2020-11-20T16:00:00')) {
-    live = 'umbra';
+    live = 'gloam';
   };
   if (CurrentDate.isAfter('2020-11-20T17:00:00')) {
    live = 'spin records @ littlejohn street';
