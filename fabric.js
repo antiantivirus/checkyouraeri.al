@@ -379,6 +379,7 @@ var join = document.getElementById('join-arts-club')
 join.addEventListener('click', isItArtsClub);
 
 canvas.freeDrawingBrush.color = '#5E509C'
+canvas.freeDrawingCursor = 'url(/images/paintbrush.png), crosshair';
 
 function isItArtsClub(){
   if (canvas.isDrawingMode == true) {

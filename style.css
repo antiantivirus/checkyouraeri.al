@@ -30,6 +30,12 @@ h1, h2, h3, h4, h5, p, a, marquee {
   color: white;
 }
 
+button {
+  /* font-family: 'Arial Narrow', Arial, sans-serif; */
+  /* font-stretch: condensed; */
+  cursor: pointer;
+}
+
 h1 {
   font-size: 22px;
   font-style: italic;
