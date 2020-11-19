@@ -66,14 +66,14 @@ function checkTime() {
   var isItLive = 'back soon :)';
 
   if (CurrentDate.isAfter('2020-11-20T09:00:00')) {
-    isItLive = 'live from 1600 :)'
+    isItLive = 'live from 1300 :)'
   };
   if (CurrentDate.isAfter('2020-11-20T13:00:00')) {
     live = 'downtown arts club';
     isItLive = 'live now: '
   };
   if (CurrentDate.isAfter('2020-11-20T14:00:00')) {
-    live = "zema goes rawk";
+    live = "other scapes";
   };
    if (CurrentDate.isAfter('2020-11-20T15:00:00')) {
     live = 'discolour(ed)';
