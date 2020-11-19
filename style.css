@@ -709,6 +709,13 @@ a p {
   left: 0;
 }
 
+#join-arts-club {
+  position: absolute;
+  z-index: 9999;
+  bottom: 20px;
+  left: 50px;
+}
+
 
 marquee {
   /* font-size: 25px; */

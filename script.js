@@ -65,22 +65,35 @@ function checkTime() {
   var live = "";
   var isItLive = 'back soon :)';
 
-  if (CurrentDate.isAfter('2020-11-13T09:00:00')) {
+  if (CurrentDate.isAfter('2020-11-20T09:00:00')) {
     isItLive = 'live from 1600 :)'
   };
-  if (CurrentDate.isAfter('2020-11-13T16:00:00')) {
-    live = 'warp and weft';
+  if (CurrentDate.isAfter('2020-11-20T13:00:00')) {
+    live = 'downtown arts club';
     isItLive = 'live now: '
   };
-  if (CurrentDate.isAfter('2020-11-13T17:00:00')) {
-    live = "dj youtube algorithm";
+  if (CurrentDate.isAfter('2020-11-20T14:00:00')) {
+    live = "zema goes rawk";
   };
-   if (CurrentDate.isAfter('2020-11-13T18:00:00')) {
-    live = 'novy mir';
+   if (CurrentDate.isAfter('2020-11-20T15:00:00')) {
+    live = 'discolour(ed)';
   };
-   if (CurrentDate.isAfter('2020-11-13T19:00:00')) {
-    live = 'lockdown sessions w/ .CORPSE';
+   if (CurrentDate.isAfter('2020-11-20T16:00:00')) {
+    live = 'umbra';
   };
+  if (CurrentDate.isAfter('2020-11-20T17:00:00')) {
+   live = 'spin records @ littlejohn street';
+ };
+ if (CurrentDate.isAfter('2020-11-20T19:00:00')) {
+  live = 'fair play crew';
+};
+if (CurrentDate.isAfter('2020-11-20T21:00:00')) {
+ live = 'bacteriocene';
+};
+if (CurrentDate.isAfter('2020-11-20T22:00:00')) {
+ live = ' frequency bias';
+};
+
  //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
  //    live = 'spital selectors: dusk till dawn';
  //  };
@@ -90,7 +103,7 @@ function checkTime() {
  //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
  //   live = 'bleep clique';
  // };
-  if (CurrentDate.isAfter('2020-11-13T23:00:00')) {
+  if (CurrentDate.isAfter('2020-11-20T23:00:00')) {
     live = 'back soon :)';
     isItLive = '';
   };

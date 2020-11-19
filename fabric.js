@@ -64,7 +64,7 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 canvas.add(about);
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 13.11.20 ✳︎\n1600 — warp and weft\n1700 — dj youtube algorithm\n1800 — novy mir\n1900 — lockdown sessions w/ .CORPSE", {
+  "✳︎ schedule 20.11.20 ✳︎\n1300 — downtown arts club\n1400 — zema goes rawk\n1500 — discolour(ed)\n1600 — umbra \n1700 — spin records @ littlejohn street\n1900 — fair play crew\n2100 — bacteriocene\n2200 — frequency bias", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -352,7 +352,19 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 // });
 
 
-
+var arts = new fabric.IText(
+  "🎨", {
+  fontFamily: 'Arial Narrow',
+  fill: '#FFFFFF',
+  fontSize: h4,
+  textAlign: 'left',
+  left: padding,
+  top: (pageHeight - padding),
+  originX: 'left',
+  originY: 'bottom',
+  scaleX: scale,
+  scaleY: scale
+});
 
 
 // customise it baby
@@ -361,8 +373,22 @@ canvas.selectionBorderColor = '#5E509C';
 canvas.objectCaching = false;
 
 
+//arts club
+// canvas.isDrawingMode = true;
+var join = document.getElementById('join-arts-club')
+join.addEventListener('click', isItArtsClub);
 
+canvas.freeDrawingBrush.color = '#5E509C'
 
+function isItArtsClub(){
+  if (canvas.isDrawingMode == true) {
+    canvas.isDrawingMode = false;
+    join.innerHTML = 'join the arts club'
+  } else {
+    canvas.isDrawingMode = true;
+    join.innerHTML = 'leave the arts club'
+  }
+}
 
 // full width and height canvas
 window.addEventListener('resize', resizeCanvas, false);
