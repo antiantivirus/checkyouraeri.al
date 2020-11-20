@@ -64,7 +64,7 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 canvas.add(about);
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 20.11.20 ✳︎\n1300 — downtown arts club\n1400 — other scapes\n1500 — discolour(ed)\n1600 — gloam \n1700 — spin records @ littlejohn street\n1900 — fair play crew\n2100 — bacteriocene\n2200 — frequency bias", {
+  "✳︎ schedule 20.11.20 ✳︎\n1300 — downtown arts club\n1400 — other scapes\n1500 — discolour(ed)\n1600 — gloam \n1700 — spin records @ littlejohn street\n1900 — fair play crew\n2100 — frequency bias\n2200 — bacteriocene", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -375,20 +375,60 @@ canvas.objectCaching = false;
 
 //arts club
 // canvas.isDrawingMode = true;
-var join = document.getElementById('join-arts-club')
+var artsCanvas = new fabric.Canvas('arts-club');
+var artsClubContainer = document.getElementById('arts-club-container');
+var inClub = false;
+artsCanvas.backgroundColor="white";
+artsCanvas.setHeight(artsClubContainer.offsetHeight);
+artsCanvas.setWidth(artsClubContainer.offsetWidth);
+artsCanvas.renderTop();
+artsCanvas.renderAll();
+
+
+var join = document.getElementById('join-arts-club');
 join.addEventListener('click', isItArtsClub);
 
-canvas.freeDrawingBrush.color = '#5E509C'
+artsCanvas.freeDrawingBrush.color = '#5E509C';
+artsCanvas.freeDrawingCursor = 'url(/images/paintbrush.png) 3 25, crosshair';
+artsCanvas.isDrawingMode = true;
+
 
 function isItArtsClub(){
-  if (canvas.isDrawingMode == true) {
-    canvas.isDrawingMode = false;
-    join.innerHTML = 'join the arts club'
-  } else {
-    canvas.isDrawingMode = true;
+  if (inClub == false) {
     join.innerHTML = 'leave the arts club'
+    inClub = true;
+  } else {
+    join.innerHTML = 'join the arts club'
+    inClub = false;
   }
+  artsClubContainer.classList.toggle('show');
 }
+
+document.getElementById('download').addEventListener('click', download);
+
+function download(){
+  const dataURL = artsCanvas.toDataURL({
+     width: artsCanvas.width,
+     height: artsCanvas.height,
+     left: 0,
+     top: 0,
+     format: 'png',
+   });
+  const link = document.createElement('a');
+  link.download = 'art.png';
+  link.href = dataURL;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+document.getElementById('clear').addEventListener('click', function(){
+  artsCanvas.clear();
+  artsCanvas.backgroundColor="white";
+  artsCanvas.renderAll();
+});
+
+
 
 // full width and height canvas
 window.addEventListener('resize', resizeCanvas, false);

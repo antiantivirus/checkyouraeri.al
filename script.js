@@ -71,9 +71,11 @@ function checkTime() {
   if (CurrentDate.isAfter('2020-11-20T13:00:00')) {
     live = 'downtown arts club';
     isItLive = 'live now: '
+    document.getElementById('join-arts-club').style.display = "block";
   };
   if (CurrentDate.isAfter('2020-11-20T14:00:00')) {
     live = "other scapes";
+    document.getElementById('join-arts-club').style.display = "none";
   };
    if (CurrentDate.isAfter('2020-11-20T15:00:00')) {
     live = 'discolour(ed)';
@@ -88,10 +90,10 @@ function checkTime() {
   live = 'fair play crew';
 };
 if (CurrentDate.isAfter('2020-11-20T21:00:00')) {
- live = 'bacteriocene';
+ live = 'frequency bias';
 };
 if (CurrentDate.isAfter('2020-11-20T22:00:00')) {
- live = ' frequency bias';
+ live = 'bacteriocene';
 };
 
  //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
@@ -103,7 +105,7 @@ if (CurrentDate.isAfter('2020-11-20T22:00:00')) {
  //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
  //   live = 'bleep clique';
  // };
-  if (CurrentDate.isAfter('2020-11-20T23:00:00')) {
+  if (CurrentDate.isAfter('2020-11-20T22:45:00')) {
     live = 'back soon :)';
     isItLive = '';
   };

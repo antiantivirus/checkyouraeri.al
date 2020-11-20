@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-grid.min.css" integrity="sha512-QTQigm89ZvHzwoJ/NgJPghQPegLIwnXuOXWEdAjjOvpE9uaBGeI05+auj0RjYVr86gtMaBJRKi8hWZVsrVe/Ug==" crossorigin="anonymous" />
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css?v=17">
+    <link rel="stylesheet" href="/style.css?v=21">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js" integrity="sha512-Izh34nqeeR7/nwthfeE0SI3c8uhFSnqxV0sI9TvTcXiFJkMd6fB644O64BRq2P/LA/+7eRvCw4GmLsXksyTHBg==" crossorigin="anonymous"></script>
 
@@ -20,8 +20,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.2.0/fabric.min.js" integrity="sha512-Pdu3zoEng2TLwwjnDne3O7zaeWZfEJHU5B63T+zLtME/wg1zfeSH/1wrtOzOC37u2Y1Ki8pTCdKsnbueOlFlMg==" crossorigin="anonymous"></script>
 
 
-    <script src="/script.js?v=19" defer></script>
-    <script src="/fabric.js?v=19" defer></script>
+    <script src="/script.js?v=20" defer></script>
+    <script src="/fabric.js?v=20" defer></script>
 
 
     <!-- favicon bits -->
@@ -76,7 +76,14 @@
   <div class="play-pause d-none d-lg-block"></div>
 
   <!-- arts club -->
-  <button id="join-arts-club" class="d-none">join the arts club</button>
+  <div class="d-none d-lg-block">
+    <button id="join-arts-club">join the arts club</button>
+    <div id="arts-club-container">
+      <canvas id="arts-club"></canvas>
+      <button id="download">download</canvas>
+        <button id="clear">clear</canvas>
+    </div>
+  </div>
 
   <!-- mobile -->
   <div class="d-lg-none">
@@ -108,8 +115,8 @@
         1600 — gloam<br>
         1700 — spin records @ littlejohn street<br>
         1900 — fair play crew<br>
-        2100 — bacteriocene<br>
-        2200 — frequency bias"
+        2100 — frequency bias<br>
+        2200 — bacteriocene"
     </div>
     <div class="d-none d-lg-block">
       <a href="https://www.mixcloud.com/checkyouraerial/" target="_blank"><p class="text-center">archive →</p></a>

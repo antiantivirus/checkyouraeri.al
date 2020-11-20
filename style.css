@@ -30,6 +30,12 @@ h1, h2, h3, h4, h5, p, a, marquee {
   color: white;
 }
 
+button {
+  /* font-family: 'Arial Narrow', Arial, sans-serif; */
+  /* font-stretch: condensed; */
+  cursor: pointer;
+}
+
 h1 {
   font-size: 22px;
   font-style: italic;
@@ -714,6 +720,34 @@ a p {
   z-index: 9999;
   bottom: 20px;
   left: 50px;
+  display: none;
+}
+
+#arts-club-container {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  max-width: 1000px;
+  max-height: 1000px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 1500px) {
+
+  #join-arts-club {
+    left: 100px;
+    bottom: 60px;
+  }
+
+}
+
+.show {
+  z-index: 9999999!important;
+  opacity: 1!important;
 }
 
 
