@@ -66,20 +66,22 @@ function checkTime() {
   var isItLive = 'back soon :)';
 
   if (CurrentDate.isAfter('2020-11-20T09:00:00')) {
-    isItLive = 'live from 1600 :)'
+    isItLive = 'live from 1300 :)'
   };
   if (CurrentDate.isAfter('2020-11-20T13:00:00')) {
     live = 'downtown arts club';
     isItLive = 'live now: '
+    document.getElementById('join-arts-club').style.display = "block";
   };
   if (CurrentDate.isAfter('2020-11-20T14:00:00')) {
-    live = "zema goes rawk";
+    live = "other scapes";
+    document.getElementById('join-arts-club').style.display = "none";
   };
    if (CurrentDate.isAfter('2020-11-20T15:00:00')) {
     live = 'discolour(ed)';
   };
    if (CurrentDate.isAfter('2020-11-20T16:00:00')) {
-    live = 'umbra';
+    live = 'gloam';
   };
   if (CurrentDate.isAfter('2020-11-20T17:00:00')) {
    live = 'spin records @ littlejohn street';
