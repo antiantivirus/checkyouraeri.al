@@ -720,7 +720,7 @@ a p {
   z-index: 9999;
   bottom: 20px;
   left: 50px;
-  /* display: none; */
+  display: none;
 }
 
 #arts-club-container {
