@@ -90,10 +90,10 @@ function checkTime() {
   live = 'fair play crew';
 };
 if (CurrentDate.isAfter('2020-11-20T21:00:00')) {
- live = 'bacteriocene';
+ live = 'frequency bias';
 };
 if (CurrentDate.isAfter('2020-11-20T22:00:00')) {
- live = ' frequency bias';
+ live = 'bacteriocene';
 };
 
  //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
@@ -105,7 +105,7 @@ if (CurrentDate.isAfter('2020-11-20T22:00:00')) {
  //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
  //   live = 'bleep clique';
  // };
-  if (CurrentDate.isAfter('2020-11-20T23:00:00')) {
+  if (CurrentDate.isAfter('2020-11-20T22:45:00')) {
     live = 'back soon :)';
     isItLive = '';
   };
