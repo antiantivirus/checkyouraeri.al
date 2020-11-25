@@ -62,39 +62,40 @@ function checkTime() {
 
   console.log(CurrentDate)
 
-  var live = "";
-  var isItLive = 'back soon :)';
+  var live = "in the meantime have a lovely day";
+  var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2020-11-20T09:00:00')) {
-    isItLive = 'live from 1300 :)'
+  if (CurrentDate.isAfter('2020-11-27T09:00:00')) {
+    isItLive = 'live from 1200 :)'
   };
-  if (CurrentDate.isAfter('2020-11-20T13:00:00')) {
-    live = 'downtown arts club';
+  if (CurrentDate.isAfter('2020-11-27T12:00:00')) {
+    live = "let's meet in the beautiful and new decade w/ antivirus b2b major league hacker";
     isItLive = 'live now: '
-    document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2020-11-20T14:00:00')) {
-    live = "other scapes";
-    document.getElementById('join-arts-club').style.display = "none";
+  if (CurrentDate.isAfter('2020-11-27T13:00:00')) {
+    live = "warp and weft";
   };
-   if (CurrentDate.isAfter('2020-11-20T15:00:00')) {
-    live = 'discolour(ed)';
+   if (CurrentDate.isAfter('2020-11-27T14:00:00')) {
+    live = 'miasma';
   };
-   if (CurrentDate.isAfter('2020-11-20T16:00:00')) {
-    live = 'other scapes';
+   if (CurrentDate.isAfter('2020-11-27T15:00:00')) {
+    live = 'aimé';
   };
-  if (CurrentDate.isAfter('2020-11-20T17:00:00')) {
-   live = 'spin records @ littlejohn street';
- };
- if (CurrentDate.isAfter('2020-11-20T19:00:00')) {
-  live = 'fair play crew';
-};
-if (CurrentDate.isAfter('2020-11-20T21:00:00')) {
- live = 'frequency bias';
-};
-if (CurrentDate.isAfter('2020-11-20T22:00:00')) {
- live = 'bacteriocene';
-};
+  if (CurrentDate.isAfter('2020-11-27T17:00:00')) {
+   live = 'blush';
+  };
+  if (CurrentDate.isAfter('2020-11-27T18:00:00')) {
+   live = 'the placid howff';
+  };
+  if (CurrentDate.isAfter('2020-11-27T19:00:00')) {
+   live = 'terrace 2';
+  };
+  if (CurrentDate.isAfter('2020-11-27T20:00:00')) {
+   live = 'thetamorph';
+  };
+  if (CurrentDate.isAfter('2020-11-27T21:00:00')) {
+   live = '『82.99 F.M』';
+  };
 
  //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
  //    live = 'spital selectors: dusk till dawn';
@@ -105,9 +106,9 @@ if (CurrentDate.isAfter('2020-11-20T22:00:00')) {
  //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
  //   live = 'bleep clique';
  // };
-  if (CurrentDate.isAfter('2020-11-20T22:45:00')) {
-    live = 'back soon :)';
-    isItLive = '';
+  if (CurrentDate.isAfter('2020-11-27T23:00:00')) {
+    live = "in the meantime have a lovely day";
+    isItLive = 'back next friday :)';
   };
 
   liveNow.innerHTML = isItLive + '<marquee>' + live + '</marquee>';
