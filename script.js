@@ -62,7 +62,7 @@ function checkTime() {
 
   console.log(CurrentDate)
 
-  var live = "in the meantime have a lovely day";
+  var live = "in the meantime have a 💗️ 🌟🦈💯🌡️🔥🌰 day";
   var isItLive = 'back on friday :)';
 
   if (CurrentDate.isAfter('2020-11-27T09:00:00')) {
@@ -107,7 +107,7 @@ function checkTime() {
  //   live = 'bleep clique';
  // };
   if (CurrentDate.isAfter('2020-11-27T23:00:00')) {
-    live = "in the meantime have a lovely day";
+    live = "";
     isItLive = 'back next friday :)';
   };
 
