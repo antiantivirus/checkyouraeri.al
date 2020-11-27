@@ -73,10 +73,10 @@ function checkTime() {
     isItLive = 'live now: '
   };
   if (CurrentDate.isAfter('2020-11-27T13:00:00')) {
-    live = "warp and weft";
+    live = "miasma";
   };
    if (CurrentDate.isAfter('2020-11-27T14:00:00')) {
-    live = 'miasma';
+    live = 'warp and weft';
   };
    if (CurrentDate.isAfter('2020-11-27T15:00:00')) {
     live = 'aimé';
@@ -91,9 +91,6 @@ function checkTime() {
    live = 'terrace 2';
   };
   if (CurrentDate.isAfter('2020-11-27T20:00:00')) {
-   live = 'thetamorph';
-  };
-  if (CurrentDate.isAfter('2020-11-27T21:00:00')) {
    live = '『82.99 F.M』';
   };
 
@@ -106,7 +103,7 @@ function checkTime() {
  //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
  //   live = 'bleep clique';
  // };
-  if (CurrentDate.isAfter('2020-11-27T23:00:00')) {
+  if (CurrentDate.isAfter('2020-11-27T22:00:00')) {
     live = "";
     isItLive = 'back next friday :)';
   };
