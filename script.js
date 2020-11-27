@@ -67,6 +67,7 @@ function checkTime() {
 
   if (CurrentDate.isAfter('2020-11-27T09:00:00')) {
     isItLive = 'live from 1200 :)'
+    live = "";
   };
   if (CurrentDate.isAfter('2020-11-27T12:00:00')) {
     live = "let's meet in the beautiful and new decade w/ antivirus b2b major league hacker";
