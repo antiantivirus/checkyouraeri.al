@@ -62,7 +62,7 @@ function checkTime() {
 
   console.log(CurrentDate)
 
-  var live = " 💗️ 🌟🦈💯🌡️🔥🌰🌱🌻🌼✨☄️";
+  var live = "🌰 🛳 💾 🍪 🌞 🎥 ✍ 👽 🐍 🚀";
   var isItLive = 'back on friday :)';
 
   if (CurrentDate.isAfter('2020-12-04T09:00:00')) {
