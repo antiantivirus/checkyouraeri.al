@@ -62,36 +62,36 @@ function checkTime() {
 
   console.log(CurrentDate)
 
-  var live = "in the meantime have a 💗️ 🌟🦈💯🌡️🔥🌰🌱🌻🌼✨☄️ day";
+  var live = " 💗️ 🌟🦈💯🌡️🔥🌰🌱🌻🌼✨☄️";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2020-11-27T09:00:00')) {
+  if (CurrentDate.isAfter('2020-12-04T09:00:00')) {
     isItLive = 'live from 1200 :)'
     live = "";
   };
-  if (CurrentDate.isAfter('2020-11-27T12:00:00')) {
+  if (CurrentDate.isAfter('2020-12-04T12:00:00')) {
     live = "let's meet in the beautiful and new decade w/ antivirus b2b major league hacker";
     isItLive = 'live now: '
   };
-  if (CurrentDate.isAfter('2020-11-27T13:00:00')) {
+  if (CurrentDate.isAfter('2020-12-04T13:00:00')) {
     live = "miasma";
   };
-   if (CurrentDate.isAfter('2020-11-27T14:00:00')) {
+   if (CurrentDate.isAfter('2020-12-04T14:00:00')) {
     live = 'warp and weft';
   };
-   if (CurrentDate.isAfter('2020-11-27T15:00:00')) {
+   if (CurrentDate.isAfter('2020-12-04T15:00:00')) {
     live = 'aimé';
   };
-  if (CurrentDate.isAfter('2020-11-27T17:00:00')) {
+  if (CurrentDate.isAfter('2020-12-04T17:00:00')) {
    live = 'blush';
   };
-  if (CurrentDate.isAfter('2020-11-27T18:00:00')) {
+  if (CurrentDate.isAfter('2020-12-04T18:00:00')) {
    live = 'the placid howff';
   };
-  if (CurrentDate.isAfter('2020-11-27T19:00:00')) {
+  if (CurrentDate.isAfter('2020-12-04T19:00:00')) {
    live = 'terrace 2';
   };
-  if (CurrentDate.isAfter('2020-11-27T20:00:00')) {
+  if (CurrentDate.isAfter('2020-12-04T20:00:00')) {
    live = '『82.99 F.M』';
   };
 
@@ -104,7 +104,7 @@ function checkTime() {
  //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
  //   live = 'bleep clique';
  // };
-  if (CurrentDate.isAfter('2020-11-27T22:00:00')) {
+  if (CurrentDate.isAfter('2020-12-04T22:00:00')) {
     live = "";
     isItLive = 'back next friday :)';
   };
