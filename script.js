@@ -66,33 +66,27 @@ function checkTime() {
   var isItLive = 'back on friday :)';
 
   if (CurrentDate.isAfter('2020-12-04T09:00:00')) {
-    isItLive = 'live from 1200 :)'
+    isItLive = 'live from 1400 :)'
     live = "";
   };
-  if (CurrentDate.isAfter('2020-12-04T12:00:00')) {
-    live = "let's meet in the beautiful and new decade w/ antivirus b2b major league hacker";
+  if (CurrentDate.isAfter('2020-12-04T14:00:00')) {
+    live = "discolour(ed)";
     isItLive = 'live now: '
   };
-  if (CurrentDate.isAfter('2020-12-04T13:00:00')) {
-    live = "miasma";
+  if (CurrentDate.isAfter('2020-12-04T15:00:00')) {
+    live = "gloam";
   };
-   if (CurrentDate.isAfter('2020-12-04T14:00:00')) {
-    live = 'warp and weft';
+   if (CurrentDate.isAfter('2020-12-04T16:00:00')) {
+    live = 'geisterhafen hidden ones w/ holyld';
   };
-   if (CurrentDate.isAfter('2020-12-04T15:00:00')) {
-    live = 'aimé';
-  };
-  if (CurrentDate.isAfter('2020-12-04T17:00:00')) {
-   live = 'blush';
-  };
-  if (CurrentDate.isAfter('2020-12-04T18:00:00')) {
-   live = 'the placid howff';
+   if (CurrentDate.isAfter('2020-12-04T17:00:00')) {
+    live = 'spin records @ littlejohn street';
   };
   if (CurrentDate.isAfter('2020-12-04T19:00:00')) {
-   live = 'terrace 2';
+   live = 'bleep clique';
   };
   if (CurrentDate.isAfter('2020-12-04T20:00:00')) {
-   live = '『82.99 F.M』';
+   live = 'bacteriocene';
   };
 
  //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
@@ -104,7 +98,7 @@ function checkTime() {
  //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
  //   live = 'bleep clique';
  // };
-  if (CurrentDate.isAfter('2020-12-04T22:00:00')) {
+  if (CurrentDate.isAfter('2020-12-04T21:00:00')) {
     live = "";
     isItLive = 'back next friday :)';
   };
