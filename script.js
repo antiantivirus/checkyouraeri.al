@@ -98,7 +98,7 @@ function checkTime() {
  //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
  //   live = 'bleep clique';
  // };
-  if (CurrentDate.isAfter('2020-12-11T21:00:00')) {
+  if (CurrentDate.isAfter('2020-12-11T23:00:00')) {
     live = "";
     isItLive = 'back next friday :)';
   };
