@@ -74,7 +74,7 @@ function checkTime() {
     isItLive = 'live now: '
   };
   if (CurrentDate.isAfter('2020-12-11T17:00:00')) {
-    live = "do youtube algorithm ";
+    live = "dj youtube algorithm ";
   };
    if (CurrentDate.isAfter('2020-12-11T18:00:00')) {
     live = 'novy mir';
@@ -83,7 +83,7 @@ function checkTime() {
     live = 'THIS IS WAR w/ zloto';
   };
   if (CurrentDate.isAfter('2020-12-11T20:00:00')) {
-   live = 'hyprdome invites';
+   live = 'hyperdome invites';
   };
   if (CurrentDate.isAfter('2020-12-11T22:00:00')) {
    live = 'lockdown sessions w/ .CORPSE';
