@@ -66,17 +66,17 @@ function checkTime() {
   var isItLive = 'back on friday :)';
 
   if (CurrentDate.isAfter('2020-12-11T09:00:00')) {
-    isItLive = 'live from 1400 :)'
+    isItLive = 'live from 1600 :)'
     live = "";
   };
-  if (CurrentDate.isAfter('2020-12-11T14:00:00')) {
+  if (CurrentDate.isAfter('2020-12-11T16:00:00')) {
     live = "warp and weft";
     isItLive = 'live now: '
   };
-  if (CurrentDate.isAfter('2020-12-11T15:00:00')) {
+  if (CurrentDate.isAfter('2020-12-11T17:00:00')) {
     live = "gloam";
   };
-   if (CurrentDate.isAfter('2020-12-11T16:00:00')) {
+   if (CurrentDate.isAfter('2020-12-11T18:00:00')) {
     live = 'geisterhafen hidden ones w/ holyld';
   };
    if (CurrentDate.isAfter('2020-12-11T17:00:00')) {
