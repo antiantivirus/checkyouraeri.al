@@ -74,19 +74,19 @@ function checkTime() {
     isItLive = 'live now: '
   };
   if (CurrentDate.isAfter('2020-12-11T17:00:00')) {
-    live = "gloam";
+    live = "do youtube algorithm ";
   };
    if (CurrentDate.isAfter('2020-12-11T18:00:00')) {
-    live = 'geisterhafen hidden ones w/ holyld';
+    live = 'novy mir';
   };
-   if (CurrentDate.isAfter('2020-12-11T17:00:00')) {
-    live = 'spin records @ littlejohn street';
-  };
-  if (CurrentDate.isAfter('2020-12-11T19:00:00')) {
-   live = 'bleep clique';
+   if (CurrentDate.isAfter('2020-12-11T19:00:00')) {
+    live = 'THIS IS WAR w/ zloto';
   };
   if (CurrentDate.isAfter('2020-12-11T20:00:00')) {
-   live = 'bacteriocene';
+   live = 'hyprdome invites';
+  };
+  if (CurrentDate.isAfter('2020-12-11T22:00:00')) {
+   live = 'lockdown sessions w/ .CORPSE';
   };
 
  //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
