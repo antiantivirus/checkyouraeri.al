@@ -63,12 +63,26 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 
 canvas.add(about);
 
+// var schedule = new fabric.IText(
+//   "✳︎ schedule 21.12.20 ✳︎\n1100 — decepticon's DMT drop\n1130 — downtown arts club\n1300 — discolour: discolour(ed)\n1400 — other scapes\n1500 — gloam: goblin gorl xmas special\n1600 — all night passion\n1700 — spin records @ littlejohn street\n1900 — fair play crew\n2100 — frequency bias\n2200 — bacteriocene", {
+//   fontFamily: 'Arial Narrow',
+//   fill: '#FFFFFF',
+//   fontSize: h4,
+//   textAlign: 'left',
+//   left: padding,
+//   top: (pageHeight - padding),
+//   originX: 'left',
+//   originY: 'bottom',
+//   scaleX: scale,
+//   scaleY: scale
+// });
+
 var schedule = new fabric.IText(
-  "✳︎ schedule 11.12.20 ✳︎\n1600 — warp and weft\n1700 — dj youtube algorithm\n1800 — novy mir\n1900 — THIS IS WAR w/ zloto\n2000 — hyperdome invites \n2200 — lockdown sessions w/ .CORPSE", {
+  "✳︎\n✳︎ ✸ \n✳︎ ✸ ✹ \n✳︎ ✸ ✹ ❇︎ \n✳︎ ✸ ✹ ❇︎ ✯\n✳︎ ✸ ✹ ❇︎ ✯ ✾ \n✳︎ ✸ ✹ ❇︎ ✯ ✾ ✢ \n✳︎ ✸ ✹ ❇︎ ✯ ✾ ✢ ✺ \n✳︎ schedule 21.12.20 ✳︎\ncoming soooooooooooon\n|\n|", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
-  textAlign: 'left',
+  textAlign: 'center',
   left: padding,
   top: (pageHeight - padding),
   originX: 'left',
@@ -320,7 +334,7 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
  });
  img3.originX = 'left';
  img3.originY = 'center';
- img3.scaleToHeight(200);
+ img3.scaleToHeight(250);
  canvas.add(img3);
  img3.sendToBack();
 });

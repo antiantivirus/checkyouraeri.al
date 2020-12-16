@@ -100,7 +100,7 @@ function checkTime() {
  // };
   if (CurrentDate.isAfter('2020-12-11T23:00:00')) {
     live = "";
-    isItLive = 'back next friday :)';
+    isItLive = 'back on the 21st :)';
   };
 
   liveNow.innerHTML = isItLive + '<marquee>' + live + '</marquee>';
