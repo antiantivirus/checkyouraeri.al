@@ -64,7 +64,7 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 canvas.add(about);
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 21.12.20 ✳︎\n1100 — a christmas message from cybertron\n(megatron transmission)\n1130 — downtown arts club\n1300 — discolour(ed)\n1400 — other scapes\n1500 — gloam\n1600 — all night passion\n1700 — spin records @ littlejohn street\n1900 — fair play crew\n2100 — frequency bias\n2200 — THETAMORPH: solstice star\n2300 — bacteriocene", {
+  "✳︎ schedule 21.12.20 ✳︎\n1100 — a christmas message from cybertron\n(megatron transmission)\n1130 — downtown arts club\n1300 — discolour(ed)\n1400 — tales fae the tavern\n1500 — gloam\n1600 — all night passion\n1700 — spin records @ littlejohn street\n1900 — fair play crew\n2100 — frequency bias\n2200 — THETAMORPH: solstice star\n2300 — bacteriocene", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
