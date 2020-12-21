@@ -65,28 +65,43 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2020-12-11T09:00:00')) {
-    isItLive = 'live from 1600 :)'
+  if (CurrentDate.isAfter('2020-12-21T09:00:00')) {
+    isItLive = 'live from 1100 :)'
     live = "";
   };
-  if (CurrentDate.isAfter('2020-12-11T16:00:00')) {
-    live = "warp and weft";
+  if (CurrentDate.isAfter('2020-12-21T11:00:00')) {
+    live = "a christmas message from cybertron (megatron transmission)";
     isItLive = 'live now: '
   };
-  if (CurrentDate.isAfter('2020-12-11T17:00:00')) {
-    live = "dj youtube algorithm ";
+  if (CurrentDate.isAfter('2020-12-21T11:30:00')) {
+    live = "downtown arts club";
   };
-   if (CurrentDate.isAfter('2020-12-11T18:00:00')) {
-    live = 'novy mir';
+   if (CurrentDate.isAfter('2020-12-21T13:00:00')) {
+    live = 'discolour(ed)';
   };
-   if (CurrentDate.isAfter('2020-12-11T19:00:00')) {
-    live = 'THIS IS WAR w/ zloto';
+   if (CurrentDate.isAfter('2020-12-21T14:00:00')) {
+    live = 'tales fae the tavern';
   };
-  if (CurrentDate.isAfter('2020-12-11T20:00:00')) {
-   live = 'hyperdome invites';
+  if (CurrentDate.isAfter('2020-12-21T15:00:00')) {
+   live = 'gloam';
   };
-  if (CurrentDate.isAfter('2020-12-11T22:00:00')) {
-   live = 'lockdown sessions w/ .CORPSE';
+  if (CurrentDate.isAfter('2020-12-21T16:00:00')) {
+   live = 'all night passion';
+  };
+  if (CurrentDate.isAfter('2020-12-21T17:00:00')) {
+   live = 'spin records @ littlejohn street';
+  };
+  if (CurrentDate.isAfter('2020-12-21T19:00:00')) {
+   live = 'fair play crew';
+  };
+  if (CurrentDate.isAfter('2020-12-21T21:00:00')) {
+   live = 'frequency bias';
+  };
+  if (CurrentDate.isAfter('2020-12-21T22:00:00')) {
+   live = 'THETAMORPH: solstice star';
+  };
+  if (CurrentDate.isAfter('2020-12-21T23:00:00')) {
+   live = 'bacteriocene';
   };
 
  //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
@@ -98,9 +113,9 @@ function checkTime() {
  //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
  //   live = 'bleep clique';
  // };
-  if (CurrentDate.isAfter('2020-12-11T23:00:00')) {
+  if (CurrentDate.isAfter('2020-12-21T23:45:00')) {
     live = "";
-    isItLive = 'back on the 21st :)';
+    isItLive = 'back soon :)';
   };
 
   liveNow.innerHTML = isItLive + '<marquee>' + live + '</marquee>';
