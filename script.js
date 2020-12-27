@@ -116,8 +116,8 @@ function checkTime() {
  //   live = 'bleep clique';
  // };
   if (CurrentDate.isAfter('2020-12-21T23:45:00')) {
-    live = "";
-    isItLive = 'back soon :)';
+    live = "warmest wishes from the cabin crew :) we'll be back again soon for a special hogmany transmission.";
+    isItLive = '';
   };
 
   liveNow.innerHTML = isItLive + '<marquee>' + live + '</marquee>';
