@@ -85,33 +85,33 @@ function checkTime() {
     live = 'downtown arts club  🔒📡 lock down your aerials';
     document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2020-12-21T20:00:00')) {
-   live = 'kavari';
+  if (CurrentDate.isAfter('2020-12-31T20:00:00')) {
+   live = 'kavari 🔒📡 lock down your aerials';
    document.getElementById('join-arts-club').style.display = "none";
   };
   if (CurrentDate.isAfter('2020-12-31T21:00:00')) {
-   live = 'boneslinger';
+   live = 'boneslinger 🔒📡 lock down your aerials';
   };
   if (CurrentDate.isAfter('2020-12-31T22:00:00')) {
-   live = '20 for 20 w/ franky got rhythmn';
+   live = '20 for 20 w/ franky got rhythmn 🔒📡 lock down your aerials';
   };
   if (CurrentDate.isAfter('2020-12-31T23:00:00')) {
-   live = 'zema';
+   live = 'zema 🔒📡 lock down your aerials';
   };
   if (CurrentDate.isAfter('2021-01-01T00:00:00')) {
-   live = 'hyperdome';
+   live = 'hyperdome 🔒📡 lock down your aerials';
   };
   if (CurrentDate.isAfter('2021-01-01T01:00:00')) {
-   live = 'mrcl';
+   live = 'mrcl 🔒📡 lock down your aerials';
   };
   if (CurrentDate.isAfter('2021-01-01T02:00:00')) {
-   live = 'aime & nowhere';
+   live = 'aime & nowhere 🔒📡 lock down your aerials';
   };
   if (CurrentDate.isAfter('2021-01-01T04:00:00')) {
-   live = 'umbra';
+   live = 'umbra 🔒📡 lock down your aerials';
   };
-  if (CurrentDate.isAfter('2020-12-21T05:00:00')) {
-   live = "let's meet in the beautiful and new year w/ antivirus";
+  if (CurrentDate.isAfter('2021-01-01T05:00:00')) {
+   live = "let's meet in the beautiful and new year w/ antivirus 🔒📡 lock down your aerials";
   };
 
  //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
