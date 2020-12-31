@@ -230,10 +230,10 @@ canvas.add(twitter);
 
 
 
-fabric.loadSVGFromURL('/images/check-your-aerial.svg',function(objects, options){
+fabric.loadSVGFromURL('/images/lockdown.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = padding;
-  svgData.left = (pageWidth - padding);
+  svgData.left = (pageWidth -(150 +padding) );
   canvas.add(svgData);
   originX: 'center';
   originY: 'center';
@@ -242,14 +242,14 @@ fabric.loadSVGFromURL('/images/check-your-aerial.svg',function(objects, options)
   svgData.scaleToHeight(100);
 });
 
-fabric.loadSVGFromURL('/images/aerial-comp.svg',function(objects, options){
+fabric.loadSVGFromURL('/images/pyctag.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = padding;
-  svgData.left = (pageWidth - (150 + padding));
+  svgData.left = (pageWidth - ( padding));
   canvas.add(svgData);
   svgData.originX = 'right';
   svgData.originY = 'top';
-  svgData.scaleToHeight(100);
+  svgData.scaleToHeight(200);
 });
 
 fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
