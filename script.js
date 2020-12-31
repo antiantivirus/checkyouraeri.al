@@ -75,7 +75,7 @@ function checkTime() {
   };
   if (CurrentDate.isAfter('2020-12-31T16:00:00')) {
     live = "novy mir 🔒📡 lock down your aerials";
-    document.getElementById('join-arts-club').style.display = "block";
+    // document.getElementById('join-arts-club').style.display = "block";
   };
    if (CurrentDate.isAfter('2020-12-31T18:00:00')) {
     live = '82.99FM  🔒📡 lock down your aerials';
