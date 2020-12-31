@@ -99,6 +99,9 @@ function checkTime() {
    live = 'zema 🔒📡 lock down your aerials';
   };
   if (CurrentDate.isAfter('2021-01-01T00:00:00')) {
+   live = 'happy new year 🔒📡 lock down your aerials';
+  };
+  if (CurrentDate.isAfter('2021-01-01T00:05:00')) {
    live = 'hyperdome 🔒📡 lock down your aerials';
   };
   if (CurrentDate.isAfter('2021-01-01T01:00:00')) {
