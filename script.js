@@ -85,27 +85,34 @@ function checkTime() {
     live = 'downtown arts club  🔒📡 lock down your aerials';
     document.getElementById('join-arts-club').style.display = "block";
   };
-  // if (CurrentDate.isAfter('2020-12-21T15:00:00')) {
-  //  live = 'gloam';
-  // };
-  // if (CurrentDate.isAfter('2020-12-21T16:00:00')) {
-  //  live = 'all night passion';
-  // };
-  // if (CurrentDate.isAfter('2020-12-21T17:00:00')) {
-  //  live = 'spin records @ littlejohn street';
-  // };
-  // if (CurrentDate.isAfter('2020-12-21T19:00:00')) {
-  //  live = 'fair play crew';
-  // };
-  // if (CurrentDate.isAfter('2020-12-21T21:00:00')) {
-  //  live = 'frequency bias';
-  // };
-  // if (CurrentDate.isAfter('2020-12-21T22:00:00')) {
-  //  live = 'THETAMORPH: solstice star';
-  // };
-  // if (CurrentDate.isAfter('2020-12-21T23:00:00')) {
-  //  live = 'bacteriocene';
-  // };
+  if (CurrentDate.isAfter('2020-12-21T20:00:00')) {
+   live = 'kavari';
+   document.getElementById('join-arts-club').style.display = "none";
+  };
+  if (CurrentDate.isAfter('2020-12-31T21:00:00')) {
+   live = 'boneslinger';
+  };
+  if (CurrentDate.isAfter('2020-12-31T22:00:00')) {
+   live = '20 for 20 w/ franky got rhythmn';
+  };
+  if (CurrentDate.isAfter('2020-12-31T23:00:00')) {
+   live = 'zema';
+  };
+  if (CurrentDate.isAfter('2021-01-01T00:00:00')) {
+   live = 'hyperdome';
+  };
+  if (CurrentDate.isAfter('2021-01-01T01:00:00')) {
+   live = 'mrcl';
+  };
+  if (CurrentDate.isAfter('2021-01-01T02:00:00')) {
+   live = 'aime & nowhere';
+  };
+  if (CurrentDate.isAfter('2021-01-01T04:00:00')) {
+   live = 'umbra';
+  };
+  if (CurrentDate.isAfter('2020-12-21T05:00:00')) {
+   live = "let's meet in the beautiful and new year w/ antivirus";
+  };
 
  //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
  //    live = 'spital selectors: dusk till dawn';
