@@ -65,46 +65,47 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2020-12-21T09:00:00')) {
-    isItLive = 'live from 1100 :)'
-    live = "";
+  if (CurrentDate.isAfter('2020-12-31T09:00:00')) {
+    isItLive = ''
+    live = "lock down your aerials 🔒📡 incoming tranmission from 1400";
   };
-  if (CurrentDate.isAfter('2020-12-21T11:00:00')) {
-    live = "a christmas message from cybertron (megatron transmission)";
+  if (CurrentDate.isAfter('2020-12-31T14:00:00')) {
+    live = "spin records @ littlejohn street 🔒📡 lock down your aerials";
     isItLive = 'live now: '
   };
-  if (CurrentDate.isAfter('2020-12-21T11:30:00')) {
-    live = "downtown arts club";
+  if (CurrentDate.isAfter('2020-12-31T16:00:00')) {
+    live = "novy mir 🔒📡 lock down your aerials";
     document.getElementById('join-arts-club').style.display = "block";
   };
-   if (CurrentDate.isAfter('2020-12-21T13:00:00')) {
-    live = 'discolour(ed)';
-    document.getElementById('join-arts-club').style.display = "none";
+   if (CurrentDate.isAfter('2020-12-31T18:00:00')) {
+    live = '82.99FM  🔒📡 lock down your aerials';
+    // document.getElementById('join-arts-club').style.display = "none";
   };
-   if (CurrentDate.isAfter('2020-12-21T14:00:00')) {
-    live = 'tales fae the tavern';
+   if (CurrentDate.isAfter('2020-12-31T19:00:00')) {
+    live = 'downtown arts club  🔒📡 lock down your aerials';
+    document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2020-12-21T15:00:00')) {
-   live = 'gloam';
-  };
-  if (CurrentDate.isAfter('2020-12-21T16:00:00')) {
-   live = 'all night passion';
-  };
-  if (CurrentDate.isAfter('2020-12-21T17:00:00')) {
-   live = 'spin records @ littlejohn street';
-  };
-  if (CurrentDate.isAfter('2020-12-21T19:00:00')) {
-   live = 'fair play crew';
-  };
-  if (CurrentDate.isAfter('2020-12-21T21:00:00')) {
-   live = 'frequency bias';
-  };
-  if (CurrentDate.isAfter('2020-12-21T22:00:00')) {
-   live = 'THETAMORPH: solstice star';
-  };
-  if (CurrentDate.isAfter('2020-12-21T23:00:00')) {
-   live = 'bacteriocene';
-  };
+  // if (CurrentDate.isAfter('2020-12-21T15:00:00')) {
+  //  live = 'gloam';
+  // };
+  // if (CurrentDate.isAfter('2020-12-21T16:00:00')) {
+  //  live = 'all night passion';
+  // };
+  // if (CurrentDate.isAfter('2020-12-21T17:00:00')) {
+  //  live = 'spin records @ littlejohn street';
+  // };
+  // if (CurrentDate.isAfter('2020-12-21T19:00:00')) {
+  //  live = 'fair play crew';
+  // };
+  // if (CurrentDate.isAfter('2020-12-21T21:00:00')) {
+  //  live = 'frequency bias';
+  // };
+  // if (CurrentDate.isAfter('2020-12-21T22:00:00')) {
+  //  live = 'THETAMORPH: solstice star';
+  // };
+  // if (CurrentDate.isAfter('2020-12-21T23:00:00')) {
+  //  live = 'bacteriocene';
+  // };
 
  //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
  //    live = 'spital selectors: dusk till dawn';
@@ -115,10 +116,10 @@ function checkTime() {
  //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
  //   live = 'bleep clique';
  // };
-  if (CurrentDate.isAfter('2020-12-21T23:45:00')) {
-    live = "warmest wishes from the cabin crew :) we'll be back again soon for a special hogmany transmission.";
-    isItLive = '';
-  };
+  // if (CurrentDate.isAfter('2020-12-21T23:45:00')) {
+  //   live = "lock down your aerials 🔒📡 incoming tranmission from 1400";
+  //   isItLive = '';
+  // };
 
   liveNow.innerHTML = isItLive + '<marquee>' + live + '</marquee>';
   liveNowMobile.innerHTML = '<marquee>' + isItLive + live + '</marquee>'

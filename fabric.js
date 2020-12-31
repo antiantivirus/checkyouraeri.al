@@ -15,6 +15,7 @@ var h1 = 40;
 var h2 = 30;
 var h3 = 25;
 var h4 = 20;
+var h5 = 18;
 var padding = 50;
 
 var purple = '#5E509C';
@@ -25,6 +26,7 @@ if (window.innerWidth > 1500) {
     h2 = 40;
     h3 = 30;
     h4 = 25;
+    h5 = 20
     padding = 100;
 }
 
@@ -63,33 +65,33 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 
 canvas.add(about);
 
-// var schedule = new fabric.IText(
-//   "✳︎ schedule 21.12.20 ✳︎\n1100 — a christmas message from cybertron\n(megatron transmission)\n1130 — downtown arts club\n1300 — discolour(ed)\n1400 — tales fae the tavern\n1500 — gloam\n1600 — all night passion\n1700 — spin records @ littlejohn street\n1900 — fair play crew\n2100 — frequency bias\n2200 — THETAMORPH: solstice star\n2300 — bacteriocene", {
-//   fontFamily: 'Arial Narrow',
-//   fill: '#FFFFFF',
-//   fontSize: h4,
-//   textAlign: 'left',
-//   left: padding,
-//   top: (pageHeight - padding),
-//   originX: 'left',
-//   originY: 'bottom',
-//   scaleX: scale,
-//   scaleY: scale
-// });
-
 var schedule = new fabric.IText(
-  "✳︎\n✳︎ ✸ \n✳︎ ✸ ✹ \n✳︎ ✸ ✹ ❇︎ \n✳︎ ✸ ✹ ❇︎ ✯\n✳︎ ✸ ✹ ❇︎ ✯ ✾ \n✳︎ ✸ ✹ ❇︎ ✯ ✾ ✢ \n✳︎ ✸ ✹ ❇︎ ✯ ✾ ✢ ✺ \n|\n|", {
+  "🔒📡 schedule 31.12.20 🔒📡\n1400 — spin records @ littlejohn street\n1600 — novy mir\n1800 — 82.99FM\n1900 — downtown arts club\n2000 — kavari\n2100 — boneslinger\n2200 — 20 for 20\n2300 — zema\n0000 — hyperdome\n0100 — mrcl\n0200 — aimé\n0400 — umbra\n0500 — let's meet in the beautiful\nand new year w/ antivirus", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
-  fontSize: h4,
-  textAlign: 'center',
+  fontSize: h5,
+  textAlign: 'left',
   left: padding,
   top: (pageHeight - padding),
   originX: 'left',
   originY: 'bottom',
   scaleX: scale,
   scaleY: scale
- });
+});
+
+// var schedule = new fabric.IText(
+//   "✳︎\n✳︎ ✸ \n✳︎ ✸ ✹ \n✳︎ ✸ ✹ ❇︎ \n✳︎ ✸ ✹ ❇︎ ✯\n✳︎ ✸ ✹ ❇︎ ✯ ✾ \n✳︎ ✸ ✹ ❇︎ ✯ ✾ ✢ \n✳︎ ✸ ✹ ❇︎ ✯ ✾ ✢ ✺ \n|\n|", {
+//   fontFamily: 'Arial Narrow',
+//   fill: '#FFFFFF',
+//   fontSize: h4,
+//   textAlign: 'center',
+//   left: padding,
+//   top: (pageHeight - padding),
+//   originX: 'left',
+//   originY: 'bottom',
+//   scaleX: scale,
+//   scaleY: scale
+//  });
 
 
 canvas.add(schedule);
@@ -280,53 +282,6 @@ fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
   svgData.scaleToHeight(50);
 });
 
-fabric.Image.fromURL('/images/xmas1.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img4 = myImg.set({
-   left: centerX - 300,
-   top: (pageHeight - 100)
- });
- img4.originX = 'left';
- img4.originY = 'bottom';
- img4.scaleToWidth(150);
- canvas.add(img4);
- img4.sendToBack();
-});
-
-fabric.Image.fromURL('/images/xmas2.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img5 = myImg.set({
-   left: (pageWidth - 500),
-   top: (pageHeight - 275)
- });
- img5.scaleToWidth(150);
- canvas.add(img5);
- img5.sendToBack();
-});
-
-fabric.Image.fromURL('/images/xmas3.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img8 = myImg.set({
-   left: (pageWidth - 700),
-   top: (padding + 100)
- });
- img8.scaleToWidth(100);
- canvas.add(img8);
- img8.sendToBack();
-});
-
-
-fabric.Image.fromURL('/images/xmas4.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img1 = myImg.set({
-   left: (padding + 400),
-   top: (centerY - (100 + padding))
- });
- img1.scaleToWidth(100);
- canvas.add(img1);
- img1.sendToBack();
-});
-//
 fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
  //i create an extra var for to change some image properties
  var img3 = myImg.set({
@@ -335,36 +290,84 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
  });
  img3.originX = 'left';
  img3.originY = 'center';
- img3.scaleToHeight(225);
+ img3.scaleToHeight(200);
  canvas.add(img3);
  img3.sendToBack();
 });
-//
-fabric.Image.fromURL('/images/xmas5.jpg', function(myImg) {
- //i create an extra var for to change some image properties
- var img2 = myImg.set({
-   left: (pageWidth - 500),
-   top: (centerY - 200)
- });
- img2.originX = 'left';
- img2.originY = 'top';
- img2.scaleToWidth(100);
- canvas.add(img2);
- img2.sendToBack();
-});
 
-fabric.Image.fromURL('/images/xmas6.jpg', function(myImg) {
- //i create an extra var for to change some image properties
- var img2 = myImg.set({
-   left:  (padding + 150),
-   top: (centerY - 50)
- });
- img2.originX = 'left';
- img2.originY = 'center';
- img2.scaleToWidth(175);
- canvas.add(img2);
- img2.sendToBack();
-});
+// fabric.Image.fromURL('/images/xmas1.png', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img4 = myImg.set({
+//    left: centerX - 300,
+//    top: (pageHeight - 100)
+//  });
+//  img4.originX = 'left';
+//  img4.originY = 'bottom';
+//  img4.scaleToWidth(150);
+//  canvas.add(img4);
+//  img4.sendToBack();
+// });
+
+// fabric.Image.fromURL('/images/xmas2.png', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img5 = myImg.set({
+//    left: (pageWidth - 500),
+//    top: (pageHeight - 275)
+//  });
+//  img5.scaleToWidth(150);
+//  canvas.add(img5);
+//  img5.sendToBack();
+// });
+
+// fabric.Image.fromURL('/images/xmas3.png', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img8 = myImg.set({
+//    left: (pageWidth - 700),
+//    top: (padding + 100)
+//  });
+//  img8.scaleToWidth(100);
+//  canvas.add(img8);
+//  img8.sendToBack();
+// });
+
+
+// fabric.Image.fromURL('/images/xmas4.png', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img1 = myImg.set({
+//    left: (padding + 400),
+//    top: (centerY - (100 + padding))
+//  });
+//  img1.scaleToWidth(100);
+//  canvas.add(img1);
+//  img1.sendToBack();
+// });
+//
+//
+// fabric.Image.fromURL('/images/xmas5.jpg', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img2 = myImg.set({
+//    left: (pageWidth - 500),
+//    top: (centerY - 200)
+//  });
+//  img2.originX = 'left';
+//  img2.originY = 'top';
+//  img2.scaleToWidth(100);
+//  canvas.add(img2);
+//  img2.sendToBack();
+// });
+
+// fabric.Image.fromURL('/images/xmas6.jpg', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img2 = myImg.set({
+//    left:  (padding + 150),
+//    top: (centerY - 50)
+//  });
+//  img2.originX = 'left';
+//  img2.originY = 'center';
+//  img2.scaleToWidth(175);
+//  canvas.add(img2);
+//  img2.sendToBack();
+// });
 
 
 var arts = new fabric.IText(
