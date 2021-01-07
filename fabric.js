@@ -18,7 +18,7 @@ var h4 = 20;
 var h5 = 18;
 var padding = 50;
 
-var purple = '#5E509C';
+var purple = '#4cbdcc';
 var lightPurple = '#eef';
 
 if (window.innerWidth > 1500) {
@@ -66,7 +66,7 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 canvas.add(about);
 
 var schedule = new fabric.IText(
-  "🔒📡 schedule 31.12.20 🔒📡\n1400 — spin records @ littlejohn street\n1600 — novy mir\n1800 — 82.99FM\n1900 — downtown arts club\n2000 — kavari\n2100 — boneslinger\n2200 — 20 for 20\n2300 — zema\n0000 — hyperdome\n0100 — mrcl\n0200 — aimé\n0400 — umbra\n0500 — let's meet in the beautiful\nand new year w/ antivirus", {
+  "✳︎ schedule 08.01.2021 ✳︎\n1100 — good morning telephone service\n1400 — warp and weft\n1500 — aimé\n1700 — blush\n1800 — the placid howff\n1900 — terrace 2\n2000 — thetamorph\n2100 — mpyreal\n2200 — 『82.99 F.M』", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h5,
@@ -226,14 +226,10 @@ twitter.on('selected', function() {
 
 canvas.add(twitter);
 
-
-
-
-
-fabric.loadSVGFromURL('/images/lockdown.svg',function(objects, options){
+fabric.loadSVGFromURL('/images/check-your-aerial.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = padding;
-  svgData.left = (pageWidth -(150 +padding) );
+  svgData.left = (pageWidth - padding);
   canvas.add(svgData);
   originX: 'center';
   originY: 'center';
@@ -242,14 +238,14 @@ fabric.loadSVGFromURL('/images/lockdown.svg',function(objects, options){
   svgData.scaleToHeight(100);
 });
 
-fabric.loadSVGFromURL('/images/pyctag.svg',function(objects, options){
+fabric.loadSVGFromURL('/images/aerial-comp.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = padding;
-  svgData.left = (pageWidth - ( padding));
+  svgData.left = (pageWidth - (150 + padding));
   canvas.add(svgData);
   svgData.originX = 'right';
   svgData.originY = 'top';
-  svgData.scaleToHeight(200);
+  svgData.scaleToHeight(100);
 });
 
 fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){

@@ -65,56 +65,39 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2020-12-31T09:00:00')) {
-    isItLive = ''
-    live = "lock down your aerials 🔒📡 incoming tranmission from 1400";
+  if (CurrentDate.isAfter('2021-01-08T09:00:00')) {
+    isItLive = 'live from 1100 :)'
+    live = "";
   };
-  if (CurrentDate.isAfter('2020-12-31T14:00:00')) {
-    live = "spin records @ littlejohn street 🔒📡 lock down your aerials";
+  if (CurrentDate.isAfter('2021-01-08T11:00:00')) {
+    live = "good morning telephone service";
     isItLive = 'live now: '
   };
-  if (CurrentDate.isAfter('2020-12-31T16:00:00')) {
-    live = "novy mir 🔒📡 lock down your aerials";
+  if (CurrentDate.isAfter('2021-01-08T14:00:00')) {
+    live = "warp and weft";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-   if (CurrentDate.isAfter('2020-12-31T18:00:00')) {
-    live = '82.99FM  🔒📡 lock down your aerials';
+   if (CurrentDate.isAfter('2021-01-08T15:00:00')) {
+    live = 'aimé';
     // document.getElementById('join-arts-club').style.display = "none";
   };
-   if (CurrentDate.isAfter('2020-12-31T19:00:00')) {
-    live = 'downtown arts club  🔒📡 lock down your aerials';
-    document.getElementById('join-arts-club').style.display = "block";
+   if (CurrentDate.isAfter('2021-01-08T17:00:00')) {
+    live = 'blush';
   };
-  if (CurrentDate.isAfter('2020-12-31T20:00:00')) {
-   live = 'kavari 🔒📡 lock down your aerials';
-   document.getElementById('join-arts-club').style.display = "none";
+  if (CurrentDate.isAfter('2021-01-08T18:00:00')) {
+   live = 'the placid howff';
   };
-  if (CurrentDate.isAfter('2020-12-31T21:00:00')) {
-   live = 'boneslinger 🔒📡 lock down your aerials';
+  if (CurrentDate.isAfter('2021-01-08T19:00:00')) {
+   live = 'terrace 2';
   };
-  if (CurrentDate.isAfter('2020-12-31T22:00:00')) {
-   live = '20 for 20 w/ franky got rhythmn 🔒📡 lock down your aerials';
+  if (CurrentDate.isAfter('2021-01-08T20:00:00')) {
+   live = 'thetamorph';
   };
-  if (CurrentDate.isAfter('2020-12-31T23:00:00')) {
-   live = 'zema 🔒📡 lock down your aerials';
+  if (CurrentDate.isAfter('2021-01-08T21:00:00')) {
+   live = 'mpyreal';
   };
-  if (CurrentDate.isAfter('2021-01-01T00:00:00')) {
-   live = 'happy new year 🔒📡 lock down your aerials';
-  };
-  if (CurrentDate.isAfter('2021-01-01T00:05:00')) {
-   live = 'hyperdome 🔒📡 lock down your aerials';
-  };
-  if (CurrentDate.isAfter('2021-01-01T01:00:00')) {
-   live = 'mrcl 🔒📡 lock down your aerials';
-  };
-  if (CurrentDate.isAfter('2021-01-01T02:00:00')) {
-   live = 'aime & nowhere 🔒📡 lock down your aerials';
-  };
-  if (CurrentDate.isAfter('2021-01-01T04:00:00')) {
-   live = 'umbra 🔒📡 lock down your aerials';
-  };
-  if (CurrentDate.isAfter('2021-01-01T05:00:00')) {
-   live = "let's meet in the beautiful and new year w/ antivirus 🔒📡 lock down your aerials";
+  if (CurrentDate.isAfter('2021-01-08T22:00:00')) {
+   live = '『82.99 F.M』';
   };
 
  //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
