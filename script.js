@@ -82,7 +82,7 @@ function checkTime() {
     // document.getElementById('join-arts-club').style.display = "none";
   };
    if (CurrentDate.isAfter('2021-01-08T17:00:00')) {
-    live = 'blush';
+    live = 'blush (r)';
   };
   if (CurrentDate.isAfter('2021-01-08T18:00:00')) {
    live = 'the placid howff';
@@ -91,7 +91,7 @@ function checkTime() {
    live = 'terrace 2';
   };
   if (CurrentDate.isAfter('2021-01-08T20:00:00')) {
-   live = 'thetamorph';
+   live = 'THETAMORPH (r)';
   };
   if (CurrentDate.isAfter('2021-01-08T21:00:00')) {
    live = 'mpyreal';
