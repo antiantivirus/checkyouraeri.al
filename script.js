@@ -65,54 +65,43 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2021-01-08T09:00:00')) {
-    isItLive = 'live from 1100 :)'
+  if (CurrentDate.isAfter('2021-01-15T05:00:00')) {
+    isItLive = 'live from 1300 GMT :)'
     live = "";
   };
-  if (CurrentDate.isAfter('2021-01-08T11:00:00')) {
-    live = "good morning telephone service";
+  if (CurrentDate.isAfter('2021-01-15T13:00:00')) {
+    live = "discolour(ed)";
     isItLive = 'live now: '
   };
-  if (CurrentDate.isAfter('2021-01-08T14:00:00')) {
-    live = "warp and weft";
+  if (CurrentDate.isAfter('2021-01-15T14:00:00')) {
+    live = "doyoudre.am";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-   if (CurrentDate.isAfter('2021-01-08T15:00:00')) {
-    live = 'aimé';
+   if (CurrentDate.isAfter('2021-01-15T16:00:00')) {
+    live = 'gloam';
     // document.getElementById('join-arts-club').style.display = "none";
   };
-   if (CurrentDate.isAfter('2021-01-08T17:00:00')) {
-    live = 'blush (r)';
+   if (CurrentDate.isAfter('2021-01-15T17:00:00')) {
+    live = 'spin records @ littlejohn street';
   };
-  if (CurrentDate.isAfter('2021-01-08T18:00:00')) {
-   live = 'the placid howff';
+  if (CurrentDate.isAfter('2021-01-15T19:00:00')) {
+   live = 'spital selectors: dusk till dawn';
   };
-  if (CurrentDate.isAfter('2021-01-08T19:00:00')) {
-   live = 'terrace 2';
+  if (CurrentDate.isAfter('2021-01-15T21:00:00')) {
+   live = 'bleep clique';
   };
-  if (CurrentDate.isAfter('2021-01-08T20:00:00')) {
-   live = 'THETAMORPH (r)';
+  if (CurrentDate.isAfter('2021-01-15T22:00:00')) {
+   live = 'bacteriocene';
   };
-  if (CurrentDate.isAfter('2021-01-08T21:00:00')) {
-   live = 'mpyreal';
-  };
-  if (CurrentDate.isAfter('2021-01-08T22:00:00')) {
-   live = '『82.99 F.M』';
+  if (CurrentDate.isAfter('2021-01-15T23:00:00')) {
+   live = 'THE REAL NEED 4 SPEED';
   };
 
- //   if (CurrentDate.isAfter('2020-11-06T19:00:00')) {
- //    live = 'spital selectors: dusk till dawn';
- //  };
- //   if (CurrentDate.isAfter('2020-11-06T21:00:00')) {
- //    live = 'terrace 2';
- //  };
- //  if (CurrentDate.isAfter('2020-11-06T22:00:00')) {
- //   live = 'bleep clique';
- // };
-  // if (CurrentDate.isAfter('2020-12-21T23:45:00')) {
-  //   live = "lock down your aerials 🔒📡 incoming tranmission from 1400";
-  //   isItLive = '';
-  // };
+
+  //ender :)
+  if (CurrentDate.isAfter('2021-01-16T00:00:00')) {
+   live = 'back on friday :)';
+  };
 
   liveNow.innerHTML = isItLive + '<marquee>' + live + '</marquee>';
   liveNowMobile.innerHTML = '<marquee>' + isItLive + live + '</marquee>'
