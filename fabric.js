@@ -291,79 +291,131 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
  img3.sendToBack();
 });
 
-// fabric.Image.fromURL('/images/xmas1.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img4 = myImg.set({
-//    left: centerX - 300,
-//    top: (pageHeight - 100)
-//  });
-//  img4.originX = 'left';
-//  img4.originY = 'bottom';
-//  img4.scaleToWidth(150);
-//  canvas.add(img4);
-//  img4.sendToBack();
-// });
+fabric.Image.fromURL('/images/cat5.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img4 = myImg.set({
+   left: centerX - 300,
+   top: (pageHeight - 100)
+ });
+ img4.originX = 'left';
+ img4.originY = 'bottom';
+ img4.scaleToWidth(150);
+ canvas.add(img4);
+ img4.sendToBack();
+});
 
-// fabric.Image.fromURL('/images/xmas2.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img5 = myImg.set({
-//    left: (pageWidth - 500),
-//    top: (pageHeight - 275)
-//  });
-//  img5.scaleToWidth(150);
-//  canvas.add(img5);
-//  img5.sendToBack();
-// });
+fabric.Image.fromURL('/images/cat1.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img5 = myImg.set({
+   left: (pageWidth - 500),
+   top: (pageHeight - 275)
+ });
+ img5.scaleToWidth(150);
+ canvas.add(img5);
+ img5.sendToBack();
+});
 
-// fabric.Image.fromURL('/images/xmas3.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img8 = myImg.set({
-//    left: (pageWidth - 700),
-//    top: (padding + 100)
-//  });
-//  img8.scaleToWidth(100);
-//  canvas.add(img8);
-//  img8.sendToBack();
-// });
+fabric.Image.fromURL('/images/cat2.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img8 = myImg.set({
+   left: (pageWidth - 680),
+   top: (padding + 100)
+ });
+ img8.scaleToWidth(110);
+ canvas.add(img8);
+ img8.sendToBack();
+});
 
 
-// fabric.Image.fromURL('/images/xmas4.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img1 = myImg.set({
-//    left: (padding + 400),
-//    top: (centerY - (100 + padding))
-//  });
-//  img1.scaleToWidth(100);
-//  canvas.add(img1);
-//  img1.sendToBack();
-// });
-//
-//
-// fabric.Image.fromURL('/images/xmas5.jpg', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img2 = myImg.set({
-//    left: (pageWidth - 500),
-//    top: (centerY - 200)
-//  });
-//  img2.originX = 'left';
-//  img2.originY = 'top';
-//  img2.scaleToWidth(100);
-//  canvas.add(img2);
-//  img2.sendToBack();
-// });
+fabric.Image.fromURL('/images/cat3.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img1 = myImg.set({
+   left: (padding + 400),
+   top: (centerY - (100 + padding))
+ });
+ img1.scaleToWidth(100);
+ canvas.add(img1);
+ img1.sendToBack();
+});
 
-// fabric.Image.fromURL('/images/xmas6.jpg', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img2 = myImg.set({
-//    left:  (padding + 150),
-//    top: (centerY - 50)
-//  });
-//  img2.originX = 'left';
-//  img2.originY = 'center';
-//  img2.scaleToWidth(175);
-//  canvas.add(img2);
-//  img2.sendToBack();
-// });
+
+fabric.Image.fromURL('/images/cat4.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+   left: (pageWidth - 730),
+   top: (centerY - 200)
+ });
+ img2.originX = 'left';
+ img2.originY = 'top';
+ img2.scaleToWidth(100);
+ canvas.add(img2);
+ img2.sendToBack();
+});
+
+fabric.Image.fromURL('/images/cat.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+   left:  (padding + 75),
+   top: (centerY - 75)
+ });
+ img2.originX = 'left';
+ img2.originY = 'center';
+ img2.scaleToWidth(175);
+ canvas.add(img2);
+ // img2.sendToBack();
+});
+
+fabric.Image.fromURL('/images/cat6.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+   left: (pageWidth - 700),
+   top: (centerY - 300)
+ });
+ img2.originX = 'left';
+ img2.originY = 'top';
+ img2.scaleToWidth(150);
+ canvas.add(img2);
+ img2.sendToBack();
+});
+
+fabric.Image.fromURL('/images/cat7.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+   left: (pageWidth - 750),
+   top: (pageHeight - 275)
+ });
+ img2.originX = 'left';
+ img2.originY = 'top';
+ img2.scaleToWidth(130);
+ canvas.add(img2);
+ img2.sendToBack();
+});
+
+fabric.Image.fromURL('/images/cat8.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+   left: (pageWidth - 550),
+   top: (centerY - 200)
+ });
+ img2.originX = 'left';
+ img2.originY = 'top';
+ img2.scaleToWidth(120);
+ canvas.add(img2);
+ img2.sendToBack();
+});
+
+fabric.Image.fromURL('/images/cat9.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+   left: (centerX),
+   top: (centerY - 200)
+ });
+ img2.originX = 'center';
+ img2.originY = 'bottom';
+ img2.scaleToWidth(100);
+ canvas.add(img2);
+ img2.sendToBack();
+});
 
 
 var arts = new fabric.IText(
