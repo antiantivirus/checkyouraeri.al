@@ -294,12 +294,12 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 fabric.Image.fromURL('/images/cat5.jpg', function(myImg) {
  //i create an extra var for to change some image properties
  var img4 = myImg.set({
-   left: centerX - 300,
-   top: (pageHeight - 100)
+   left: centerX,
+   top: (pageHeight - 75)
  });
- img4.originX = 'left';
+ img4.originX = 'center';
  img4.originY = 'bottom';
- img4.scaleToWidth(150);
+ img4.scaleToWidth(200);
  canvas.add(img4);
  img4.sendToBack();
 });
