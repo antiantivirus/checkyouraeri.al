@@ -66,7 +66,7 @@ function checkTime() {
   var isItLive = 'back on friday :)';
 
   if (CurrentDate.isAfter('2021-01-22T05:00:00')) {
-    isItLive = 'live from 1300 GMT :)'
+    isItLive = 'live from 1400 GMT :)'
     live = "";
   };
   if (CurrentDate.isAfter('2021-01-22T14:00:00')) {
@@ -74,7 +74,7 @@ function checkTime() {
     isItLive = 'live now: '
   };
   if (CurrentDate.isAfter('2021-01-22T15:00:00')) {
-    live = "CXLO";
+    live = "CXLO (r)";
     // document.getElementById('join-arts-club').style.display = "block";
   };
    if (CurrentDate.isAfter('2021-01-22T16:00:00')) {
