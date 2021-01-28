@@ -65,7 +65,7 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2021-01-22T05:00:00')) {
+  if (CurrentDate.isAfter('2021-01-29T05:00:00')) {
     isItLive = 'live from 1400 GMT :)'
     live = "";
   };
@@ -96,7 +96,7 @@ function checkTime() {
   if (CurrentDate.isAfter('2021-01-22T22:00:00')) {
    live = 'lockdown sessions w/ .CORPSE';
   };
-  if (CurrentDate.isAfter('2021-01-22T23:00:00')) {
+  if (CurrentDate.isAfter('2021-01-28T10:00:00')) {
    live = 'back on friday :)';
   };
 
