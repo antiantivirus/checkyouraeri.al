@@ -97,7 +97,7 @@ function checkTime() {
    live = 'lockdown sessions w/ .CORPSE';
   };
   if (CurrentDate.isAfter('2021-01-22T23:00:00')) {
-   live = 'back next friday :)';
+   live = 'back on friday :)';
   };
 
   //ender :)
