@@ -73,14 +73,14 @@ function checkTime() {
     live = "discolour(ed)";
     isItLive = 'live now: '
   };
-  if (CurrentDate.isAfter('2021-01-29T12:00:00')) {
+  if (CurrentDate.isAfter('2021-01-29T14:00:00')) {
     live = "other scapes";
   };
-   if (CurrentDate.isAfter('2021-01-29T13:00:00')) {
+   if (CurrentDate.isAfter('2021-01-29T15:00:00')) {
     live = 'downtown arts club';
     document.getElementById('join-arts-club').style.display = "block";
   };
-   if (CurrentDate.isAfter('2021-01-29T14:00:00')) {
+   if (CurrentDate.isAfter('2021-01-29T16:00:00')) {
     live = 'saudade w/ sloppy 42nds & 𝖕𝖔𝖛𝖑𝖎𝖓𝖇𝖆𝖚𝖓𝖆';
     document.getElementById('join-arts-club').style.display = "none";
   };
