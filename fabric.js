@@ -66,7 +66,7 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 canvas.add(about);
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 29.01.2021 ✳︎\n1300 — discolour(ed)\n1400 — other scapes\n1500 — downtown arts club\n1600 — saudade w/ sloppy 42nds & 𝖕𝖔𝖛𝖑𝖎𝖓𝖇𝖆𝖚𝖓𝖆\n1800 — gloam\n1900 — fair play crew w/ bones & money\n2100 — frequency bias", {
+  "✳︎ schedule 29.01.2021 ✳︎\n1300 — discolour(ed)\n1400 — other scapes\n1500 — downtown arts club\n1600 — saudade w/ sloppy 42nds\n& 𝖕𝖔𝖛𝖑𝖎𝖓𝖇𝖆𝖚𝖓𝖆\n1800 — gloam\n1900 — fair play crew w/ bones & money\n2100 — frequency bias", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -291,68 +291,70 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
  img3.sendToBack();
 });
 
-// fabric.Image.fromURL('/images/cat5.jpg', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img4 = myImg.set({
-//    left: centerX,
-//    top: (pageHeight - 75)
-//  });
-//  img4.originX = 'center';
-//  img4.originY = 'bottom';
-//  img4.scaleToWidth(200);
-//  canvas.add(img4);
-//  img4.sendToBack();
-// });
-//
-// fabric.Image.fromURL('/images/cat1.jpg', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img5 = myImg.set({
-//    left: (pageWidth - 500),
-//    top: (pageHeight - 275)
-//  });
-//  img5.scaleToWidth(150);
-//  canvas.add(img5);
-//  img5.sendToBack();
-// });
-//
-// fabric.Image.fromURL('/images/cat2.jpg', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img8 = myImg.set({
-//    left: (pageWidth - 680),
-//    top: (padding + 100)
-//  });
-//  img8.scaleToWidth(110);
-//  canvas.add(img8);
-//  img8.sendToBack();
-// });
-//
-//
-// fabric.Image.fromURL('/images/cat3.jpg', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img1 = myImg.set({
-//    left: (padding + 400),
-//    top: (centerY - (100 + padding))
-//  });
-//  img1.scaleToWidth(100);
-//  canvas.add(img1);
-//  img1.sendToBack();
-// });
-//
-//
-// fabric.Image.fromURL('/images/cat4.jpg', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img2 = myImg.set({
-//    left: (pageWidth - 730),
-//    top: (centerY - 200)
-//  });
-//  img2.originX = 'left';
-//  img2.originY = 'top';
-//  img2.scaleToWidth(100);
-//  canvas.add(img2);
-//  img2.sendToBack();
-// });
-//
-// fabric.Image.fromURL('/images/cat.png', function(myImg) {
+fabric.Image.fromURL('/images/scotland1.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img4 = myImg.set({
+   left: pageWidth - 325,
+   top: (pageHeight - 50)
+ });
+ img4.originX = 'right';
+ img4.originY = 'bottom';
+ img4.scaleToWidth(100);
+ canvas.add(img4);
+ img4.sendToBack();
+});
+
+fabric.Image.fromURL('/images/scotland2.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img5 = myImg.set({
+   left: pageWidth - 475,
+   top: (pageHeight - 50)
+ });
+ img5.originX = 'right';
+ img5.originY = 'bottom';
+ img5.scaleToWidth(100);
+ canvas.add(img5);
+ img5.sendToBack();
+});
+
+fabric.Image.fromURL('/images/scotland3.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img8 = myImg.set({
+   left: (pageWidth - 480),
+   top: (padding + 100)
+ });
+ img8.scaleToWidth(90);
+ canvas.add(img8);
+ img8.sendToBack();
+});
+
+
+fabric.Image.fromURL('/images/scotland4.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img1 = myImg.set({
+   left: (centerX - 220),
+   top: (centerY + 90)
+ });
+ img1.scaleToWidth(100);
+ canvas.add(img1);
+ img1.sendToBack();
+});
+
+
+fabric.Image.fromURL('/images/scotland5.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+   left: padding + 100,
+   top: centerY - 100
+ });
+ img2.originX = 'left';
+ img2.originY = 'center';
+ img2.scaleToWidth(100);
+ canvas.add(img2);
+ // img2.sendToBack();
+});
+
+// fabric.Image.fromURL('/images/scotland6.jpg', function(myImg) {
 //  //i create an extra var for to change some image properties
 //  var img2 = myImg.set({
 //    left:  (padding + 75),
@@ -364,33 +366,33 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 //  canvas.add(img2);
 //  // img2.sendToBack();
 // });
-//
-// fabric.Image.fromURL('/images/cat6.jpg', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img2 = myImg.set({
-//    left: (pageWidth - 700),
-//    top: (centerY - 300)
-//  });
-//  img2.originX = 'left';
-//  img2.originY = 'top';
-//  img2.scaleToWidth(150);
-//  canvas.add(img2);
-//  img2.sendToBack();
-// });
-//
-// fabric.Image.fromURL('/images/cat7.jpg', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img2 = myImg.set({
-//    left: (pageWidth - 750),
-//    top: (pageHeight - 275)
-//  });
-//  img2.originX = 'left';
-//  img2.originY = 'top';
-//  img2.scaleToWidth(130);
-//  canvas.add(img2);
-//  img2.sendToBack();
-// });
-//
+
+fabric.Image.fromURL('/images/scotland7.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+   left: (pageWidth - 400),
+   top: (padding + 50)
+ });
+ img2.originX = 'left';
+ img2.originY = 'top';
+ img2.scaleToWidth(70);
+ canvas.add(img2);
+ img2.sendToBack();
+});
+
+fabric.Image.fromURL('/images/scotland8.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+   left: (pageWidth - 100),
+   top: (padding + 50)
+ });
+ img2.originX = 'left';
+ img2.originY = 'top';
+ img2.scaleToWidth(130);
+ canvas.add(img2);
+ img2.sendToBack();
+});
+
 // fabric.Image.fromURL('/images/cat8.jpg', function(myImg) {
 //  //i create an extra var for to change some image properties
 //  var img2 = myImg.set({
