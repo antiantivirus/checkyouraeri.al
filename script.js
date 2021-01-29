@@ -60,44 +60,41 @@ function checkTime() {
 
   var CurrentDate = moment().tz('Europe/London');
 
-  console.log(CurrentDate)
+  console.log(CurrentDate);
 
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2021-01-29T05:00:00')) {
-    isItLive = 'live from 1400 GMT :)'
+  if (CurrentDate.isAfter('2021-01-29T00:00:00')) {
+    isItLive = 'live from 1300 GMT :)'
     live = "";
   };
-  if (CurrentDate.isAfter('2021-01-22T14:00:00')) {
-    live = "warp and weft";
+  if (CurrentDate.isAfter('2021-01-29T13:00:00')) {
+    live = "discolour(ed)";
     isItLive = 'live now: '
   };
-  if (CurrentDate.isAfter('2021-01-22T15:00:00')) {
-    live = "CXLO (r)";
+  if (CurrentDate.isAfter('2021-01-29T12:00:00')) {
+    live = "other scapes";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-   if (CurrentDate.isAfter('2021-01-22T16:00:00')) {
-    live = 'dj youtube algorithm';
+   if (CurrentDate.isAfter('2021-01-29T13:00:00')) {
+    live = 'downtown arts club';
     // document.getElementById('join-arts-club').style.display = "none";
   };
-   if (CurrentDate.isAfter('2021-01-22T17:00:00')) {
-    live = 'novy mir';
+   if (CurrentDate.isAfter('2021-01-29T14:00:00')) {
+    live = 'saudade w/ sloppy 42nds & 𝖕𝖔𝖛𝖑𝖎𝖓𝖇𝖆𝖚𝖓𝖆';
   };
-  if (CurrentDate.isAfter('2021-01-22T18:00:00')) {
-   live = 'cthonic memories w/ subterra';
+  if (CurrentDate.isAfter('2021-01-29T18:00:00')) {
+   live = 'gloam';
   };
-  if (CurrentDate.isAfter('2021-01-22T19:00:00')) {
-   live = 'terrace 2';
+  if (CurrentDate.isAfter('2021-01-29T19:00:00')) {
+   live = 'fair play crew w/ bones & money';
   };
-  if (CurrentDate.isAfter('2021-01-22T20:00:00')) {
-   live = 'hyperdome invites: hasch';
+  if (CurrentDate.isAfter('2021-01-29T21:00:00')) {
+   live = 'frequency bias';
   };
-  if (CurrentDate.isAfter('2021-01-22T22:00:00')) {
-   live = 'lockdown sessions w/ .CORPSE';
-  };
-  if (CurrentDate.isAfter('2021-01-28T10:00:00')) {
-   live = 'back on friday :)';
+  if (CurrentDate.isAfter('2021-01-29T22:00:00')) {
+   live = 'back next friday :)';
   };
 
   //ender :)
