@@ -94,7 +94,7 @@ function checkTime() {
    live = 'frequency bias';
   };
   if (CurrentDate.isAfter('2021-01-29T22:00:00')) {
-   live = 'back next friday :)';
+   live = 'back on friday :)';
   };
 
   //ender :)
