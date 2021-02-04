@@ -65,35 +65,37 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2021-01-29T00:00:00')) {
-    isItLive = 'live from 1300 GMT :)'
+  if (CurrentDate.isAfter('2021-02-05T00:00:00')) {
+    isItLive = 'live from 1400 GMT :)'
     live = "";
   };
-  if (CurrentDate.isAfter('2021-01-29T13:00:00')) {
-    live = "discolour(ed)";
-    isItLive = 'live now: '
+  if (CurrentDate.isAfter('2021-02-05T14:00:00')) {
+    live = "warp and weft";
   };
-  if (CurrentDate.isAfter('2021-01-29T14:00:00')) {
-    live = "other scapes";
+   if (CurrentDate.isAfter('2021-02-05T15:00:00')) {
+    live = 'aimé';
+    // document.getElementById('join-arts-club').style.display = "block";
   };
-   if (CurrentDate.isAfter('2021-01-29T15:00:00')) {
-    live = 'downtown arts club';
-    document.getElementById('join-arts-club').style.display = "block";
+   if (CurrentDate.isAfter('2021-02-05T17:00:00')) {
+    live = 'blush';
+    // document.getElementById('join-arts-club').style.display = "none";
   };
-   if (CurrentDate.isAfter('2021-01-29T16:00:00')) {
-    live = 'saudade w/ sloppy 42nds & 𝖕𝖔𝖛𝖑𝖎𝖓𝖇𝖆𝖚𝖓𝖆';
-    document.getElementById('join-arts-club').style.display = "none";
+  if (CurrentDate.isAfter('2021-02-05T18:00:00')) {
+   live = 'the placid howff';
   };
-  if (CurrentDate.isAfter('2021-01-29T18:00:00')) {
-   live = 'gloam';
+  if (CurrentDate.isAfter('2021-02-05T19:00:00')) {
+   live = ' terrace 2';
   };
-  if (CurrentDate.isAfter('2021-01-29T19:00:00')) {
-   live = 'fair play crew w/ bones & money';
+  if (CurrentDate.isAfter('2021-02-05T20:00:00')) {
+   live = 'THETAMORPH';
   };
-  if (CurrentDate.isAfter('2021-01-29T21:00:00')) {
-   live = 'frequency bias';
+  if (CurrentDate.isAfter('2021-02-05T21:00:00')) {
+   live = 'mpyreal';
   };
-  if (CurrentDate.isAfter('2021-01-29T22:00:00')) {
+  if (CurrentDate.isAfter('2021-02-05T22:00:00')) {
+   live = '『82.99 F.M』';
+  };
+  if (CurrentDate.isAfter('2021-02-06T00:00:00')) {
    live = 'back on friday :)';
   };
 
