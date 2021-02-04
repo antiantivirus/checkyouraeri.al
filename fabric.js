@@ -98,7 +98,7 @@ canvas.add(schedule);
 
 var circle = new fabric.Circle({
   radius: 100,
-  fill: '#eef',
+  fill: '#dbf2f5',
   scaleY: 0.5,
   originX: 'center',
   originY: 'center',
@@ -109,7 +109,7 @@ var text = new fabric.IText('aerial community radio', {
   fontFamily: 'Arial Narrow',
   originX: 'center',
   originY: 'center',
-  fill: '#5E509C'
+  fill: '#4CBDCC'
 });
 
 
@@ -437,7 +437,7 @@ var arts = new fabric.IText(
 
 // customise it baby
 canvas.selectionColor = 'rgba(238, 238, 255, 0.25)';
-canvas.selectionBorderColor = '#5E509C';
+canvas.selectionBorderColor = '#4CBDCC';
 canvas.objectCaching = false;
 
 
@@ -456,7 +456,7 @@ artsCanvas.renderAll();
 var join = document.getElementById('join-arts-club');
 join.addEventListener('click', isItArtsClub);
 
-artsCanvas.freeDrawingBrush.color = '#5E509C';
+artsCanvas.freeDrawingBrush.color = '#4CBDCC';
 artsCanvas.freeDrawingCursor = 'url(/images/paintbrush.png) 3 25, crosshair';
 artsCanvas.isDrawingMode = true;
 
