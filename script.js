@@ -90,7 +90,7 @@ function checkTime() {
    live = 'THETAMORPH';
   };
   if (CurrentDate.isAfter('2021-02-05T21:00:00')) {
-   live = 'mpyreal';
+   live = 'kavari';
   };
   if (CurrentDate.isAfter('2021-02-05T22:00:00')) {
    live = '『82.99 F.M』';
