@@ -248,7 +248,7 @@ fabric.loadSVGFromURL('/images/aerial-comp.svg',function(objects, options){
   svgData.scaleToHeight(100);
 });
 
-fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
+fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = 300;
   svgData.left = (pageWidth - 300);
@@ -258,7 +258,7 @@ fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
   svgData.scaleToHeight(50);
 });
 
-fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
+fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = (pageHeight - 100);
   svgData.left = (pageWidth - 150);
@@ -268,7 +268,7 @@ fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
   svgData.scaleToHeight(50);
 });
 
-fabric.loadSVGFromURL('/images/logo.svg',function(objects, options){
+fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = (centerY + 25);
   svgData.left = 450;
