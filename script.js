@@ -70,6 +70,7 @@ function checkTime() {
     live = "";
   };
   if (CurrentDate.isAfter('2021-02-05T14:00:00')) {
+    isItLive = 'live now:'
     live = "warp and weft";
   };
    if (CurrentDate.isAfter('2021-02-05T15:00:00')) {
@@ -87,7 +88,7 @@ function checkTime() {
    live = ' terrace 2';
   };
   if (CurrentDate.isAfter('2021-02-05T20:00:00')) {
-   live = 'THETAMORPH';
+   live = 'other scapes';
   };
   if (CurrentDate.isAfter('2021-02-05T21:00:00')) {
    live = 'kavari';
