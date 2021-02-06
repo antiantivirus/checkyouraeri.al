@@ -66,37 +66,37 @@ function checkTime() {
   var isItLive = 'back on friday :)';
 
   if (CurrentDate.isAfter('2021-02-05T00:00:00')) {
-    isItLive = 'live from 1400 GMT :)'
-    live = "";
+    isItLive = ''
+    live = "📮 postcards from home: housewarming. live from 1830 GMT 📮";
   };
-  if (CurrentDate.isAfter('2021-02-05T14:00:00')) {
+  if (CurrentDate.isAfter('2021-02-06T18:30:00')) {
     isItLive = 'live now:'
-    live = "warp and weft";
+    live = "postcards from home: downtown arts club";
   };
-   if (CurrentDate.isAfter('2021-02-05T15:00:00')) {
-    live = 'aimé';
+   if (CurrentDate.isAfter('2021-02-06T19:00:00')) {
+    live = 'postcards from home: the nebyudelic sound system';
     // document.getElementById('join-arts-club').style.display = "block";
   };
-   if (CurrentDate.isAfter('2021-02-05T17:00:00')) {
-    live = 'blush';
+   if (CurrentDate.isAfter('2021-02-06T20:00:00')) {
+    live = 'postcards from home:  ELANDA';
     // document.getElementById('join-arts-club').style.display = "none";
   };
-  if (CurrentDate.isAfter('2021-02-05T18:00:00')) {
-   live = 'the placid howff';
+  if (CurrentDate.isAfter('2021-02-06T21:00:00')) {
+   live = 'postcards from home: sooakxa';
   };
-  if (CurrentDate.isAfter('2021-02-05T19:00:00')) {
-   live = ' terrace 2';
+  if (CurrentDate.isAfter('2021-02-06T22:00:00')) {
+   live = 'postcards from home: umbra';
   };
-  if (CurrentDate.isAfter('2021-02-05T20:00:00')) {
-   live = 'other scapes';
-  };
-  if (CurrentDate.isAfter('2021-02-05T21:00:00')) {
-   live = 'kavari';
-  };
-  if (CurrentDate.isAfter('2021-02-05T22:00:00')) {
-   live = '『82.99 F.M』';
-  };
-  if (CurrentDate.isAfter('2021-02-06T00:00:00')) {
+  // if (CurrentDate.isAfter('2021-02-05T20:00:00')) {
+  //  live = 'other scapes';
+  // };
+  // if (CurrentDate.isAfter('2021-02-05T21:00:00')) {
+  //  live = 'kavari';
+  // };
+  // if (CurrentDate.isAfter('2021-02-05T22:00:00')) {
+  //  live = '『82.99 F.M』';
+  // };
+  if (CurrentDate.isAfter('2021-02-07T23:00:00')) {
    live = 'back on friday :)';
   };
 
