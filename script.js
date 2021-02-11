@@ -67,36 +67,36 @@ function checkTime() {
 
   if (CurrentDate.isAfter('2021-02-05T00:00:00')) {
     isItLive = ''
-    live = "📮 postcards from home: housewarming. live from 1830 GMT 📮";
+    live = "live from 1300 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-02-06T18:30:00')) {
+  if (CurrentDate.isAfter('2021-02-12T13:00:00')) {
     isItLive = 'live now:'
-    live = "postcards from home: downtown arts club";
+    live = "discolour(ed)";
   };
-   if (CurrentDate.isAfter('2021-02-06T19:00:00')) {
-    live = 'postcards from home: the nebyudelic sound system';
+   if (CurrentDate.isAfter('2021-02-12T14:00:00')) {
+    live = 'star suite';
     // document.getElementById('join-arts-club').style.display = "block";
   };
-   if (CurrentDate.isAfter('2021-02-06T20:00:00')) {
-    live = 'postcards from home:  ELANDA';
+   if (CurrentDate.isAfter('2021-02-12T16:00:00')) {
+    live = 'when sick, is it tea you want? w/ marie hamrock';
     // document.getElementById('join-arts-club').style.display = "none";
   };
-  if (CurrentDate.isAfter('2021-02-06T21:00:00')) {
-   live = 'postcards from home: sooakxa';
+  if (CurrentDate.isAfter('2021-02-12T17:00:00')) {
+   live = 'a goblin moment';
   };
-  if (CurrentDate.isAfter('2021-02-06T22:00:00')) {
-   live = 'postcards from home: umbra';
+  if (CurrentDate.isAfter('2021-02-12T19:00:00')) {
+   live = 'spital selectors: dusk till dawn';
   };
-  // if (CurrentDate.isAfter('2021-02-05T20:00:00')) {
-  //  live = 'other scapes';
-  // };
-  // if (CurrentDate.isAfter('2021-02-05T21:00:00')) {
-  //  live = 'kavari';
-  // };
-  // if (CurrentDate.isAfter('2021-02-05T22:00:00')) {
-  //  live = '『82.99 F.M』';
-  // };
-  if (CurrentDate.isAfter('2021-02-07T23:00:00')) {
+  if (CurrentDate.isAfter('2021-02-12T21:00:00')) {
+   live = 'bleep clique';
+  };
+  if (CurrentDate.isAfter('2021-02-12T22:00:00')) {
+   live = 'xnmtp';
+  };
+  if (CurrentDate.isAfter('2021-02-12T23:00:00')) {
+   live = 'the real need for speed';
+  };
+  if (CurrentDate.isAfter('2021-02-13T00:00:00')) {
    live = 'back on friday :)';
   };
 
