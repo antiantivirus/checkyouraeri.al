@@ -66,7 +66,7 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 canvas.add(about);
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 12.02.2021 ✳︎\n1300 — discolour(ed)\n1400 — star suite\n1600 — 'when sick, is it tea you want?'\nw/ marie hamrock\n1700 — a goblin moment\n1900 — spital selectors:\ndusk till dawn\n2100 — bleep clique\n2200 — xnmtp\n2300 — the real need for speed", {
+  "✳︎ schedule 12.02.2021 ✳︎\n1300 — discolour(ed)\n1400 — star suite\n1600 — 'when sick, is it tea you want?'\nw/ marie hamrock\n1700 — a goblin moment\n1900 — spital selectors:\ndusk till dawn\n2100 — bleep clique\n2200 — bacteriocene\n2300 — the real need for speed", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,

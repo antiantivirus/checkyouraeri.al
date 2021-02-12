@@ -91,7 +91,7 @@ function checkTime() {
    live = 'bleep clique';
   };
   if (CurrentDate.isAfter('2021-02-12T22:00:00')) {
-   live = 'xnmtp';
+   live = 'bacteriocene';
   };
   if (CurrentDate.isAfter('2021-02-12T23:00:00')) {
    live = 'the real need for speed';
