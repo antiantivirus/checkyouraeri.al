@@ -66,7 +66,7 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 canvas.add(about);
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 12.02.2021 ✳︎\n1300 — discolour(ed)\n1400 — star suite\n1600 — 'when sick, is it tea you want?'\nw/ marie hamrock\n1700 — a goblin moment\n1900 — spital selectors:\ndusk till dawn\n2100 — bleep clique\n2200 — bacteriocene\n2300 — the real need for speed", {
+  "✳︎ schedule 19.02.2021 ✳︎\n1200 — discolour(ed) LIVE\n1400 — warp and weft\n1500 — gloam\n1600 — dj youtube algorithm \n1700 — novy mir\n1800 — chthonic memories w/ subterra\n1900 — terrace 2\n2000 — hyperdome invites ytp\n2200 — lockdown sessions w/ .CORPSE\n2300 — josh young", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -291,56 +291,56 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
  img3.sendToBack();
 });
 
-fabric.Image.fromURL('/images/snow-1.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img4 = myImg.set({
-   left: pageWidth - 325,
-   top: (pageHeight - 50)
- });
- img4.originX = 'right';
- img4.originY = 'bottom';
- img4.scaleToWidth(175);
- canvas.add(img4);
- img4.sendToBack();
-});
-
-fabric.Image.fromURL('/images/snow-2.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img5 = myImg.set({
-   left: (padding + 75),
-   top: (centerY - 125)
- });
- img5.originX = 'left';
- img5.originY = 'center';
- img5.scaleToWidth(150);
- canvas.add(img5);
- // img5.sendToBack();
-});
-
-fabric.Image.fromURL('/images/snow-3.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img8 = myImg.set({
-   left: (pageWidth - 480),
-   top: (padding + 100)
- });
- img8.scaleToWidth(140);
- canvas.add(img8);
- img8.sendToBack();
-});
-
-
-fabric.Image.fromURL('/images/snow-4.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img1 = myImg.set({
-   left: (centerX),
-   top: (centerY)
- });
- img1.originX = 'left';
- img1.originY = 'bottom';
- img1.scaleToWidth(200);
- canvas.add(img1);
- img1.sendToBack();
-});
+// fabric.Image.fromURL('/images/snow-1.png', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img4 = myImg.set({
+//    left: pageWidth - 325,
+//    top: (pageHeight - 50)
+//  });
+//  img4.originX = 'right';
+//  img4.originY = 'bottom';
+//  img4.scaleToWidth(175);
+//  canvas.add(img4);
+//  img4.sendToBack();
+// });
+//
+// fabric.Image.fromURL('/images/snow-2.png', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img5 = myImg.set({
+//    left: (padding + 75),
+//    top: (centerY - 125)
+//  });
+//  img5.originX = 'left';
+//  img5.originY = 'center';
+//  img5.scaleToWidth(150);
+//  canvas.add(img5);
+//  // img5.sendToBack();
+// });
+//
+// fabric.Image.fromURL('/images/snow-3.png', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img8 = myImg.set({
+//    left: (pageWidth - 480),
+//    top: (padding + 100)
+//  });
+//  img8.scaleToWidth(140);
+//  canvas.add(img8);
+//  img8.sendToBack();
+// });
+//
+//
+// fabric.Image.fromURL('/images/snow-4.png', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img1 = myImg.set({
+//    left: (centerX),
+//    top: (centerY)
+//  });
+//  img1.originX = 'left';
+//  img1.originY = 'bottom';
+//  img1.scaleToWidth(200);
+//  canvas.add(img1);
+//  img1.sendToBack();
+// });
 //
 //
 // fabric.Image.fromURL('/images/scotland5.png', function(myImg) {
