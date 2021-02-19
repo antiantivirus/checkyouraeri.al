@@ -97,7 +97,7 @@ function checkTime() {
    live = 'novy mir';
   };
   if (CurrentDate.isAfter('2021-02-19T18:00:00')) {
-   live = 'chthonic memories w/ subterra';
+   live = 'celestial bodies w/ subterra';
   };
   if (CurrentDate.isAfter('2021-02-19T19:00:00')) {
    live = 'terrace 2';
