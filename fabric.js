@@ -65,8 +65,10 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 
 canvas.add(about);
 
+
+
 var schedule = new fabric.IText(
-  "✳︎ schedule 19.02.2021 ✳︎\n1200 — discolour(ed) LIVE\n1400 — warp and weft\n1500 — gloam\n1600 — dj youtube algorithm \n1700 — novy mir\n1800 — celestial bodies w/ subterra\n1900 — terrace 2\n2000 — hyperdome invites ytp\n2200 — lockdown sessions w/ .CORPSE\n2300 — josh young", {
+  "✳︎ schedule 25.02.2021 ✳︎\n1200 — downtown arts club\n1300 — discolour(ed) \n1400 — other scapes\n1500 — MOTHERLAND\n1700 — spin (r)\n1900 — fair play crew\n2100 — frequency bias\n2200 — bacteriocene (r)\n2300 — discolour(ed) LIVE", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
