@@ -73,42 +73,42 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2021-02-25T00:00:00')) {
+  if (CurrentDate.isAfter('2021-02-26T00:00:00')) {
     isItLive = ''
     live = "live from 1200 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-02-25T12:00:00')) {
+  if (CurrentDate.isAfter('2021-02-26T12:00:00')) {
     isItLive = 'live now:'
     live = "downtown arts club";
     document.getElementById('join-arts-club').style.display = "block";
   };
-   if (CurrentDate.isAfter('2021-02-25T13:00:00')) {
+   if (CurrentDate.isAfter('2021-02-26T13:00:00')) {
     live = 'discolour(ed) ';
     document.getElementById('join-arts-club').style.display = "none";
   };
-  if (CurrentDate.isAfter('2021-02-25T14:00:00')) {
+  if (CurrentDate.isAfter('2021-02-26T14:00:00')) {
    live = 'other scapes';
    // document.getElementById('join-arts-club').style.display = "block";
  };
- if (CurrentDate.isAfter('2021-02-25T15:00:00')) {
+ if (CurrentDate.isAfter('2021-02-26T15:00:00')) {
    live = 'MOTHERLAND';
   };
-  if (CurrentDate.isAfter('2021-02-25T17:00:00')) {
+  if (CurrentDate.isAfter('2021-02-26T17:00:00')) {
    live = 'spin (r)';
   };
-  if (CurrentDate.isAfter('2021-02-25T19:00:00')) {
+  if (CurrentDate.isAfter('2021-02-26T19:00:00')) {
    live = 'fair play crew';
   };
-  if (CurrentDate.isAfter('2021-02-25T21:00:00')) {
+  if (CurrentDate.isAfter('2021-02-26T21:00:00')) {
    live = 'frequency bias';
   };
-  if (CurrentDate.isAfter('2021-02-25T22:00:00')) {
+  if (CurrentDate.isAfter('2021-02-26T22:00:00')) {
    live = 'bacteriocene (r)';
   };
-  if (CurrentDate.isAfter('2021-02-25T23:00:00')) {
+  if (CurrentDate.isAfter('2021-02-26T23:00:00')) {
    live = 'discolour(ed) LIVE';
   };
-  if (CurrentDate.isAfter('2021-02-26T00:00:00')) {
+  if (CurrentDate.isAfter('2021-02-27T00:00:00')) {
    live = 'back on friday :)';
   };
 
