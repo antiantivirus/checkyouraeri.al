@@ -97,7 +97,7 @@ function checkTime() {
    live = 'spin (r)';
   };
   if (CurrentDate.isAfter('2021-02-26T19:00:00')) {
-   live = 'fair play crew';
+   live = 'fair play crew w/ T_A_M';
   };
   if (CurrentDate.isAfter('2021-02-26T21:00:00')) {
    live = 'frequency bias';
