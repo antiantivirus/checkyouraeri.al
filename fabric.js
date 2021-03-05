@@ -306,32 +306,32 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 //  img4.sendToBack();
 // });
 //
-// fabric.Image.fromURL('/images/snow-2.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img5 = myImg.set({
-//    left: (padding + 75),
-//    top: (centerY - 125)
-//  });
-//  img5.originX = 'left';
-//  img5.originY = 'center';
-//  img5.scaleToWidth(150);
-//  canvas.add(img5);
-//  // img5.sendToBack();
-// });
+fabric.Image.fromURL('/images/dumbo.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img5 = myImg.set({
+   left: (padding + 75),
+   top: (centerY - 125)
+ });
+ img5.originX = 'left';
+ img5.originY = 'center';
+ img5.scaleToWidth(150);
+ canvas.add(img5);
+ // img5.sendToBack();
+});
 //
-// fabric.Image.fromURL('/images/snow-3.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img8 = myImg.set({
-//    left: (pageWidth - 480),
-//    top: (padding + 100)
-//  });
-//  img8.scaleToWidth(140);
-//  canvas.add(img8);
-//  img8.sendToBack();
-// });
+fabric.Image.fromURL('/images/dumbo-rev.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img8 = myImg.set({
+   left: (pageWidth - 480),
+   top: (padding + 100)
+ });
+ img8.scaleToWidth(140);
+ canvas.add(img8);
+ img8.sendToBack();
+});
 //
 //
-// fabric.Image.fromURL('/images/snow-4.png', function(myImg) {
+// fabric.Image.fromURL('/images/dumbo.png', function(myImg) {
 //  //i create an extra var for to change some image properties
 //  var img1 = myImg.set({
 //    left: (centerX),
