@@ -73,18 +73,6 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  1100 — <br>
-  1300 — <br>
-  1400 — <br>
-  1500 — <br>
-  1700 — <br>
-  1800 — <br>
-  1900 — <br>
-  2000 — <br>
-  2100 — <br>
-  2200 — 
-
-
   if (CurrentDate.isAfter('2021-03-05T00:00:00')) {
     isItLive = ''
     live = "live from 1100 GMT :)";
