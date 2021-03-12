@@ -73,47 +73,47 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2021-03-05T00:00:00')) {
+  if (CurrentDate.isAfter('2021-03-12T00:00:00')) {
     isItLive = ''
     live = "live from 1100 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-03-05T11:00:00')) {
+  if (CurrentDate.isAfter('2021-03-12T11:00:00')) {
     isItLive = 'live now:'
-    live = "the good morning telephone service";
+    live = "star suite";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-   if (CurrentDate.isAfter('2021-03-05T13:00:00')) {
-    live = "let's meet in the beautiful and new decade w/ antivirus and dj domain broker";
+   if (CurrentDate.isAfter('2021-03-12T13:00:00')) {
+    live = "discolour(ed)";
     // document.getElementById('join-arts-club').style.display = "none";
   };
-  if (CurrentDate.isAfter('2021-03-05T14:00:00')) {
-   live = 'warp and weft';
+  if (CurrentDate.isAfter('2021-03-12T14:00:00')) {
+   live = 'doyoudre.am';
    // document.getElementById('join-arts-club').style.display = "block";
  };
- if (CurrentDate.isAfter('2021-03-05T15:00:00')) {
-   live = 'aimé';
+ if (CurrentDate.isAfter('2021-03-12T16:00:00')) {
+   live = 'marie hamrock';
   };
-  if (CurrentDate.isAfter('2021-03-05T17:00:00')) {
-   live = 'blush';
+  if (CurrentDate.isAfter('2021-03-12T17:00:00')) {
+   live = 'nowhere';
   };
-  if (CurrentDate.isAfter('2021-03-05T18:00:00')) {
-   live = 'the placid howff';
+  if (CurrentDate.isAfter('2021-03-12T19:00:00')) {
+   live = 'MOTHERLAND';
   };
-  if (CurrentDate.isAfter('2021-03-05T19:00:00')) {
-   live = 'terrace 2';
+  if (CurrentDate.isAfter('2021-03-12T20:00:00')) {
+   live = 'bleep clique';
   };
-  if (CurrentDate.isAfter('2021-03-05T20:00:00')) {
-   live = 'THETAMORPH';
+  if (CurrentDate.isAfter('2021-03-12T21:00:00')) {
+   live = 'bacteriocene';
   };
-  if (CurrentDate.isAfter('2021-03-05T21:00:00')) {
-   live = 'kavari';
+  if (CurrentDate.isAfter('2021-03-12T22:00:00')) {
+   live = 'THE REAL NEED 4 SPEED';
   };
-  if (CurrentDate.isAfter('2021-03-05T22:00:00')) {
-    live = '『82.99 F.M』';
+  if (CurrentDate.isAfter('2021-03-12T23:00:00')) {
+    live = 'back on friday :)';
    };
-  if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
-   live = 'back on friday :)';
-  };
+  // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
+  //  live = 'back on friday :)';
+  // };
 
   //ender :)
   // if (CurrentDate.isAfter('2021-01-16T00:00:00')) {
