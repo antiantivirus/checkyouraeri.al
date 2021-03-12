@@ -102,15 +102,18 @@ function checkTime() {
   if (CurrentDate.isAfter('2021-03-12T21:00:00')) {
    live = 'bleep clique';
   };
+  // if (CurrentDate.isAfter('2021-03-12T22:00:00')) {
+  //  live = 'bacteriocene';
+  // };
+  // if (CurrentDate.isAfter('2021-03-12T23:00:00')) {
+  //  live = 'THE REAL NEED 4 SPEED';
+  // };
   if (CurrentDate.isAfter('2021-03-12T22:00:00')) {
-   live = 'bacteriocene';
-  };
-  if (CurrentDate.isAfter('2021-03-12T23:00:00')) {
-   live = 'THE REAL NEED 4 SPEED';
-  };
-  if (CurrentDate.isAfter('2021-03-13T00:00:00')) {
-    live = 'back on friday :)';
+    live = 'back next friday :)';
    };
+   if (CurrentDate.isAfter('2021-03-13T00:00:00')) {
+     live = 'back on friday :)';
+    };
   // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
   //  live = 'back on friday :)';
   // };
