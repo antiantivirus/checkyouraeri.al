@@ -66,9 +66,8 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 canvas.add(about);
 
 
-
 var schedule = new fabric.IText(
-  "✳︎ schedule 05.03.2021 ✳︎\n1100 — the good morning telephone service\n1300 — let's meet in the beautiful and new decade \n1400 — warp and weft\n1500 — aimé\n1700 — blush\n1800 — the placid howff\n1900 — terrace 2\n2000 — THETAMORPH \n2100 — kavari\n2200 — 『82.99 F.M』", {
+  "✳︎ schedule 12.03.2021 ✳︎\n1100 — star suite\n1300 — discolour(ed)\n1400 — doyoudre.am\n1600 — marie hamrock (special)\n1700 — nowhere (special)\n1900 — MOTHERLAND (special)\n2100 — bleep clique \n2000 — bacteriocene\n2300 — THE REAL NEED 4 SPEED", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -306,29 +305,29 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 //  img4.sendToBack();
 // });
 //
-fabric.Image.fromURL('/images/dumbo.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img5 = myImg.set({
-   left: (padding + 75),
-   top: (centerY - 125)
- });
- img5.originX = 'left';
- img5.originY = 'center';
- img5.scaleToWidth(150);
- canvas.add(img5);
- // img5.sendToBack();
-});
+// fabric.Image.fromURL('/images/dumbo.png', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img5 = myImg.set({
+//    left: (padding + 75),
+//    top: (centerY - 125)
+//  });
+//  img5.originX = 'left';
+//  img5.originY = 'center';
+//  img5.scaleToWidth(150);
+//  canvas.add(img5);
+//  // img5.sendToBack();
+// });
 //
-fabric.Image.fromURL('/images/dumbo-rev.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img8 = myImg.set({
-   left: (pageWidth - 480),
-   top: (padding + 100)
- });
- img8.scaleToWidth(140);
- canvas.add(img8);
- img8.sendToBack();
-});
+// fabric.Image.fromURL('/images/dumbo-rev.png', function(myImg) {
+//  //i create an extra var for to change some image properties
+//  var img8 = myImg.set({
+//    left: (pageWidth - 480),
+//    top: (padding + 100)
+//  });
+//  img8.scaleToWidth(140);
+//  canvas.add(img8);
+//  img8.sendToBack();
+// });
 //
 //
 // fabric.Image.fromURL('/images/dumbo.png', function(myImg) {
