@@ -67,7 +67,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 12.03.2021 ✳︎\n1100 — star suite\n1300 — discolour(ed)\n1400 — doyoudre.am\n1600 — marie hamrock\n1700 — nowhere\n1900 — MOTHERLAND\n2100 — bleep clique \n2200 — bacteriocene\n2300 — THE REAL NEED 4 SPEED", {
+  "✳︎ schedule 12.03.2021 ✳︎\n1100 — star suite\n1300 — discolour(ed)\n1400 — doyoudre.am\n1600 — bread & roses w/ marie hamrock\n1700 — nowhere\n1900 — MOTHERLAND\n2100 — bleep clique \n2200 — bacteriocene\n2300 — THE REAL NEED 4 SPEED", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,

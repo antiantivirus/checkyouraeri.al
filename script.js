@@ -91,7 +91,7 @@ function checkTime() {
    // document.getElementById('join-arts-club').style.display = "block";
  };
  if (CurrentDate.isAfter('2021-03-12T16:00:00')) {
-   live = 'marie hamrock';
+   live = 'bread & roses w/ marie hamrock';
   };
   if (CurrentDate.isAfter('2021-03-12T17:00:00')) {
    live = 'nowhere';
