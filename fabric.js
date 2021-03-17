@@ -67,7 +67,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 12.03.2021 ✳︎\n1100 — star suite\n1300 — discolour(ed)\n1400 — doyoudre.am\n1600 — bread & roses w/ marie hamrock\n1700 — nowhere\n1900 — MOTHERLAND\n2100 — bleep clique", {
+  "✳︎ schedule 19.03.2021 ✳︎\n1400 — warp and weft\n1500 — gloam\n1600 — let's meet in the beautiful and new decade\n1700 — novy mir\n1800 — cthonic memories w/ subterra\n1900 — terrace 2\n2000 — hyperdome invites\n2200 — lockdown sessions w/ CORPSE \n2300 — josh young\n", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
