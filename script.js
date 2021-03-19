@@ -51,18 +51,18 @@ for (let i = 0; i < listen.length; i++) {
      });
  }
 
- // 1200 ✳︎ discolour(ed) LIVE
- // 1400 ✳︎ warp and weft
- // 1500 ✳︎ gloam
- // 1600 ✳︎ dj youtube algorithm
- // 1700 ✳︎ novy mir
- // 1800 ✳︎ chthonic memories w/ subterra
- // 1900 ✳︎ terrace 2
- // 2000 ✳︎ hyperdome invites
- // 2200 ✳︎ lockdown sessions w/ .CORPSE
- // 2300 ✳︎ josh young
 
 //schedule
+
+// 1400 — warp and weft
+// 1500 — gloam
+// 1600 — let's meet in the beautiful and new decade
+// 1700 — novy mir
+// 1800 — cthonic memories w/ subterra
+// 1900 — terrace 2
+// 2000 — hyperdome invites
+// 2200 — lockdown sessions w/ CORPSE 
+// 2300 — josh young
 
 function checkTime() {
 
@@ -73,47 +73,47 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2021-03-12T00:00:00')) {
+  if (CurrentDate.isAfter('2021-03-19T00:00:00')) {
     isItLive = ''
-    live = "live from 1100 GMT :)";
+    live = "live from 1400 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-03-12T11:00:00')) {
+  if (CurrentDate.isAfter('2021-03-19T14:00:00')) {
     isItLive = 'live now:'
-    live = "star suite";
+    live = "warp and weft";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-   if (CurrentDate.isAfter('2021-03-12T13:00:00')) {
-    live = "discolour(ed)";
+   if (CurrentDate.isAfter('2021-03-19T15:00:00')) {
+    live = "gloam";
     // document.getElementById('join-arts-club').style.display = "none";
   };
-  if (CurrentDate.isAfter('2021-03-12T14:00:00')) {
-   live = 'doyoudre.am';
+  if (CurrentDate.isAfter('2021-03-19T16:00:00')) {
+   live = "let's meet in the beautiful and new decade w/ antivirus and major league hacker";
    // document.getElementById('join-arts-club').style.display = "block";
  };
- if (CurrentDate.isAfter('2021-03-12T16:00:00')) {
-   live = 'bread & roses w/ marie hamrock';
+ if (CurrentDate.isAfter('2021-03-19T17:00:00')) {
+   live = 'novy mir';
   };
-  if (CurrentDate.isAfter('2021-03-12T17:00:00')) {
-   live = 'nowhere';
+  if (CurrentDate.isAfter('2021-03-19T18:00:00')) {
+   live = 'the promised sea w/ subterra';
   };
-  if (CurrentDate.isAfter('2021-03-12T19:00:00')) {
-   live = 'MOTHERLAND';
+  if (CurrentDate.isAfter('2021-03-19T19:00:00')) {
+   live = 'terrace 2';
   };
-  if (CurrentDate.isAfter('2021-03-12T21:00:00')) {
-   live = 'bleep clique';
+  if (CurrentDate.isAfter('2021-03-19T20:00:00')) {
+   live = 'hyperdome invites';
+  };
+  if (CurrentDate.isAfter('2021-03-19T22:00:00')) {
+   live = 'lockdown sessions w/ CORPSE';
+  };
+  if (CurrentDate.isAfter('2021-03-19T23:00:00')) {
+   live = 'josh young';
   };
   // if (CurrentDate.isAfter('2021-03-12T22:00:00')) {
-  //  live = 'bacteriocene';
-  // };
-  // if (CurrentDate.isAfter('2021-03-12T23:00:00')) {
-  //  live = 'THE REAL NEED 4 SPEED';
-  // };
-  if (CurrentDate.isAfter('2021-03-12T22:00:00')) {
-    live = 'back next friday :)';
-   };
-   if (CurrentDate.isAfter('2021-03-13T00:00:00')) {
-     live = 'back on friday :)';
-    };
+  //   live = 'back next friday :)';
+  //  };
+  if (CurrentDate.isAfter('2021-03-20T00:00:00')) {
+    live = 'back on friday :)';
+  };
   // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
   //  live = 'back on friday :)';
   // };
