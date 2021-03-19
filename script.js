@@ -87,7 +87,7 @@ function checkTime() {
     // document.getElementById('join-arts-club').style.display = "none";
   };
   if (CurrentDate.isAfter('2021-03-19T16:00:00')) {
-   live = "let's meet in the beautiful and new decade w/ antivirus and major league hacker";
+   live = "let's meet in the beautiful and new decade w/ antivirus and dj domain broker";
    // document.getElementById('join-arts-club').style.display = "block";
  };
  if (CurrentDate.isAfter('2021-03-19T17:00:00')) {
