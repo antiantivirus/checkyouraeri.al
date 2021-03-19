@@ -100,7 +100,7 @@ function checkTime() {
    live = 'terrace 2';
   };
   if (CurrentDate.isAfter('2021-03-19T20:00:00')) {
-   live = 'hyperdome invites';
+   live = 'hyperdome invites bash man' ;
   };
   if (CurrentDate.isAfter('2021-03-19T22:00:00')) {
    live = 'lockdown sessions w/ CORPSE';
