@@ -102,7 +102,7 @@ function checkTime() {
    live = 'frequency bias' ;
   };
   if (CurrentDate.isAfter('2021-03-26T22:00:00')) {
-   live = 'bacteriocene';
+   live = 'bacteriocene (r)';
   };
   // if (CurrentDate.isAfter('2021-03-19T23:00:00')) {
   //  live = 'josh young';
@@ -110,7 +110,7 @@ function checkTime() {
   // if (CurrentDate.isAfter('2021-03-12T22:00:00')) {
   //   live = 'back next friday :)';
   //  };
-  if (CurrentDate.isAfter('2021-03-26T21:00:00')) {
+  if (CurrentDate.isAfter('2021-03-26T23:00:00')) {
     live = 'back on friday :)';
   };
   // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
