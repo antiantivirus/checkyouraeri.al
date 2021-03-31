@@ -68,7 +68,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 26.03.2021 ✳︎\n1000 — spital selectors\n1200 — downtown arts club (r)\n1300 — discolour(ed)\n1400 — other scapes\n1600 — gloam (r)\n1700 — spin @ littlejohn street (r)\n1900 — fair play crew w/ sequential number\n2100 — frequency bias\n2200 — bacteriocene(r)", {
+  "✳︎ schedule 02.04.2021 ✳︎\n1200 — the good morning telephone service\n1330 — st. salmon\n1400 — warp and weft\n1500 — aimé\n1700 — blush\n1800 — the placid howff\n1900 — in flight w/ iced gem\n2000 — THETAMORPH (r)\n2100 — kavari\n2200 — 『82.99 F.M』", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,

@@ -54,15 +54,16 @@ for (let i = 0; i < listen.length; i++) {
 
 //schedule
 
-// 1000 — spital selectors
-// 1200 — downtown arts club (r)
-// 1300 — discolour(ed)
-// 1400 — other scapes
-// 1600 — gloam (r)
-// 1700 — spin @ littlejohn street (r)
-// 1900 — fair play crew
-// 2100 — frequency bias
-// 2200 — bacteriocene
+// 1200 — the good morning telephone service
+// 1330 — st. salmon
+// 1400 — warp and weft
+// 1500 — aimé
+// 1700 — blush
+// 1800 — the placid howff
+// 1900 — in flight w/ iced gem
+// 2000 — THETAMORPH (r)
+// 2100 — kavari
+// 2200 — 『82.99 F.M』
 
 function checkTime() {
 
@@ -73,44 +74,44 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2021-03-26T00:00:00')) {
+  if (CurrentDate.isAfter('2021-04-02T00:00:00')) {
     isItLive = ''
-    live = "live from 1000 GMT :)";
+    live = "live from 1200 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-03-26T10:00:00')) {
+  if (CurrentDate.isAfter('2021-04-02T12:00:00')) {
     isItLive = 'live now:'
-    live = "spital selectors";
+    live = "the good morning telephone service";
   };
-   if (CurrentDate.isAfter('2021-03-26T12:00:00')) {
-    live = "downtown arts club (r)";
-    document.getElementById('join-arts-club').style.display = "block";
+   if (CurrentDate.isAfter('2021-04-02T13:30:00')) {
+    live = "st. salmon";
+    // document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2021-03-26T13:00:00')) {
-   live = "discolour(ed)";
-   document.getElementById('join-arts-club').style.display = "none";
+  if (CurrentDate.isAfter('2021-04-02T14:00:00')) {
+   live = "warp and weft";
+   // document.getElementById('join-arts-club').style.display = "none";
  };
- if (CurrentDate.isAfter('2021-03-26T14:00:00')) {
-   live = 'other scapes';
+ if (CurrentDate.isAfter('2021-04-02T15:00:00')) {
+   live = 'aimé';
   };
-  if (CurrentDate.isAfter('2021-03-26T17:00:00')) {
-   live = 'spin @ littlejohn street (r)';
+  if (CurrentDate.isAfter('2021-04-02T17:00:00')) {
+   live = 'blush';
   };
-  if (CurrentDate.isAfter('2021-03-26T19:00:00')) {
-   live = 'fair play crew w/ sequential number';
+  if (CurrentDate.isAfter('2021-04-02T18:00:00')) {
+   live = 'the placid howff';
   };
-  if (CurrentDate.isAfter('2021-03-26T21:00:00')) {
-   live = 'frequency bias' ;
+  if (CurrentDate.isAfter('2021-04-02T19:00:00')) {
+   live = 'in flight w/ iced gem' ;
   };
-  if (CurrentDate.isAfter('2021-03-26T22:00:00')) {
-   live = 'bacteriocene (r)';
+  if (CurrentDate.isAfter('2021-04-02T20:00:00')) {
+   live = 'THETAMORPH (r)';
   };
-  // if (CurrentDate.isAfter('2021-03-19T23:00:00')) {
-  //  live = 'josh young';
-  // };
-  // if (CurrentDate.isAfter('2021-03-12T22:00:00')) {
-  //   live = 'back next friday :)';
-  //  };
-  if (CurrentDate.isAfter('2021-03-26T23:00:00')) {
+  if (CurrentDate.isAfter('2021-04-02T21:00:00')) {
+   live = 'kavari';
+  };
+  if (CurrentDate.isAfter('2021-04-02T22:00:00')) {
+    live = '『82.99 F.M』';
+   };
+  if (CurrentDate.isAfter('2021-04-03T00:00:00')) {
     live = 'back on friday :)';
   };
   // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
