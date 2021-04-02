@@ -68,7 +68,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 02.04.2021 ✳︎\n1200 — the good morning telephone service\n1345 — st. salmon\n1400 — warp and weft\n1500 — aimé\n1700 — blush\n1800 — the placid howff\n1900 — in flight w/ iced gem\n2000 — THETAMORPH (r)\n2100 — kavari\n2200 — 『82.99 F.M』", {
+  "✳︎ schedule 02.04.2021 ✳︎\n1200 — the good morning telephone service\n1345 — st. salmon\n1400 — warp and weft\n1500 — aimé\n1700 — blush\n1800 — the placid howff\n1900 — in flight w/ iced gem\n2000 — THETAMORPH (r)\n2100 — KAVARI\n2200 — 『82.99 F.M』", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,

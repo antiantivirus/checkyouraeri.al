@@ -106,7 +106,7 @@ function checkTime() {
    live = 'THETAMORPH (r)';
   };
   if (CurrentDate.isAfter('2021-04-02T21:00:00')) {
-   live = 'kavari';
+   live = 'KAVARI';
   };
   if (CurrentDate.isAfter('2021-04-02T22:00:00')) {
     live = '『82.99 F.M』';
