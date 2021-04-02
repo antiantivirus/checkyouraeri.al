@@ -82,7 +82,7 @@ function checkTime() {
     isItLive = 'live now:'
     live = "the good morning telephone service";
   };
-   if (CurrentDate.isAfter('2021-04-02T13:30:00')) {
+   if (CurrentDate.isAfter('2021-04-02T13:45:00')) {
     live = "st. salmon";
     // document.getElementById('join-arts-club').style.display = "block";
   };
