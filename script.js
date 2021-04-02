@@ -100,7 +100,7 @@ function checkTime() {
    live = 'the placid howff';
   };
   if (CurrentDate.isAfter('2021-04-02T19:00:00')) {
-   live = 'in flight w/ iced gem' ;
+   live = 'in flight w/ alliyah enyo' ;
   };
   if (CurrentDate.isAfter('2021-04-02T20:00:00')) {
    live = 'THETAMORPH (r)';
