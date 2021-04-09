@@ -376,7 +376,7 @@ fabric.Image.fromURL('/images/unicorn6.jpeg', function(myImg) {
 fabric.Image.fromURL('/images/unicorn7.jpeg', function(myImg) {
  //i create an extra var for to change some image properties
  var img2 = myImg.set({
-  left: padding,
+  left: (padding - 10),
   top: centerY
  });
  img2.originX = 'left';
@@ -389,12 +389,12 @@ fabric.Image.fromURL('/images/unicorn7.jpeg', function(myImg) {
 fabric.Image.fromURL('/images/unicorn8.png', function(myImg) {
  //i create an extra var for to change some image properties
  var img2 = myImg.set({
-  left: padding,
-  top: centerY
- });
+  left: (padding + 20),
+  top: (centerY - 15)
+});
  img2.originX = 'left';
  img2.originY = 'center';
- img2.scaleToWidth(130);
+ img2.scaleToWidth(100);
  canvas.add(img2);
 //  img2.sendToBack();
 });
@@ -403,7 +403,7 @@ fabric.Image.fromURL('/images/unicorn9.jpeg', function(myImg) {
   //i create an extra var for to change some image properties
   var img2 = myImg.set({
    left: padding,
-   top: (centerY + 5)
+   top: (centerY + 25)
   });
   img2.originX = 'left';
   img2.originY = 'center';
@@ -416,7 +416,7 @@ fabric.Image.fromURL('/images/unicorn9.jpeg', function(myImg) {
   //i create an extra var for to change some image properties
   var img20 = myImg.set({
    left: padding,
-   top: (centerY - 5)
+   top: (centerY - 15)
   });
   img20.originX = 'left';
   img20.originY = 'center';
@@ -429,7 +429,7 @@ fabric.Image.fromURL('/images/unicorn9.jpeg', function(myImg) {
   //i create an extra var for to change some image properties
   var img2 = myImg.set({
    left: padding,
-   top: (centerY - 10)
+   top: (centerY - 20)
   });
   img2.originX = 'left';
   img2.originY = 'center';
