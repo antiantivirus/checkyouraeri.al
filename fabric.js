@@ -68,7 +68,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 09.04.2021 ✳︎\n1100 — star suite\n1300 — discolour(ed)\n1400 — doyoudre.am\n1600 — blair mitchell\n1700 — blush\n1800 — novy mir\n2000 — thawing w/ xivro\n2100 — bleep clique\n2200 — from the vaults to the skies\n2300 — THE REAL NEED 4 SPEED", {
+  "✳︎ schedule 09.04.2021 ✳︎\n1100 — star suite\n1300 — discolour(ed)\n1400 — doyoudre.am\n1600 — blair\n1700 — blush\n1800 — novy mir\n2000 — thawing w/ xivro\n2100 — bleep clique\n2200 — from the vaults to the skies\n2300 — THE REAL NEED 4 SPEED", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -293,109 +293,217 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
  img3.sendToBack();
 });
 
-// fabric.Image.fromURL('/images/snow-1.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img4 = myImg.set({
-//    left: pageWidth - 325,
-//    top: (pageHeight - 50)
-//  });
-//  img4.originX = 'right';
-//  img4.originY = 'bottom';
-//  img4.scaleToWidth(175);
-//  canvas.add(img4);
+fabric.Image.fromURL('/images/unicorn1.jpeg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img4 = myImg.set({
+  left: padding,
+  top: centerY
+ });
+ img4.originX = 'left';
+ img4.originY = 'center';
+ img4.scaleToWidth(175);
+ canvas.add(img4);
 //  img4.sendToBack();
-// });
-//
-// fabric.Image.fromURL('/images/dumbo.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img5 = myImg.set({
-//    left: (padding + 75),
-//    top: (centerY - 125)
-//  });
-//  img5.originX = 'left';
-//  img5.originY = 'center';
-//  img5.scaleToWidth(150);
-//  canvas.add(img5);
-//  // img5.sendToBack();
-// });
-//
-// fabric.Image.fromURL('/images/dumbo-rev.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img8 = myImg.set({
-//    left: (pageWidth - 480),
-//    top: (padding + 100)
-//  });
-//  img8.scaleToWidth(140);
-//  canvas.add(img8);
+});
+
+fabric.Image.fromURL('/images/unicorn2.jpeg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img5 = myImg.set({
+  left: padding,
+  top: centerY
+ });
+ img5.originX = 'left';
+ img5.originY = 'center';
+ img5.scaleToWidth(150);
+ canvas.add(img5);
+ // img5.sendToBack();
+});
+
+fabric.Image.fromURL('/images/unicorn3.jpeg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img8 = myImg.set({
+  left: padding,
+  top: centerY
+ });
+ img8.originX = 'left';
+ img8.originY = 'center';
+ img8.scaleToWidth(140);
+ canvas.add(img8);
 //  img8.sendToBack();
-// });
-//
-//
-// fabric.Image.fromURL('/images/dumbo.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img1 = myImg.set({
-//    left: (centerX),
-//    top: (centerY)
-//  });
-//  img1.originX = 'left';
-//  img1.originY = 'bottom';
-//  img1.scaleToWidth(200);
-//  canvas.add(img1);
+});
+
+
+fabric.Image.fromURL('/images/unicorn4.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img1 = myImg.set({
+  left: padding,
+  top: centerY
+ });
+ img1.originX = 'left';
+ img1.originY = 'center';
+ img1.scaleToWidth(200);
+ canvas.add(img1);
 //  img1.sendToBack();
-// });
-//
-//
-// fabric.Image.fromURL('/images/scotland5.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img2 = myImg.set({
-//    left: padding + 100,
-//    top: centerY - 100
-//  });
-//  img2.originX = 'left';
-//  img2.originY = 'center';
-//  img2.scaleToWidth(100);
-//  canvas.add(img2);
-//  // img2.sendToBack();
-// });
+});
 
-// fabric.Image.fromURL('/images/scotland6.jpg', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img2 = myImg.set({
-//    left:  (padding + 75),
-//    top: (centerY - 75)
-//  });
-//  img2.originX = 'left';
-//  img2.originY = 'center';
-//  img2.scaleToWidth(175);
-//  canvas.add(img2);
-//  // img2.sendToBack();
-// });
 
-// fabric.Image.fromURL('/images/scotland7.png', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img2 = myImg.set({
-//    left: (pageWidth - 400),
-//    top: (padding + 50)
-//  });
-//  img2.originX = 'left';
-//  img2.originY = 'top';
-//  img2.scaleToWidth(70);
-//  canvas.add(img2);
+fabric.Image.fromURL('/images/unicorn5.jpg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+  left: padding,
+  top: centerY
+ });
+ img2.originX = 'left';
+ img2.originY = 'center';
+ img2.scaleToWidth(100);
+ canvas.add(img2);
+ // img2.sendToBack();
+});
+
+fabric.Image.fromURL('/images/unicorn6.jpeg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+  left: padding,
+  top: centerY
+ });
+ img2.originX = 'left';
+ img2.originY = 'center';
+ img2.scaleToWidth(175);
+ canvas.add(img2);
+ // img2.sendToBack();
+});
+
+fabric.Image.fromURL('/images/unicorn7.jpeg', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+  left: padding,
+  top: centerY
+ });
+ img2.originX = 'left';
+ img2.originY = 'center';
+ img2.scaleToWidth(90);
+ canvas.add(img2);
 //  img2.sendToBack();
-// });
-//
-// fabric.Image.fromURL('/images/scotland8.jpg', function(myImg) {
-//  //i create an extra var for to change some image properties
-//  var img2 = myImg.set({
-//    left: (pageWidth - 100),
-//    top: (padding + 50)
-//  });
-//  img2.originX = 'left';
-//  img2.originY = 'top';
-//  img2.scaleToWidth(130);
-//  canvas.add(img2);
+});
+
+fabric.Image.fromURL('/images/unicorn8.png', function(myImg) {
+ //i create an extra var for to change some image properties
+ var img2 = myImg.set({
+  left: padding,
+  top: centerY
+ });
+ img2.originX = 'left';
+ img2.originY = 'center';
+ img2.scaleToWidth(130);
+ canvas.add(img2);
 //  img2.sendToBack();
-// });
+});
+
+//ALL OVER THE PLACE
+// fabric.Image.fromURL('/images/unicorn1.jpeg', function(myImg) {
+//   //i create an extra var for to change some image properties
+//   var img4 = myImg.set({
+//     left: pageWidth - 325,
+//     top: (pageHeight - 50)
+//   });
+//   img4.originX = 'right';
+//   img4.originY = 'bottom';
+//   img4.scaleToWidth(175);
+//   canvas.add(img4);
+//   img4.sendToBack();
+//  });
+ 
+//  fabric.Image.fromURL('/images/unicorn2.jpeg', function(myImg) {
+//   //i create an extra var for to change some image properties
+//   var img5 = myImg.set({
+//     left: (padding + 450),
+//     top: (pageHeight - 225)
+//   });
+//   img5.originX = 'left';
+//   img5.originY = 'center';
+//   img5.scaleToWidth(150);
+//   canvas.add(img5);
+//   // img5.sendToBack();
+//  });
+ 
+//  fabric.Image.fromURL('/images/unicorn3.jpeg', function(myImg) {
+//   //i create an extra var for to change some image properties
+//   var img8 = myImg.set({
+//    left: (padding + 550),
+//    top: (pageHeight - 375)
+//   });
+//   img8.scaleToWidth(140);
+//   canvas.add(img8);
+//   img8.sendToBack();
+//  });
+ 
+ 
+//  fabric.Image.fromURL('/images/unicorn4.png', function(myImg) {
+//   //i create an extra var for to change some image properties
+//   var img1 = myImg.set({
+//    left: (pageWidth - 680),
+//    top: (pageHeight - 100)
+//   });
+//   img1.originX = 'left';
+//   img1.originY = 'bottom';
+//   img1.scaleToWidth(200);
+//   canvas.add(img1);
+//   img1.sendToBack();
+//  });
+ 
+ 
+//  fabric.Image.fromURL('/images/unicorn5.jpg', function(myImg) {
+//   //i create an extra var for to change some image properties
+//   var img2 = myImg.set({
+//     left: padding + 100,
+//     top: centerY - 100
+//   });
+//   img2.originX = 'left';
+//   img2.originY = 'center';
+//   img2.scaleToWidth(100);
+//   canvas.add(img2);
+//   // img2.sendToBack();
+//  });
+ 
+//  fabric.Image.fromURL('/images/unicorn6.jpeg', function(myImg) {
+//   //i create an extra var for to change some image properties
+//   var img2 = myImg.set({
+//     left:  (padding + 75),
+//     top: (centerY - 75)
+//   });
+//   img2.originX = 'left';
+//   img2.originY = 'center';
+//   img2.scaleToWidth(175);
+//   canvas.add(img2);
+//   // img2.sendToBack();
+//  });
+ 
+//  fabric.Image.fromURL('/images/unicorn7.jpeg', function(myImg) {
+//   //i create an extra var for to change some image properties
+//   var img2 = myImg.set({
+//     left: (pageWidth - 450),
+//     top: (padding + 20)
+//   });
+//   img2.originX = 'left';
+//   img2.originY = 'top';
+//   img2.scaleToWidth(90);
+//   canvas.add(img2);
+//   img2.sendToBack();
+//  });
+ 
+//  fabric.Image.fromURL('/images/unicorn8.png', function(myImg) {
+//   //i create an extra var for to change some image properties
+//   var img2 = myImg.set({
+//    left: (pageWidth - 600),
+//    top: (padding + 20)
+//   });
+//   img2.originX = 'left';
+//   img2.originY = 'top';
+//   img2.scaleToWidth(130);
+//   canvas.add(img2);
+//   img2.sendToBack();
+//  });
+
 
 // fabric.Image.fromURL('/images/cat8.jpg', function(myImg) {
 //  //i create an extra var for to change some image properties
@@ -409,7 +517,7 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 //  canvas.add(img2);
 //  img2.sendToBack();
 // });
-//
+
 // fabric.Image.fromURL('/images/cat9.jpg', function(myImg) {
 //  //i create an extra var for to change some image properties
 //  var img2 = myImg.set({

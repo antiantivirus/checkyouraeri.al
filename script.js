@@ -103,7 +103,7 @@ function checkTime() {
    // document.getElementById('join-arts-club').style.display = "none";
  };
  if (CurrentDate.isAfter('2021-04-09T16:00:00')) {
-   live = 'blair mitchell';
+   live = 'blair';
   };
   if (CurrentDate.isAfter('2021-04-09T17:00:00')) {
    live = 'blush';
