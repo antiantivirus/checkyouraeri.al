@@ -33,7 +33,7 @@ if (window.innerWidth > 1500) {
 // create a wrapper around native canvas element (with id="c")
 var canvas = new fabric.Canvas('c');
 
-var skybound = new fabric.IText("sky-bound sounds from the north", {
+var skybound = new fabric.IText("magical 🦄🦄 from the north", {
   fontFamily: 'Arial Narrow',
   fontStyle: 'italic',
   fill: '#FFFFFF',
@@ -79,6 +79,7 @@ var schedule = new fabric.IText(
   originY: 'bottom',
   scaleX: scale,
   scaleY: scale
+
 });
 
 // var schedule = new fabric.IText(
@@ -127,7 +128,7 @@ var group = new fabric.Group([ circle, text ], {
 canvas.add(group);
 
 
-var community = new fabric.IText('community \nradio \n is \nsick\n get involved →', {
+var community = new fabric.IText('unicorns\nare\nsick\nget involved →', {
   fontFamily: 'Arial Narrow',
   fill: 'white',
   fontSize: h3,
@@ -280,18 +281,31 @@ fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
   svgData.scaleToHeight(50);
 });
 
-fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
- //i create an extra var for to change some image properties
- var img3 = myImg.set({
+fabric.Image.fromURL('/images/unicorn3.jpeg', function(myImg) {
+  //i create an extra var for to change some image properties
+  var img8 = myImg.set({
    left: padding,
    top: centerY
+  });
+  img8.originX = 'left';
+  img8.originY = 'center';
+  img8.scaleToWidth(140);
+  canvas.add(img8);
+  img8.sendToBack();
  });
- img3.originX = 'left';
- img3.originY = 'center';
- img3.scaleToHeight(200);
- canvas.add(img3);
- img3.sendToBack();
-});
+
+fabric.Image.fromURL('/images/unicorn10.jpeg', function(myImg) {
+  //i create an extra var for to change some image properties
+  var img20 = myImg.set({
+   left: padding,
+   top: (centerY - 15)
+  });
+  img20.originX = 'left';
+  img20.originY = 'center';
+  img20.scaleToWidth(130);
+  canvas.add(img20);
+  img20.sendToBack();
+ });
 
 fabric.Image.fromURL('/images/unicorn1.jpeg', function(myImg) {
  //i create an extra var for to change some image properties
@@ -303,7 +317,7 @@ fabric.Image.fromURL('/images/unicorn1.jpeg', function(myImg) {
  img4.originY = 'center';
  img4.scaleToWidth(175);
  canvas.add(img4);
-//  img4.sendToBack();
+ img4.sendToBack();
 });
 
 fabric.Image.fromURL('/images/unicorn2.jpeg', function(myImg) {
@@ -316,21 +330,10 @@ fabric.Image.fromURL('/images/unicorn2.jpeg', function(myImg) {
  img5.originY = 'center';
  img5.scaleToWidth(150);
  canvas.add(img5);
- // img5.sendToBack();
+ img5.sendToBack();
 });
 
-fabric.Image.fromURL('/images/unicorn3.jpeg', function(myImg) {
- //i create an extra var for to change some image properties
- var img8 = myImg.set({
-  left: padding,
-  top: centerY
- });
- img8.originX = 'left';
- img8.originY = 'center';
- img8.scaleToWidth(140);
- canvas.add(img8);
-//  img8.sendToBack();
-});
+
 
 
 fabric.Image.fromURL('/images/unicorn4.png', function(myImg) {
@@ -343,7 +346,7 @@ fabric.Image.fromURL('/images/unicorn4.png', function(myImg) {
  img1.originY = 'center';
  img1.scaleToWidth(200);
  canvas.add(img1);
-//  img1.sendToBack();
+ img1.sendToBack();
 });
 
 
@@ -357,7 +360,7 @@ fabric.Image.fromURL('/images/unicorn5.jpg', function(myImg) {
  img2.originY = 'center';
  img2.scaleToWidth(100);
  canvas.add(img2);
- // img2.sendToBack();
+ img2.sendToBack();
 });
 
 fabric.Image.fromURL('/images/unicorn6.jpeg', function(myImg) {
@@ -370,7 +373,7 @@ fabric.Image.fromURL('/images/unicorn6.jpeg', function(myImg) {
  img2.originY = 'center';
  img2.scaleToWidth(175);
  canvas.add(img2);
- // img2.sendToBack();
+ img2.sendToBack();
 });
 
 fabric.Image.fromURL('/images/unicorn7.jpeg', function(myImg) {
@@ -383,21 +386,10 @@ fabric.Image.fromURL('/images/unicorn7.jpeg', function(myImg) {
  img2.originY = 'center';
  img2.scaleToWidth(90);
  canvas.add(img2);
-//  img2.sendToBack();
+ img2.sendToBack();
 });
 
-fabric.Image.fromURL('/images/unicorn8.png', function(myImg) {
- //i create an extra var for to change some image properties
- var img2 = myImg.set({
-  left: (padding + 20),
-  top: (centerY - 15)
-});
- img2.originX = 'left';
- img2.originY = 'center';
- img2.scaleToWidth(100);
- canvas.add(img2);
-//  img2.sendToBack();
-});
+
 
 fabric.Image.fromURL('/images/unicorn9.jpeg', function(myImg) {
   //i create an extra var for to change some image properties
@@ -409,21 +401,10 @@ fabric.Image.fromURL('/images/unicorn9.jpeg', function(myImg) {
   img2.originY = 'center';
   img2.scaleToWidth(130);
   canvas.add(img2);
- //  img2.sendToBack();
+  img2.sendToBack();
  });
 
- fabric.Image.fromURL('/images/unicorn10.jpeg', function(myImg) {
-  //i create an extra var for to change some image properties
-  var img20 = myImg.set({
-   left: padding,
-   top: (centerY - 15)
-  });
-  img20.originX = 'left';
-  img20.originY = 'center';
-  img20.scaleToWidth(130);
-  canvas.add(img20);
-  img20.bringToFront();
- });
+
 
  fabric.Image.fromURL('/images/unicorn11.jpeg', function(myImg) {
   //i create an extra var for to change some image properties
@@ -435,7 +416,35 @@ fabric.Image.fromURL('/images/unicorn9.jpeg', function(myImg) {
   img2.originY = 'center';
   img2.scaleToWidth(130);
   canvas.add(img2);
- //  img2.sendToBack();
+  img2.sendToBack();
+ });
+
+ fabric.Image.fromURL('/images/unicorn8.png', function(myImg) {
+  //i create an extra var for to change some image properties
+  var img2 = myImg.set({
+   left: (padding + 20),
+   top: (centerY - 15)
+ });
+  img2.originX = 'left';
+  img2.originY = 'center';
+  img2.scaleToWidth(100);
+  canvas.add(img2);
+  img2.sendToBack();
+ });
+
+
+
+ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
+  //i create an extra var for to change some image properties
+  var img3 = myImg.set({
+    left: padding,
+    top: centerY
+  });
+  img3.originX = 'left';
+  img3.originY = 'center';
+  img3.scaleToHeight(200);
+  canvas.add(img3);
+  img3.sendToBack();
  });
 
 //ALL OVER THE PLACE
@@ -584,6 +593,10 @@ var arts = new fabric.IText(
   scaleX: scale,
   scaleY: scale
 });
+
+
+//bring schedule to front
+canvas.bringToFront(schedule)
 
 
 // customise it baby
