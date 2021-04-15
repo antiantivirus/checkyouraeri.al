@@ -280,6 +280,20 @@ fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
   svgData.scaleToHeight(50);
 });
 
+
+fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
+  //i create an extra var for to change some image properties
+  var img3 = myImg.set({
+    left: padding,
+    top: centerY
+  });
+  img3.originX = 'left';
+  img3.originY = 'center';
+  img3.scaleToHeight(200);
+  canvas.add(img3);
+  img3.sendToBack();
+ });
+
 // fabric.Image.fromURL('/images/unicorn3.jpeg', function(myImg) {
 //   //i create an extra var for to change some image properties
 //   var img8 = myImg.set({
@@ -433,18 +447,6 @@ fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
 
 
 
-//  fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
-//   //i create an extra var for to change some image properties
-//   var img3 = myImg.set({
-//     left: padding,
-//     top: centerY
-//   });
-//   img3.originX = 'left';
-//   img3.originY = 'center';
-//   img3.scaleToHeight(200);
-//   canvas.add(img3);
-//   img3.sendToBack();
-//  });
 
 //ALL OVER THE PLACE
 // fabric.Image.fromURL('/images/unicorn1.jpeg', function(myImg) {
