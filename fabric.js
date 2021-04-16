@@ -67,7 +67,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 16.04.2021 ✳︎\n1400 — warp and weft\n1500 — gloam\n1700 — let's meet in the beautiful and new decade (r)\n1600 — divine inferno w/ subterra\n1900 — terrace 2\n2000 — hyperdome invites LEINAD\n2200 — .CORPSE: lockdown sessions\n2300 — J.YOUNG\n0000 — PIPE", {
+  "✳︎ schedule 16.04.2021 ✳︎\n1400 — warp and weft\n1500 — gloam (r)\n1700 — let's meet in the beautiful and new decade (r)\n1800 — divine inferno w/ subterra\n1900 — terrace 2\n2000 — hyperdome invites LEINAD\n2200 — .CORPSE: lockdown sessions\n2300 — J.YOUNG\n0000 — PIPE", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -127,7 +127,7 @@ var group = new fabric.Group([ circle, text ], {
 canvas.add(group);
 
 
-var community = new fabric.IText('community radio\nis\nsick\nget involved →', {
+var community = new fabric.IText('community\nradio\nis\nsick\nget involved →', {
   fontFamily: 'Arial Narrow',
   fill: 'white',
   fontSize: h3,

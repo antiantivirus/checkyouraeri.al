@@ -54,27 +54,15 @@ for (let i = 0; i < listen.length; i++) {
 
 //schedule
 
-// 1200 — the good morning telephone service
-// 1330 — st. salmon
 // 1400 — warp and weft
-// 1500 — aimé
-// 1700 — blush
-// 1800 — the placid howff
-// 1900 — in flight w/ iced gem
-// 2000 — THETAMORPH (r)
-// 2100 — kavari
-// 2200 — 『82.99 F.M』
-
-// 1100 — star suite
-// 1300 — discolour(ed)
-// 1400 — doyoudre.am
-// 1600 — blair mitchell
-// 1700 — blush
-// 1800 — novy mir
-// 2000 — thawing w/ xivro
-// 2100 — bleep clique
-// 2200 — from the vaults to the skies
-// 2300 — THE REAL NEED 4 SPEED
+// 1500 — gloam (r)
+// 1700 — let's meet in the beautiful and new decade (r)
+// 1800 — divine inferno w/ subterra
+// 1900 — terrace 2
+// 2000 — hyperdome invites LEINAD
+// 2200 — .CORPSE: lockdown sessions
+// 2300 — J.YOUNG
+// 0000 — PIPE
 
 
 function checkTime() {
@@ -86,44 +74,41 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2021-04-09T00:00:00')) {
+  if (CurrentDate.isAfter('2021-04-16T00:00:00')) {
     isItLive = ''
-    live = "live from 1100 GMT :)";
+    live = "live from 1400 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-04-09T11:00:00')) {
+  if (CurrentDate.isAfter('2021-04-16T14:00:00')) {
     isItLive = 'live now:'
-    live = "star suite";
+    live = "warp and weft";
   };
-   if (CurrentDate.isAfter('2021-04-09T13:00:00')) {
-    live = "discolour(ed)";
+   if (CurrentDate.isAfter('2021-04-16T15:00:00')) {
+    live = "gloam (r)";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2021-04-09T14:00:00')) {
-   live = "doyoudre.am";
+  if (CurrentDate.isAfter('2021-04-16T17:00:00')) {
+   live = "let's meet in the beautiful and new decade (r)";
    // document.getElementById('join-arts-club').style.display = "none";
  };
- if (CurrentDate.isAfter('2021-04-09T16:00:00')) {
-   live = 'blair';
+ if (CurrentDate.isAfter('2021-04-16T18:00:00')) {
+   live = 'divine inferno w/ subterra';
   };
-  if (CurrentDate.isAfter('2021-04-09T17:00:00')) {
-   live = 'blush';
+  if (CurrentDate.isAfter('2021-04-16T19:00:00')) {
+   live = 'terrace 2';
   };
-  if (CurrentDate.isAfter('2021-04-09T18:00:00')) {
-   live = 'novy mir';
+  if (CurrentDate.isAfter('2021-04-16T20:00:00')) {
+   live = 'hyperdome invites LEINAD';
   };
-  if (CurrentDate.isAfter('2021-04-09T20:00:00')) {
-   live = 'thawing w/ xivro' ;
+  if (CurrentDate.isAfter('2021-04-16T22:00:00')) {
+   live = '.CORPSE: lockdown sessions' ;
   };
-  if (CurrentDate.isAfter('2021-04-09T21:00:00')) {
-   live = 'bleep clique';
+  if (CurrentDate.isAfter('2021-04-16T23:00:00')) {
+   live = 'J.YOUNG';
   };
-  if (CurrentDate.isAfter('2021-04-09T22:00:00')) {
-   live = 'from the vaults to the skies';
+  if (CurrentDate.isAfter('2021-04-17T00:00:00')) {
+   live = 'PIPE';
   };
-  if (CurrentDate.isAfter('2021-04-09T23:00:00')) {
-    live = 'THE REAL NEED 4 SPEED';
-   };
-  if (CurrentDate.isAfter('2021-04-10T00:00:00')) {
+  if (CurrentDate.isAfter('2021-04-17T01:00:00')) {
     live = 'back on friday :)';
   };
   // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
