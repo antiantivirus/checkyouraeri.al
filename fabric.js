@@ -67,7 +67,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 23.04.2021 ✳︎1000 — spital selectors\n1200 — downtown arts club\n1300 — discolour(ed)\n1400 — other scapes\n1500 — MOTHERLAND\n1700 — spin (r)\n1900 — fair play crew\n2100 — frequency bias\n2200 — bacteriocene\n2300 — broken elements w/ SMIFF", {
+  "✳︎ schedule 23.04.2021 ✳︎\n1000 — dusk till dawn: spital selectors\n1200 — downtown arts club\n1300 — discolour(ed)\n1400 — other scapes\n1500 — MOTHERLAND\n1700 — spin (r)\n1900 — fair play crew\n2100 — frequency bias\n2200 — bacteriocene\n2300 — broken elements w/ SMIFF", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
