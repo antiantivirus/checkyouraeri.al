@@ -54,15 +54,16 @@ for (let i = 0; i < listen.length; i++) {
 
 //schedule
 
-// 1400 — warp and weft
-// 1500 — gloam (r)
-// 1700 — let's meet in the beautiful and new decade (r)
-// 1800 — divine inferno w/ subterra
-// 1900 — terrace 2
-// 2000 — hyperdome invites LEINAD
-// 2200 — .CORPSE: lockdown sessions
-// 2300 — J.YOUNG
-// 0000 — PIPE
+// 1000 — spital selectors
+// 1200 — downtown arts club
+// 1300 — discolour(ed)
+// 1400 — other scapes
+// 1500 — MOTHERLAND
+// 1700 — spin (r)
+// 1900 — fair play crew
+// 2100 — frequency bias
+// 2200 — bacteriocene
+// 2300 — broken elements w/ SMIFF
 
 
 function checkTime() {
@@ -74,41 +75,44 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2021-04-16T00:00:00')) {
+  if (CurrentDate.isAfter('2021-04-23T00:00:00')) {
     isItLive = ''
-    live = "live from 1400 GMT :)";
+    live = "live from 1000 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-04-16T14:00:00')) {
+  if (CurrentDate.isAfter('2021-04-23T10:00:00')) {
     isItLive = 'live now:'
-    live = "warp and weft";
+    live = "spital selectors: dusk till dawn";
   };
-   if (CurrentDate.isAfter('2021-04-16T15:00:00')) {
-    live = "gloam (r)";
+   if (CurrentDate.isAfter('2021-04-23T12:00:00')) {
+    live = "downtown arts club";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2021-04-16T17:00:00')) {
-   live = "let's meet in the beautiful and new decade (r)";
+  if (CurrentDate.isAfter('2021-04-23T13:00:00')) {
+   live = "discolour(ed)";
    // document.getElementById('join-arts-club').style.display = "none";
  };
- if (CurrentDate.isAfter('2021-04-16T18:00:00')) {
-   live = 'divine inferno w/ subterra';
+ if (CurrentDate.isAfter('2021-04-23T14:00:00')) {
+   live = 'other scapes';
   };
-  if (CurrentDate.isAfter('2021-04-16T19:00:00')) {
-   live = 'terrace 2';
+  if (CurrentDate.isAfter('2021-04-23T15:00:00')) {
+   live = 'MOTHERLAND';
   };
-  if (CurrentDate.isAfter('2021-04-16T20:00:00')) {
-   live = 'hyperdome invites LEINAD';
+  if (CurrentDate.isAfter('2021-04-23T17:00:00')) {
+   live = 'spin (r)';
   };
-  if (CurrentDate.isAfter('2021-04-16T22:00:00')) {
-   live = '.CORPSE: lockdown sessions' ;
+  if (CurrentDate.isAfter('2021-04-23T19:00:00')) {
+   live = 'fair play crew' ;
   };
-  if (CurrentDate.isAfter('2021-04-16T23:00:00')) {
-   live = 'J.YOUNG';
+  if (CurrentDate.isAfter('2021-04-23T21:00:00')) {
+   live = 'frequency bias';
   };
-  if (CurrentDate.isAfter('2021-04-17T00:00:00')) {
-   live = 'PIPE';
+  if (CurrentDate.isAfter('2021-04-23T22:00:00')) {
+   live = 'bacteriocene';
   };
-  if (CurrentDate.isAfter('2021-04-17T01:00:00')) {
+  if (CurrentDate.isAfter('2021-04-23T23:00:00')) {
+    live = 'broken elements w/ SMIFF';
+   };
+  if (CurrentDate.isAfter('2021-04-24T00:00:00')) {
     live = 'back on friday :)';
   };
   // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {

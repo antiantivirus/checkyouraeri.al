@@ -67,7 +67,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 16.04.2021 ✳︎\n1400 — warp and weft\n1500 — gloam (r)\n1700 — let's meet in the beautiful and new decade (r)\n1800 — divine inferno w/ subterra\n1900 — terrace 2\n2000 — hyperdome invites LEINAD\n2200 — .CORPSE: lockdown sessions\n2300 — J.YOUNG\n0000 — PIPE", {
+  "✳︎ schedule 23.04.2021 ✳︎1000 — spital selectors\n1200 — downtown arts club\n1300 — discolour(ed)\n1400 — other scapes\n1500 — MOTHERLAND\n1700 — spin (r)\n1900 — fair play crew\n2100 — frequency bias\n2200 — bacteriocene\n2300 — broken elements w/ SMIFF", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
