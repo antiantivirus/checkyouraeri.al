@@ -85,11 +85,11 @@ function checkTime() {
   };
    if (CurrentDate.isAfter('2021-04-23T12:00:00')) {
     live = "downtown arts club";
-    // document.getElementById('join-arts-club').style.display = "block";
+    document.getElementById('join-arts-club').style.display = "block";
   };
   if (CurrentDate.isAfter('2021-04-23T13:00:00')) {
    live = "discolour(ed)";
-   // document.getElementById('join-arts-club').style.display = "none";
+   document.getElementById('join-arts-club').style.display = "none";
  };
  if (CurrentDate.isAfter('2021-04-23T14:00:00')) {
    live = 'other scapes';
