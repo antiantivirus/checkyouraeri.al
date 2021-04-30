@@ -248,7 +248,7 @@ a p {
 /* play-pause */
 
 .play-pause {
-  background-image: url('/images/play.svg');
+  background-image: url('/images/play-white.svg');
   background-repeat: no-repeat;
   background-size: 30px 30px;
   background-position: 10px center;
@@ -257,8 +257,26 @@ a p {
 }
 
 .listening {
-  background-image: url('/images/pause.svg') !important;
+  background-image: url('/images/pause-white.svg') !important;
   margin-left: 0px !important;
+}
+
+@media only screen and (min-width: 992px) {
+
+  .play-pause {
+    background-image: url('/images/play.svg');
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px center;
+    cursor: pointer;
+    z-index: 99999;
+  }
+
+  .listening {
+    background-image: url('/images/pause.svg') !important;
+    margin-left: 0px !important;
+  }
+
 }
 
 .full-height {

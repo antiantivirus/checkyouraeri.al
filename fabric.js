@@ -51,7 +51,7 @@ var skybound = new fabric.IText("celebaring 25 years of subcity radio", {
 
 canvas.add(skybound);
 
-var about = new fabric.IText("subcity and aerial exchange airwaves\nfor the mayday weekend. thanks for tuning in <3.", {
+var about = new fabric.IText("subcity and aerial exchange\nairwaves for the may day weekend.\nthanks for tuning in <3.", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h3,
