@@ -74,6 +74,15 @@ for (let i = 0; i < listen.length; i++) {
 // 2100 ✳︎ KAVARI
 // 2200 ✳︎『82.99 F.M』
 
+// 1200 → outpost dangoma<br>
+// 1300 → a drop of scotch<br>
+// 1400 → body parts<br>
+// 1500 → through murshiel gap<br>
+// 1600 → subcity x aerial podcast hour<br>
+// 1700 → murmuru<br>
+// 1800 → practice good practice<br>
+// 1900 → quto
+
 
 function checkTime() {
 
@@ -81,44 +90,47 @@ function checkTime() {
 
   console.log(CurrentDate);
 
-  var live = "";
-  var isItLive = 'back on friday :)';
+  var live = "subcity x aerial radio exchange live from 1200 GMT :)";
+  var isItLive = '';
 
-  if (CurrentDate.isAfter('2021-04-30T00:00:00')) {
+  if (CurrentDate.isAfter('2021-05-01T00:00:00')) {
     isItLive = ''
-    live = "live from 1445 GMT :)";
+    live = "subcity x aerial radio exchange live from 1200 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-04-30T14:45:00')) {
+  if (CurrentDate.isAfter('2021-05-01T12:00:00')) {
     isItLive = 'live now:'
-    live = "st. salmon";
+    live = "outpost dangoman";
   };
-   if (CurrentDate.isAfter('2021-04-30T15:00:00')) {
-    live = "fair play crew";
+   if (CurrentDate.isAfter('2021-05-01T13:00:00')) {
+    live = "a drop of scotch";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2021-04-30T18:00:00')) {
-   live = 'the placid howff';
+  if (CurrentDate.isAfter('2021-05-01T14:00:00')) {
+   live = 'body parts';
   };
-  if (CurrentDate.isAfter('2021-04-30T19:00:00')) {
-   live = 'other scapes (r)';
+  if (CurrentDate.isAfter('2021-05-01T15:00:00')) {
+   live = 'through murshiel gap';
   };
-  if (CurrentDate.isAfter('2021-04-30T21:00:00')) {
-   live = 'KAVARI';
+  if (CurrentDate.isAfter('2021-05-01T16:00:00')) {
+   live = 'subcity x aerial podcast hour';
   };
-  if (CurrentDate.isAfter('2021-04-30T22:00:00')) {
-   live = '『82.99 F.M』' ;
+  if (CurrentDate.isAfter('2021-05-01T17:00:00')) {
+   live = 'murmuru' ;
   };
-  // if (CurrentDate.isAfter('2021-04-23T21:00:00')) {
-  //  live = 'frequency bias';
-  // };
-  // if (CurrentDate.isAfter('2021-04-23T22:00:00')) {
-  //  live = 'bacteriocene';
-  // };
+  if (CurrentDate.isAfter('2021-05-01T18:00:00')) {
+   live = 'practice good practice';
+  };
+  if (CurrentDate.isAfter('2021-05-01T19:00:00')) {
+   live = 'quto';
+  };
   // if (CurrentDate.isAfter('2021-04-23T23:00:00')) {
   //   live = 'broken elements w/ SMIFF';
   //  };
-  if (CurrentDate.isAfter('2021-04-31T00:00:00')) {
-    live = 'subcity x aerial community radio ! coming to ears very soon !';
+  if (CurrentDate.isAfter('2021-05-01T20:00:00')) {
+    live = 'thanks to subcity for that lovely broadcast <3 tune in on subcity.org tomorrow from 1200 GMT as the takeover continues';
+  };
+  if (CurrentDate.isAfter('2021-05-01T00:00:00')) {
+    live = 'subcity x aerial radio exchange live from 1200 GMT over on subcity.org :)';
   };
   // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
   //  live = 'back on friday :)';

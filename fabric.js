@@ -18,7 +18,7 @@ var h4 = 20;
 var h5 = 18;
 var padding = 50;
 
-var purple = '#4cbdcc';
+var purple = '#e3e030';
 var lightPurple = '#eef';
 
 if (window.innerWidth > 1500) {
@@ -33,13 +33,14 @@ if (window.innerWidth > 1500) {
 // create a wrapper around native canvas element (with id="c")
 var canvas = new fabric.Canvas('c');
 
-var skybound = new fabric.IText("sky—bound sounds from the north", {
+var skybound = new fabric.IText("celebaring 25 years of subcity radio", {
   fontFamily: 'Arial Narrow',
   fontStyle: 'italic',
   fill: '#FFFFFF',
   fontSize: h1,
   left: centerX,
   top: 100,
+  shadow: 'rgba(0,0,0,0.3) 5px 5px 5px',
   originX: 'center',
   originY: 'center',
   scaleX: scale,
@@ -50,13 +51,12 @@ var skybound = new fabric.IText("sky—bound sounds from the north", {
 
 canvas.add(skybound);
 
-var about = new fabric.IText("aerial is an independent internet-based\ncommunity radio broadcasting\nfrom aberdeen, scotland.", {
+var about = new fabric.IText("subcity and aerial exchange\nairwaves for the may day weekend.\nthanks for tuning in <3.", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h3,
   top: (100 + padding),
   left: padding,
-  shadow: 'rgba(0,0,0,0.3) 5px 5px 5px',
   originX: 'left',
   originY: 'top',
   scaleX: scale,
@@ -66,9 +66,8 @@ var about = new fabric.IText("aerial is an independent internet-based\ncommunity
 canvas.add(about);
 
 
-
 var schedule = new fabric.IText(
-  "✳︎ schedule 30.04.2021 ✳︎\n1445 → st. salmon\n1500 → fair play crew\n1800 → the placid howff\n1900 → other scapes (r)\n2100 → KAVARI\n2200 →『82.99 F.M", {
+  "✳︎ schedule 01.05.2021 ✳︎\n1200 → outpost dangoma\n1300 → a drop of scotch\n1400 → body parts\n1500 → through murshiel gap\n1600 → subcity x aerial podcast hour\n1700 → murmuru\n1800 → practice good practice\n1900 → quto", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -125,10 +124,10 @@ var group = new fabric.Group([ circle, text ], {
   scaleY: scale
 });
 
-canvas.add(group);
+// canvas.add(group);
 
 
-var community = new fabric.IText('community\nradio\nis\nsick\nget involved →', {
+var community = new fabric.IText('subcity\nis\nsick →', {
   fontFamily: 'Arial Narrow',
   fill: 'white',
   fontSize: h3,
@@ -142,7 +141,7 @@ var community = new fabric.IText('community\nradio\nis\nsick\nget involved →',
 
 
 community.on('selected', function() {
-    window.open("/get-involved");
+    window.open("https://subcity.org/");
 })
 
 canvas.add(community);
@@ -229,7 +228,7 @@ twitter.on('selected', function() {
 
 canvas.add(twitter);
 
-fabric.loadSVGFromURL('/images/check-your-aerial.svg',function(objects, options){
+fabric.loadSVGFromURL('/images/check-your-subcity.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = padding;
   svgData.left = (pageWidth - padding);
@@ -251,7 +250,7 @@ fabric.loadSVGFromURL('/images/aerial-comp.svg',function(objects, options){
   svgData.scaleToHeight(100);
 });
 
-fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
+fabric.loadSVGFromURL('/images/subcity-logo.svg?v=2',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = 300;
   svgData.left = (pageWidth - 300);
@@ -261,7 +260,7 @@ fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
   svgData.scaleToHeight(50);
 });
 
-fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
+fabric.loadSVGFromURL('/images/subcity-logo.svg?v=2',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = (pageHeight - 100);
   svgData.left = (pageWidth - 150);
@@ -271,7 +270,7 @@ fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
   svgData.scaleToHeight(50);
 });
 
-fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
+fabric.loadSVGFromURL('/images/subcity-logo.svg?v=2',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = (centerY + 25);
   svgData.left = 450;
@@ -291,6 +290,21 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
   img3.originX = 'left';
   img3.originY = 'center';
   img3.scaleToHeight(200);
+  canvas.add(img3);
+  img3.sendToBack();
+ });
+
+ fabric.Image.fromURL('/images/aerialxsubcity-sticker.png', function(myImg) {
+  //i create an extra var for to change some image properties
+  var img3 = myImg.set({
+    left: padding,
+    top: padding - 25,
+    angle: -10,
+  });
+  img3.originX = 'left';
+  img3.originY = 'top';
+
+  img3.scaleToHeight(150);
   canvas.add(img3);
   img3.sendToBack();
  });
