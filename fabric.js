@@ -50,7 +50,7 @@ var skybound = new fabric.IText("sky—bound sounds from the north", {
 
 canvas.add(skybound);
 
-var about = new fabric.IText("aerial is an independent internet-based community radio\nbroadcasting from aberdeen, scotland.", {
+var about = new fabric.IText("aerial is an independent internet-based community\nradio broadcasting from aberdeen, scotland.", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h3,
