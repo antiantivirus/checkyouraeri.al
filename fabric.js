@@ -298,7 +298,7 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
   //i create an extra var for to change some image properties
   var img3 = myImg.set({
     left: padding,
-    top: padding - 25,
+    top: padding - 15,
     angle: -10,
   });
   img3.originX = 'left';
@@ -617,7 +617,7 @@ canvas.bringToFront(schedule)
 
 // customise it baby
 canvas.selectionColor = 'rgba(238, 238, 255, 0.25)';
-canvas.selectionBorderColor = '#4CBDCC';
+canvas.selectionBorderColor = '#e3e030';
 canvas.objectCaching = false;
 
 
