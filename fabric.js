@@ -66,9 +66,8 @@ var about = new fabric.IText("subcity and aerial exchange airwaves\nfor the mayd
 canvas.add(about);
 
 
-
 var schedule = new fabric.IText(
-  "✳︎ schedule 30.04.2021 ✳︎\n1445 → st. salmon\n1500 → fair play crew\n1800 → the placid howff\n1900 → other scapes (r)\n2100 → KAVARI\n2200 →『82.99 F.M", {
+  "✳︎ schedule 01.05.2021 ✳︎\n1200 → outpost dangoma\n1300 → a drop of scotch\n1400 → body parts\n1500 → through murshiel gap\n1600 → subcity x aerial podcast hour\n1700 → murmuru\n1800 → practice good practice\n1900 → quto", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
