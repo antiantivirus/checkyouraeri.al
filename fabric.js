@@ -66,8 +66,9 @@ var about = new fabric.IText("aerial is an independent internet-based community 
 canvas.add(about);
 
 
+
 var schedule = new fabric.IText(
-  "✳︎ schedule 23.04.2021 ✳︎\n1000 — dusk till dawn: spital selectors\n1200 — downtown arts club\n1300 — discolour(ed)\n1400 — other scapes\n1500 — MOTHERLAND\n1700 — spin (r)\n1900 — fair play crew\n2100 — frequency bias\n2200 — bacteriocene\n2300 — broken elements w/ SMIFF", {
+  "✳︎ schedule 30.04.2021 ✳︎\n1445 ✳︎ st. salmon\n1500 ✳︎ fair play crew\n1800 ✳︎ the placid howff\n1900 ✳︎ other scapes (r)\n2100 ✳︎ KAVARI\n2200 ✳︎『82.99 F.M", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -461,7 +462,7 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 //   canvas.add(img4);
 //   img4.sendToBack();
 //  });
- 
+
 //  fabric.Image.fromURL('/images/unicorn2.jpeg', function(myImg) {
 //   //i create an extra var for to change some image properties
 //   var img5 = myImg.set({
@@ -474,7 +475,7 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 //   canvas.add(img5);
 //   // img5.sendToBack();
 //  });
- 
+
 //  fabric.Image.fromURL('/images/unicorn3.jpeg', function(myImg) {
 //   //i create an extra var for to change some image properties
 //   var img8 = myImg.set({
@@ -485,8 +486,8 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 //   canvas.add(img8);
 //   img8.sendToBack();
 //  });
- 
- 
+
+
 //  fabric.Image.fromURL('/images/unicorn4.png', function(myImg) {
 //   //i create an extra var for to change some image properties
 //   var img1 = myImg.set({
@@ -499,8 +500,8 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 //   canvas.add(img1);
 //   img1.sendToBack();
 //  });
- 
- 
+
+
 //  fabric.Image.fromURL('/images/unicorn5.jpg', function(myImg) {
 //   //i create an extra var for to change some image properties
 //   var img2 = myImg.set({
@@ -513,7 +514,7 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 //   canvas.add(img2);
 //   // img2.sendToBack();
 //  });
- 
+
 //  fabric.Image.fromURL('/images/unicorn6.jpeg', function(myImg) {
 //   //i create an extra var for to change some image properties
 //   var img2 = myImg.set({
@@ -526,7 +527,7 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 //   canvas.add(img2);
 //   // img2.sendToBack();
 //  });
- 
+
 //  fabric.Image.fromURL('/images/unicorn7.jpeg', function(myImg) {
 //   //i create an extra var for to change some image properties
 //   var img2 = myImg.set({
@@ -539,7 +540,7 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
 //   canvas.add(img2);
 //   img2.sendToBack();
 //  });
- 
+
 //  fabric.Image.fromURL('/images/unicorn8.png', function(myImg) {
 //   //i create an extra var for to change some image properties
 //   var img2 = myImg.set({
