@@ -616,7 +616,7 @@ canvas.bringToFront(schedule)
 
 
 // customise it baby
-canvas.selectionColor = 'rgba(238, 238, 255, 0.25)';
+canvas.selectionColor = '#e3e030';
 canvas.selectionBorderColor = '#e3e030';
 canvas.objectCaching = false;
 
