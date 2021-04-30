@@ -264,7 +264,7 @@ a p {
 @media only screen and (min-width: 992px) {
 
   .play-pause {
-    background-image: url('/images/play.svg');
+    background-image: url('/images/play0.svg');
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: 10px center;
@@ -273,7 +273,7 @@ a p {
   }
 
   .listening {
-    background-image: url('/images/pause.svg') !important;
+    background-image: url('/images/pause0.svg') !important;
     margin-left: 0px !important;
   }
 

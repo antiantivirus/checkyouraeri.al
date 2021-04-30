@@ -127,9 +127,9 @@ function checkTime() {
   //   live = 'broken elements w/ SMIFF';
   //  };
   if (CurrentDate.isAfter('2021-05-01T20:00:00')) {
-    live = 'thanks to subcity for that lovely broadcast <3 tune in on subcity.org tomorrow from 1200 GMT as the takeover continues';
+    live = 'thanks to subcity for that lovely broadcast <3 tune in on subcity.org tomorrow from 1200 GMT as the exchange continues';
   };
-  if (CurrentDate.isAfter('2021-05-01T00:00:00')) {
+  if (CurrentDate.isAfter('2021-06-01T00:00:00')) {
     live = 'subcity x aerial radio exchange live from 1200 GMT over on subcity.org :)';
   };
   // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
