@@ -228,7 +228,7 @@ twitter.on('selected', function() {
 
 canvas.add(twitter);
 
-fabric.loadSVGFromURL('/images/check-your-aerial.svg',function(objects, options){
+fabric.loadSVGFromURL('/images/check-your-subcity.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = padding;
   svgData.left = (pageWidth - padding);
