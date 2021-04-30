@@ -68,7 +68,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 30.04.2021 ✳︎\n1445 → st. salmon\n1500 → fair play crew\n1800 → the placid howff\n1900 → other scapes (r)\n2100 ✳︎ KAVARI\n2200 →『82.99 F.M", {
+  "✳︎ schedule 30.04.2021 ✳︎\n1445 → st. salmon\n1500 → fair play crew\n1800 → the placid howff\n1900 → other scapes (r)\n2100 → KAVARI\n2200 →『82.99 F.M", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
