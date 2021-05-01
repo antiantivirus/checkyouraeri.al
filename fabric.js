@@ -55,7 +55,7 @@ var about = new fabric.IText("subcity and aerial swap\nairwaves for the may day 
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h3,
-  top: (100 + padding),
+  top: (110 + padding),
   left: padding,
   originX: 'left',
   originY: 'top',
@@ -298,7 +298,7 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
   //i create an extra var for to change some image properties
   var img3 = myImg.set({
     left: padding,
-    top: padding - 15,
+    top: padding,
     angle: -10,
   });
   img3.originX = 'left';
