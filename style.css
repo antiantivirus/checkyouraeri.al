@@ -254,7 +254,6 @@ a p {
   background-position: 10px center;
   cursor: pointer;
   z-index: 99999;
-  background: transparent;
   border: 0px;
   padding: 0px;
 }
@@ -281,6 +280,7 @@ a p {
     background-position: 10px center;
     cursor: pointer;
     z-index: 99999;
+    /* background: transparent; */
   }
 
   .listening {
