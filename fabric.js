@@ -616,9 +616,18 @@ canvas.bringToFront(schedule)
 
 
 // customise it baby
-canvas.selectionColor = '#e3e030';
+canvas.selectionColor = 'rgba(227,	224,	48, 0.25)';
 canvas.selectionBorderColor = '#e3e030';
 canvas.objectCaching = false;
+
+// canvas.forEachObject(function(o){
+//   o.borderColor =  '#e3e030';
+//   o.cornerColor = '#e3e030';
+// });
+
+
+// canvas.forEachObject(function(o){ o.hasBorders = o.hasControls = false; });
+
 
 
 //arts club
@@ -708,6 +717,7 @@ function resizeCanvas() {
   console.log('resizing');
 
   //if width is greater than
+
 
 
 }
