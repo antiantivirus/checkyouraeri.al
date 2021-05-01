@@ -142,7 +142,7 @@ function checkTime() {
   // };
 
   liveNow.innerHTML = isItLive + '<marquee>' + live + '</marquee>';
-  liveNowMobile.innerHTML = '<marquee>' + isItLive + live + '</marquee>'
+  liveNowMobile.innerHTML = '<marquee>' + isItLive + ' ' + live + '</marquee>'
 
   setTimeout(checkTime, 30000);
 }

@@ -127,7 +127,7 @@ var group = new fabric.Group([ circle, text ], {
 // canvas.add(group);
 
 
-var community = new fabric.IText('subcity\nis\nsick →', {
+var community = new fabric.IText('subcity\nradio\nis\nsick →', {
   fontFamily: 'Arial Narrow',
   fill: 'white',
   fontSize: h3,
