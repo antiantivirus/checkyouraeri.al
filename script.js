@@ -90,12 +90,12 @@ function checkTime() {
 
   console.log(CurrentDate);
 
-  var live = "subcity x aerial radio exchange live from 1200 GMT :)";
+  var live = "subcity x aerial radio swap live from 1200 GMT :)";
   var isItLive = '';
 
   if (CurrentDate.isAfter('2021-05-01T00:00:00')) {
     isItLive = ''
-    live = "subcity x aerial radio exchange live from 1200 GMT :)";
+    live = "subcity x aerial radio swap live from 1200 GMT :)";
   };
   if (CurrentDate.isAfter('2021-05-01T12:00:00')) {
     isItLive = 'live now:'
