@@ -99,7 +99,7 @@ function checkTime() {
   };
   if (CurrentDate.isAfter('2021-05-01T12:00:00')) {
     isItLive = 'live now:'
-    live = "outpost dangoman";
+    live = "outpost sangoma";
   };
    if (CurrentDate.isAfter('2021-05-01T13:00:00')) {
     live = "a drop of scotch";

@@ -67,7 +67,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 01.05.2021 ✳︎\n1200 → outpost dangoma\n1300 → a drop of scotch\n1400 → body parts\n1500 → through murshiel gap\n1600 → subcity x aerial podcast hour\n1700 → murmuru\n1800 → practice good practice\n1900 → quto", {
+  "✳︎ schedule 01.05.2021 ✳︎\n1200 → outpost sangoma\n1300 → a drop of scotch\n1400 → body parts\n1500 → through murshiel gap\n1600 → subcity x aerial podcast hour\n1700 → murmuru\n1800 → practice good practice\n1900 → quto", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
