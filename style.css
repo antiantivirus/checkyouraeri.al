@@ -254,6 +254,17 @@ a p {
   background-position: 10px center;
   cursor: pointer;
   z-index: 99999;
+  background: transparent;
+  border: 0px;
+  padding: 0px;
+}
+
+.play-pause:focus {
+  outline: 0px
+}
+
+.play-pause:focus-visible {
+  outline: 2px #e3e030 solid;
 }
 
 .listening {
