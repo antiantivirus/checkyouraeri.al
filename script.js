@@ -109,7 +109,7 @@ function checkTime() {
    live = 'body parts';
   };
   if (CurrentDate.isAfter('2021-05-01T15:00:00')) {
-   live = 'through murshiel gap';
+   live = 'through muirshiel gap';
   };
   if (CurrentDate.isAfter('2021-05-01T16:00:00')) {
    live = 'subcity x aerial podcast hour';
