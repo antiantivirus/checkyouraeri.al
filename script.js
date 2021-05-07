@@ -66,22 +66,13 @@ for (let i = 0; i < listen.length; i++) {
 // 2300 — broken elements w/ SMIFF
 
 
-// 1445 ✳︎ st. salmon
-// 1500 ✳︎ fair play crew
-// 1700 ✳︎ blush (r)
-// 1800 ✳︎ the placid howff
-// 1900 ✳︎ other scapes (r)
-// 2100 ✳︎ KAVARI
-// 2200 ✳︎『82.99 F.M』
-
-// 1200 → outpost dangoma<br>
-// 1300 → a drop of scotch<br>
-// 1400 → body parts<br>
-// 1500 → through murshiel gap<br>
-// 1600 → subcity x aerial podcast hour<br>
-// 1700 → murmuru<br>
-// 1800 → practice good practice<br>
-// 1900 → quto
+// 1300 → discolour(ed)
+// 1400 → star suite
+// 1600 → blair
+// 1700 → spin records @ littlejohn st
+// 1900 → PIPE
+// 2000 → in-flight w/ frankie elyse
+// 2100 → bleep clique
 
 
 function checkTime() {
@@ -97,35 +88,37 @@ function checkTime() {
     isItLive = ''
     live = "live from 1300 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-05-07T14:45:00')) {
+  if (CurrentDate.isAfter('2021-05-07T13:00:00')) {
 
     isItLive = 'live now:'
-    live = "outpost sangoma";
+    live = "discolour(ed)";
   };
-   if (CurrentDate.isAfter('2021-05-07T15:00:00')) {
-    live = "fair play crew";
+   if (CurrentDate.isAfter('2021-05-07T14:00:00')) {
+    live = "star suite";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2021-05-07T18:00:00')) {
-   live = 'the placid howff';
+  if (CurrentDate.isAfter('2021-05-07T16:00:00')) {
+   live = 'blair';
+  };
+  if (CurrentDate.isAfter('2021-05-07T17:00:00')) {
+   live = 'spin records @ littlejohn st';
   };
   if (CurrentDate.isAfter('2021-05-07T19:00:00')) {
-   live = 'other scapes (r)';
+   live = 'PIPE';
+  };
+  if (CurrentDate.isAfter('2021-05-07T20:00:00')) {
+   live = 'in-flight w/ frankie elyse' ;
   };
   if (CurrentDate.isAfter('2021-05-07T21:00:00')) {
-   live = 'KAVARI';
-  };
-  if (CurrentDate.isAfter('2021-05-07T22:00:00')) {
-   live = '『82.99 F.M』' ;
-
+    live = 'bleep clique' ;
   };
   // if (CurrentDate.isAfter('2021-04-23T23:00:00')) {
   //   live = 'broken elements w/ SMIFF';
   //  };
 
-  // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
-  //  live = 'back on friday :)';
-  // };
+  if (CurrentDate.isAfter('2021-05-07T22:00:00')) {
+   live = 'back on friday :)';
+  };
 
   //ender :)
   // if (CurrentDate.isAfter('2021-01-16T00:00:00')) {
