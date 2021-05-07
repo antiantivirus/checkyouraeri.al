@@ -84,28 +84,28 @@ function checkTime() {
   var live = "";
   var isItLive = 'back on friday :)';
 
-  if (CurrentDate.isAfter('2021-04-30T00:00:00')) {
+  if (CurrentDate.isAfter('2021-05-07T00:00:00')) {
     isItLive = ''
-    live = "live from 1445 GMT :)";
+    live = "live from 1300 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-04-30T14:45:00')) {
+  if (CurrentDate.isAfter('2021-05-07T14:45:00')) {
     isItLive = 'live now:'
     live = "st. salmon";
   };
-   if (CurrentDate.isAfter('2021-04-30T15:00:00')) {
+   if (CurrentDate.isAfter('2021-05-07T15:00:00')) {
     live = "fair play crew";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2021-04-30T18:00:00')) {
+  if (CurrentDate.isAfter('2021-05-07T18:00:00')) {
    live = 'the placid howff';
   };
-  if (CurrentDate.isAfter('2021-04-30T19:00:00')) {
+  if (CurrentDate.isAfter('2021-05-07T19:00:00')) {
    live = 'other scapes (r)';
   };
-  if (CurrentDate.isAfter('2021-04-30T21:00:00')) {
+  if (CurrentDate.isAfter('2021-05-07T21:00:00')) {
    live = 'KAVARI';
   };
-  if (CurrentDate.isAfter('2021-04-30T22:00:00')) {
+  if (CurrentDate.isAfter('2021-05-07T22:00:00')) {
    live = '『82.99 F.M』' ;
   };
   // if (CurrentDate.isAfter('2021-04-23T21:00:00')) {
@@ -117,9 +117,6 @@ function checkTime() {
   // if (CurrentDate.isAfter('2021-04-23T23:00:00')) {
   //   live = 'broken elements w/ SMIFF';
   //  };
-  if (CurrentDate.isAfter('2021-04-31T00:00:00')) {
-    live = 'subcity x aerial community radio ! coming to ears very soon !';
-  };
   // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
   //  live = 'back on friday :)';
   // };

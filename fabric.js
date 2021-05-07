@@ -50,7 +50,7 @@ var skybound = new fabric.IText("sky—bound sounds from the north", {
 
 canvas.add(skybound);
 
-var about = new fabric.IText("aerial is an independent internet-based community radio\nbroadcasting from aberdeen, scotland.", {
+var about = new fabric.IText("aerial is an independent internet-based community\nradio broadcasting from aberdeen, scotland.", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h3,
@@ -68,7 +68,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 30.04.2021 ✳︎\n1445 ✳︎ st. salmon\n1500 ✳︎ fair play crew\n1800 ✳︎ the placid howff\n1900 ✳︎ other scapes (r)\n2100 ✳︎ KAVARI\n2200 ✳︎『82.99 F.M", {
+  "✳︎ schedule 07.05.2021 ✳︎\n1300 → discolour(ed)\n1400 → star suite\n1600 → blair\n1700 → spin records @ littlejohn st\n1900 → PIPE\n2000 → in-flight w/ frankie elyse\n2100 → bleep clique", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
