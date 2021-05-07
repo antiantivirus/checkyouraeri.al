@@ -18,7 +18,7 @@ var h4 = 20;
 var h5 = 18;
 var padding = 50;
 
-var purple = '#4cbdcc';
+var purple = '#e3e030';
 var lightPurple = '#eef';
 
 if (window.innerWidth > 1500) {
@@ -33,13 +33,14 @@ if (window.innerWidth > 1500) {
 // create a wrapper around native canvas element (with id="c")
 var canvas = new fabric.Canvas('c');
 
-var skybound = new fabric.IText("sky—bound sounds from the north", {
+var skybound = new fabric.IText("celebaring 25 years of subcity radio", {
   fontFamily: 'Arial Narrow',
   fontStyle: 'italic',
   fill: '#FFFFFF',
   fontSize: h1,
   left: centerX,
   top: 100,
+  shadow: 'rgba(0,0,0,0.3) 5px 5px 5px',
   originX: 'center',
   originY: 'center',
   scaleX: scale,
@@ -54,9 +55,8 @@ var about = new fabric.IText("aerial is an independent internet-based community\
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h3,
-  top: (100 + padding),
+  top: (110 + padding),
   left: padding,
-  shadow: 'rgba(0,0,0,0.3) 5px 5px 5px',
   originX: 'left',
   originY: 'top',
   scaleX: scale,
@@ -64,7 +64,6 @@ var about = new fabric.IText("aerial is an independent internet-based community\
 });
 
 canvas.add(about);
-
 
 
 var schedule = new fabric.IText(
@@ -125,10 +124,10 @@ var group = new fabric.Group([ circle, text ], {
   scaleY: scale
 });
 
-canvas.add(group);
+// canvas.add(group);
 
 
-var community = new fabric.IText('community\nradio\nis\nsick\nget involved →', {
+var community = new fabric.IText('subcity\nradio\nis\nsick →', {
   fontFamily: 'Arial Narrow',
   fill: 'white',
   fontSize: h3,
@@ -142,7 +141,7 @@ var community = new fabric.IText('community\nradio\nis\nsick\nget involved →',
 
 
 community.on('selected', function() {
-    window.open("/get-involved");
+    window.open("https://subcity.org/");
 })
 
 canvas.add(community);
@@ -229,7 +228,7 @@ twitter.on('selected', function() {
 
 canvas.add(twitter);
 
-fabric.loadSVGFromURL('/images/check-your-aerial.svg',function(objects, options){
+fabric.loadSVGFromURL('/images/check-your-subcity.svg',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = padding;
   svgData.left = (pageWidth - padding);
@@ -251,7 +250,7 @@ fabric.loadSVGFromURL('/images/aerial-comp.svg',function(objects, options){
   svgData.scaleToHeight(100);
 });
 
-fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
+fabric.loadSVGFromURL('/images/subcity-logo.svg?v=2',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = 300;
   svgData.left = (pageWidth - 300);
@@ -261,7 +260,7 @@ fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
   svgData.scaleToHeight(50);
 });
 
-fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
+fabric.loadSVGFromURL('/images/subcity-logo.svg?v=2',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = (pageHeight - 100);
   svgData.left = (pageWidth - 150);
@@ -271,7 +270,7 @@ fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
   svgData.scaleToHeight(50);
 });
 
-fabric.loadSVGFromURL('/images/logo.svg?v=2',function(objects, options){
+fabric.loadSVGFromURL('/images/subcity-logo.svg?v=2',function(objects, options){
   var svgData = fabric.util.groupSVGElements(objects, options);
   svgData.top = (centerY + 25);
   svgData.left = 450;
@@ -291,6 +290,21 @@ fabric.Image.fromURL('/images/aerial-1.jpg', function(myImg) {
   img3.originX = 'left';
   img3.originY = 'center';
   img3.scaleToHeight(200);
+  canvas.add(img3);
+  img3.sendToBack();
+ });
+
+ fabric.Image.fromURL('/images/aerialxsubcity-sticker.png', function(myImg) {
+  //i create an extra var for to change some image properties
+  var img3 = myImg.set({
+    left: padding,
+    top: padding,
+    angle: -10,
+  });
+  img3.originX = 'left';
+  img3.originY = 'top';
+
+  img3.scaleToHeight(150);
   canvas.add(img3);
   img3.sendToBack();
  });
@@ -602,9 +616,18 @@ canvas.bringToFront(schedule)
 
 
 // customise it baby
-canvas.selectionColor = 'rgba(238, 238, 255, 0.25)';
-canvas.selectionBorderColor = '#4CBDCC';
+canvas.selectionColor = 'rgba(227,	224,	48, 0.25)';
+canvas.selectionBorderColor = '#e3e030';
 canvas.objectCaching = false;
+
+// canvas.forEachObject(function(o){
+//   o.borderColor =  '#e3e030';
+//   o.cornerColor = '#e3e030';
+// });
+
+
+// canvas.forEachObject(function(o){ o.hasBorders = o.hasControls = false; });
+
 
 
 //arts club
@@ -694,6 +717,7 @@ function resizeCanvas() {
   console.log('resizing');
 
   //if width is greater than
+
 
 
 }

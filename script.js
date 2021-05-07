@@ -74,6 +74,15 @@ for (let i = 0; i < listen.length; i++) {
 // 2100 ✳︎ KAVARI
 // 2200 ✳︎『82.99 F.M』
 
+// 1200 → outpost dangoma<br>
+// 1300 → a drop of scotch<br>
+// 1400 → body parts<br>
+// 1500 → through murshiel gap<br>
+// 1600 → subcity x aerial podcast hour<br>
+// 1700 → murmuru<br>
+// 1800 → practice good practice<br>
+// 1900 → quto
+
 
 function checkTime() {
 
@@ -81,16 +90,17 @@ function checkTime() {
 
   console.log(CurrentDate);
 
-  var live = "";
-  var isItLive = 'back on friday :)';
+  var live = "subcity x aerial radio swap live from 1200 GMT :)";
+  var isItLive = '';
 
   if (CurrentDate.isAfter('2021-05-07T00:00:00')) {
     isItLive = ''
     live = "live from 1300 GMT :)";
   };
   if (CurrentDate.isAfter('2021-05-07T14:45:00')) {
+
     isItLive = 'live now:'
-    live = "st. salmon";
+    live = "outpost sangoma";
   };
    if (CurrentDate.isAfter('2021-05-07T15:00:00')) {
     live = "fair play crew";
@@ -107,16 +117,12 @@ function checkTime() {
   };
   if (CurrentDate.isAfter('2021-05-07T22:00:00')) {
    live = '『82.99 F.M』' ;
+
   };
-  // if (CurrentDate.isAfter('2021-04-23T21:00:00')) {
-  //  live = 'frequency bias';
-  // };
-  // if (CurrentDate.isAfter('2021-04-23T22:00:00')) {
-  //  live = 'bacteriocene';
-  // };
   // if (CurrentDate.isAfter('2021-04-23T23:00:00')) {
   //   live = 'broken elements w/ SMIFF';
   //  };
+
   // if (CurrentDate.isAfter('2021-03-06T00:00:00')) {
   //  live = 'back on friday :)';
   // };
@@ -127,7 +133,7 @@ function checkTime() {
   // };
 
   liveNow.innerHTML = isItLive + '<marquee>' + live + '</marquee>';
-  liveNowMobile.innerHTML = '<marquee>' + isItLive + live + '</marquee>'
+  liveNowMobile.innerHTML = '<marquee>' + isItLive + ' ' + live + '</marquee>'
 
   setTimeout(checkTime, 30000);
 }
