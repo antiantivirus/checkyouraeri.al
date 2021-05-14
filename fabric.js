@@ -70,7 +70,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 14.05.2021 ✳︎\n1400 → warp and weft\n1500 → gloam (r)\n1600 → let's meet in the beautiful and new decade (r)\n1700 → novy mir\n1800 → chthonic memories w/ subterra (r)\n1900 → terrace 2\n2000 → hyperdome invites andrew juke\n2200 → lockdown sessions w/ .CORPSE (r)\n2300 → J.YOUNG", {
+  "✳︎ schedule 14.05.2021 ✳︎\n1400 → warp and weft\n1500 → gloam (r)\n1600 → let's meet in the beautiful and new decade (r)\n1700 → novy mir\n1800 → chthonic memories w/ subterra (r)\n1900 → terrace 2\n2000 → hyperdome invites andrew juke\n2200 → lockdown sessions w/ .CORPSE (r)\n2300 → J.YOUNG: KOMPROMAT TAKEOVER", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,

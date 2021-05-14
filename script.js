@@ -101,7 +101,7 @@ function checkTime() {
    live = 'lockdown sessions w/ .CORPSE (r)' ;
   };
   if (CurrentDate.isAfter('2021-05-14T23:00:00')) {
-    live = 'J.YOUNG' ;
+    live = 'J.YOUNG: KOMPROMAT TAKEOVER' ;
   };
   // if (CurrentDate.isAfter('2021-04-23T23:00:00')) {
   //   live = 'broken elements w/ SMIFF';
