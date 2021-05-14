@@ -54,26 +54,15 @@ for (let i = 0; i < listen.length; i++) {
 
 //schedule
 
-// 1000 — spital selectors
-// 1200 — downtown arts club
-// 1300 — discolour(ed)
-// 1400 — other scapes
-// 1500 — MOTHERLAND
-// 1700 — spin (r)
-// 1900 — fair play crew
-// 2100 — frequency bias
-// 2200 — bacteriocene
-// 2300 — broken elements w/ SMIFF
-
-
-// 1300 → discolour(ed)
-// 1400 → star suite
-// 1600 → blair
-// 1700 → spin records @ littlejohn st
-// 1900 → PIPE
-// 2000 → in-flight w/ frankie elyse
-// 2100 → bleep clique
-
+// 1400 → warp and weft
+// 1500 → gloam (r)
+// 1600 → let's meet in the beautiful and new decade (r)
+// 1700 → novy mir
+// 1800 → chthonic memories w/ subterra (r)
+// 1900 → terrace 2
+// 2000 → hyperdome invites andrew juke
+// 2200 → lockdown sessions w/ .CORPSE (r)
+// 2300 → J.YOUNG
 
 function checkTime() {
 
@@ -84,39 +73,41 @@ function checkTime() {
   var live = "subcity x aerial radio swap live from 1200 GMT :)";
   var isItLive = '';
 
-  if (CurrentDate.isAfter('2021-05-07T00:00:00')) {
+  if (CurrentDate.isAfter('2021-05-14T00:00:00')) {
     isItLive = ''
-    live = "live from 1300 GMT :)";
+    live = "live from 1400 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-05-07T13:00:00')) {
-
+  if (CurrentDate.isAfter('2021-05-14T14:00:00')) {
     isItLive = 'live now:'
-    live = "discolour(ed)";
+    live = "warp and weft";
   };
-   if (CurrentDate.isAfter('2021-05-07T14:00:00')) {
-    live = "star suite";
+   if (CurrentDate.isAfter('2021-05-14T15:00:00')) {
+    live = "gloam (r)";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2021-05-07T16:00:00')) {
-   live = 'blair';
+  if (CurrentDate.isAfter('2021-05-14T16:00:00')) {
+   live = "let's meet in the beautiful and new decade (r)";
   };
-  if (CurrentDate.isAfter('2021-05-07T17:00:00')) {
-   live = 'spin records @ littlejohn st';
+  if (CurrentDate.isAfter('2021-05-14T18:00:00')) {
+   live = 'chthonic memories w/ subterra (r)';
   };
-  if (CurrentDate.isAfter('2021-05-07T19:00:00')) {
-   live = 'PIPE';
+  if (CurrentDate.isAfter('2021-05-14T19:00:00')) {
+    live = 'terrace 2';
+   };
+  if (CurrentDate.isAfter('2021-05-14T20:00:00')) {
+   live = 'hyperdome invites andrew juke';
   };
-  if (CurrentDate.isAfter('2021-05-07T20:00:00')) {
-   live = 'in-flight w/ frankie elyse' ;
+  if (CurrentDate.isAfter('2021-05-14T22:00:00')) {
+   live = 'lockdown sessions w/ .CORPSE (r)' ;
   };
-  if (CurrentDate.isAfter('2021-05-07T21:00:00')) {
-    live = 'bleep clique' ;
+  if (CurrentDate.isAfter('2021-05-14T23:00:00')) {
+    live = 'J.YOUNG' ;
   };
   // if (CurrentDate.isAfter('2021-04-23T23:00:00')) {
   //   live = 'broken elements w/ SMIFF';
   //  };
 
-  if (CurrentDate.isAfter('2021-05-07T22:00:00')) {
+  if (CurrentDate.isAfter('2021-05-14T0:00:00')) {
    live = 'back on friday :)';
   };
 
