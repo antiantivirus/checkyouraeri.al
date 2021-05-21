@@ -71,44 +71,51 @@ function checkTime() {
 
   console.log(CurrentDate);
 
-  var live = "subcity x aerial radio swap live from 1200 GMT :)";
+  var live = "";
   var isItLive = '';
 
-  if (CurrentDate.isAfter('2021-05-14T00:00:00')) {
+  if (CurrentDate.isAfter('2021-05-21T00:00:00')) {
     isItLive = ''
-    live = "live from 1400 GMT :)";
+    live = "live from 1000 GMT :)";
   };
-  if (CurrentDate.isAfter('2021-05-14T14:00:00')) {
+  if (CurrentDate.isAfter('2021-05-21T10:00:00')) {
     isItLive = 'live now:'
-    live = "warp and weft";
+    live = "dusk till dawn: spital selectors";
   };
-   if (CurrentDate.isAfter('2021-05-14T15:00:00')) {
-    live = "gloam (r)";
-    // document.getElementById('join-arts-club').style.display = "block";
+   if (CurrentDate.isAfter('2021-05-21T12:00:00')) {
+    live = "downtown arts club";
+    document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2021-05-14T16:00:00')) {
-   live = "let's meet in the beautiful and new decade (r)";
+  if (CurrentDate.isAfter('2021-05-21T13:00:00')) {
+   live = "discolour(ed)";
+   document.getElementById('join-arts-club').style.display = "none";
   };
-  if (CurrentDate.isAfter('2021-05-14T18:00:00')) {
-   live = 'chthonic memories w/ subterra (r)';
+  if (CurrentDate.isAfter('2021-05-21T14:00:00')) {
+   live = 'other scapes';
   };
-  if (CurrentDate.isAfter('2021-05-14T19:00:00')) {
-    live = 'terrace 2';
+  if (CurrentDate.isAfter('2021-05-21T15:00:00')) {
+    live = 'MOTHERLAND';
    };
-  if (CurrentDate.isAfter('2021-05-14T20:00:00')) {
-   live = 'hyperdome invites andrew juke';
+  if (CurrentDate.isAfter('2021-05-21T117:00:00')) {
+   live = 'spin';
   };
-  if (CurrentDate.isAfter('2021-05-14T22:00:00')) {
-   live = 'lockdown sessions w/ .CORPSE (r)' ;
+  if (CurrentDate.isAfter('2021-05-21T19:00:00')) {
+   live = 'fair play crew' ;
   };
-  if (CurrentDate.isAfter('2021-05-14T23:00:00')) {
-    live = 'J.YOUNG: KOMPROMAT TAKEOVER' ;
+  if (CurrentDate.isAfter('2021-05-21T21:00:00')) {
+    live = 'frequency bias' ;
+  };
+  if (CurrentDate.isAfter('2021-05-21T22:00:00')) {
+    live = 'bacteriocene' ;
+  };
+  if (CurrentDate.isAfter('2021-05-21T23:00:00')) {
+    live = 'broken elements w/ SMIFF' ;
   };
   // if (CurrentDate.isAfter('2021-04-23T23:00:00')) {
   //   live = 'broken elements w/ SMIFF';
   //  };
 
-  if (CurrentDate.isAfter('2021-05-14T0:00:00')) {
+  if (CurrentDate.isAfter('2021-05-22T0:00:00')) {
    live = 'back on friday :)';
   };
 
