@@ -97,7 +97,7 @@ function checkTime() {
     live = 'MOTHERLAND';
    };
   if (CurrentDate.isAfter('2021-05-21T117:00:00')) {
-   live = 'spin';
+   live = 'spin records @ littlejohn st';
   };
   if (CurrentDate.isAfter('2021-05-21T19:00:00')) {
    live = 'fair play crew' ;
