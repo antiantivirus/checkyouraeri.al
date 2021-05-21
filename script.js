@@ -54,15 +54,16 @@ for (let i = 0; i < listen.length; i++) {
 
 //schedule
 
-// 1400 → warp and weft
-// 1500 → gloam (r)
-// 1600 → let's meet in the beautiful and new decade (r)
-// 1700 → novy mir
-// 1800 → chthonic memories w/ subterra (r)
-// 1900 → terrace 2
-// 2000 → hyperdome invites andrew juke
-// 2200 → lockdown sessions w/ .CORPSE (r)
-// 2300 → J.YOUNG
+1000 → dusk till dawn: spital selectors
+1200 → downtown arts club
+1300 → discolour(ed)
+1400 → other scapes
+1500 → MOTHERLAND
+1700 → spin
+1900 → fair play crew
+2100 → frequency bias
+2200 → bacteriocene
+2300 → broken elements w/ SMIFF
 
 function checkTime() {
 
