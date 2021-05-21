@@ -54,16 +54,16 @@ for (let i = 0; i < listen.length; i++) {
 
 //schedule
 
-1000 → dusk till dawn: spital selectors
-1200 → downtown arts club
-1300 → discolour(ed)
-1400 → other scapes
-1500 → MOTHERLAND
-1700 → spin
-1900 → fair play crew
-2100 → frequency bias
-2200 → bacteriocene
-2300 → broken elements w/ SMIFF
+// 1000 → dusk till dawn: spital selectors
+// 1200 → downtown arts club
+// 1300 → discolour(ed)
+// 1400 → other scapes
+// 1500 → MOTHERLAND
+// 1700 → spin
+// 1900 → fair play crew
+// 2100 → frequency bias
+// 2200 → bacteriocene
+// 2300 → broken elements w/ SMIFF
 
 function checkTime() {
 
