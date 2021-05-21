@@ -96,7 +96,7 @@ function checkTime() {
   if (CurrentDate.isAfter('2021-05-21T15:00:00')) {
     live = 'MOTHERLAND';
    };
-  if (CurrentDate.isAfter('2021-05-21T117:00:00')) {
+  if (CurrentDate.isAfter('2021-05-21T17:00:00')) {
    live = 'spin records @ littlejohn st';
   };
   if (CurrentDate.isAfter('2021-05-21T19:00:00')) {
