@@ -115,7 +115,7 @@ function checkTime() {
   //   live = 'broken elements w/ SMIFF';
   //  };
 
-  if (CurrentDate.isAfter('2021-05-22T0:00:00')) {
+  if (CurrentDate.isAfter('2021-05-22T00:00:00')) {
    live = 'back on friday :)';
   };
 
