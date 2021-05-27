@@ -54,16 +54,15 @@ for (let i = 0; i < listen.length; i++) {
 
 //schedule
 
-// 1000 → dusk till dawn: spital selectors
-// 1200 → downtown arts club
-// 1300 → discolour(ed)
-// 1400 → other scapes
-// 1500 → MOTHERLAND
-// 1700 → spin
-// 1900 → fair play crew
-// 2100 → frequency bias
-// 2200 → bacteriocene
-// 2300 → broken elements w/ SMIFF
+// 1330 → st. salmon<br>
+// 1400 → warp and weft<br>
+// 1500 → aimé<br>
+// 1700 → terrace 2<br>
+// 1800 → the placid howff<br>
+// 1900 → in-flight w/ lancelot<br>
+// 2000 → THETAMORPH<br>
+// 2100 → KAVARI<br>
+// 2200 → 『82.99 F.M』
 
 function checkTime() {
 
@@ -71,51 +70,51 @@ function checkTime() {
 
   console.log(CurrentDate);
 
-  var live = "";
+  var live = "back on friday :)";
   var isItLive = '';
 
-  if (CurrentDate.isAfter('2021-05-21T00:00:00')) {
+  if (CurrentDate.isAfter('2021-05-28T00:00:00')) {
     isItLive = ''
-    live = "live from 1000 GMT :)";
+    live = "live from 1330 BST :)";
   };
-  if (CurrentDate.isAfter('2021-05-21T10:00:00')) {
+  if (CurrentDate.isAfter('2021-05-28T13:30:00')) {
     isItLive = 'live now:'
-    live = "dusk till dawn: spital selectors";
+    live = "st. salmon";
   };
-   if (CurrentDate.isAfter('2021-05-21T12:00:00')) {
-    live = "downtown arts club";
-    document.getElementById('join-arts-club').style.display = "block";
+   if (CurrentDate.isAfter('2021-05-28T14:00:00')) {
+    live = "warp and weft";
+    // document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2021-05-21T13:00:00')) {
-   live = "discolour(ed)";
-   document.getElementById('join-arts-club').style.display = "none";
+  if (CurrentDate.isAfter('2021-05-28T15:00:00')) {
+   live = "aimé";
+  //  document.getElementById('join-arts-club').style.display = "none";
   };
-  if (CurrentDate.isAfter('2021-05-21T14:00:00')) {
-   live = 'other scapes';
+  if (CurrentDate.isAfter('2021-05-28T17:00:00')) {
+   live = 'terrace 2';
   };
-  if (CurrentDate.isAfter('2021-05-21T15:00:00')) {
-    live = 'MOTHERLAND';
+  if (CurrentDate.isAfter('2021-05-28T18:00:00')) {
+    live = 'the placid howff';
    };
-  if (CurrentDate.isAfter('2021-05-21T17:00:00')) {
-   live = 'spin records @ littlejohn st';
+  if (CurrentDate.isAfter('2021-05-28T19:00:00')) {
+   live = 'in-flight w/ lancelot';
   };
-  if (CurrentDate.isAfter('2021-05-21T19:00:00')) {
-   live = 'fair play crew' ;
+  if (CurrentDate.isAfter('2021-05-28T20:00:00')) {
+   live = 'THETAMORPH';
   };
-  if (CurrentDate.isAfter('2021-05-21T21:00:00')) {
-    live = 'frequency bias' ;
+  if (CurrentDate.isAfter('2021-05-28T21:00:00')) {
+    live = 'KAVARI';
   };
-  if (CurrentDate.isAfter('2021-05-21T22:00:00')) {
-    live = 'bacteriocene' ;
+  if (CurrentDate.isAfter('2021-05-28T22:00:00')) {
+    live = '『82.99 F.M』';
   };
-  if (CurrentDate.isAfter('2021-05-21T23:00:00')) {
-    live = 'broken elements w/ SMIFF' ;
-  };
+  // if (CurrentDate.isAfter('2021-05-28T23:00:00')) {
+  //   live = 'broken elements w/ SMIFF' ;
+  // };
   // if (CurrentDate.isAfter('2021-04-23T23:00:00')) {
   //   live = 'broken elements w/ SMIFF';
   //  };
 
-  if (CurrentDate.isAfter('2021-05-22T00:00:00')) {
+  if (CurrentDate.isAfter('2021-05-29T00:00:00')) {
    live = 'back on friday :)';
   };
 
