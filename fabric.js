@@ -68,7 +68,7 @@ canvas.add(about);
 
 
 var schedule = new fabric.IText(
-  "✳︎ schedule 28.05.2021 ✳︎\n1330 → st. salmon\n1400 → warp and weft\n1500 → aimé\n1700 → terrace 2\n1800 → the placid howff\n1900 → in-flight w/ lancelot\n2000 → THETAMORPH\n2100 → KAVARI\n2200 → 『82.99 F.M』", {
+  "✳︎ schedule 28.05.2021 ✳︎\n1330 → st. salmon\n1400 → warp and weft\n1500 → aimé\n1700 → terrace\n1800 → the placid howff\n1900 → in-flight w/ lancelot\n2000 → ZEMA\n2100 → KAVARI\n2200 → 『82.99 F.M』", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,

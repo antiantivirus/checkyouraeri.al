@@ -77,7 +77,7 @@ function checkTime() {
     isItLive = ''
     live = "live from 1330 BST :)";
   };
-  if (CurrentDate.isAfter('2021-05-28T13:30:00')) {
+  if (CurrentDate.isAfter('2021-05-28T13:45:00')) {
     isItLive = 'live now:'
     live = "st. salmon";
   };
@@ -90,7 +90,7 @@ function checkTime() {
   //  document.getElementById('join-arts-club').style.display = "none";
   };
   if (CurrentDate.isAfter('2021-05-28T17:00:00')) {
-   live = 'terrace 2';
+   live = 'terrace';
   };
   if (CurrentDate.isAfter('2021-05-28T18:00:00')) {
     live = 'the placid howff';
@@ -99,7 +99,7 @@ function checkTime() {
    live = 'in-flight w/ lancelot';
   };
   if (CurrentDate.isAfter('2021-05-28T20:00:00')) {
-   live = 'THETAMORPH';
+   live = 'ZEMA';
   };
   if (CurrentDate.isAfter('2021-05-28T21:00:00')) {
     live = 'KAVARI';
