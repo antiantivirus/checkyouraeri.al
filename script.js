@@ -54,15 +54,15 @@ for (let i = 0; i < listen.length; i++) {
 
 //schedule
 
-// 1330 → st. salmon<br>
-// 1400 → warp and weft<br>
-// 1500 → aimé<br>
-// 1700 → terrace 2<br>
-// 1800 → the placid howff<br>
-// 1900 → in-flight w/ lancelot<br>
-// 2000 → THETAMORPH<br>
-// 2100 → KAVARI<br>
-// 2200 → 『82.99 F.M』
+
+// 1300 → discoloured
+// 1400 → star suite 
+// 1600 → blair 
+// 1700 → broken elements w/ SMIFF
+// 1900 → PIPE
+// 2000 → other scapes (r) 
+// 2100 → bleep clique 
+// 2200 → MRCL b2b kopi o
 
 function checkTime() {
 
@@ -73,40 +73,40 @@ function checkTime() {
   var live = "back on friday :)";
   var isItLive = '';
 
-  if (CurrentDate.isAfter('2021-05-28T00:00:00')) {
+  if (CurrentDate.isAfter('2021-06-04T00:00:00')) {
     isItLive = ''
-    live = "live from 1330 BST :)";
+    live = "live from 1300 BST :)";
   };
-  if (CurrentDate.isAfter('2021-05-28T13:45:00')) {
+  if (CurrentDate.isAfter('2021-06-04T13:00:00')) {
     isItLive = 'live now:'
-    live = "st. salmon";
+    live = "discoloured";
   };
-   if (CurrentDate.isAfter('2021-05-28T14:00:00')) {
-    live = "warp and weft";
+   if (CurrentDate.isAfter('2021-06-04T14:00:00')) {
+    live = "star suite";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2021-05-28T15:00:00')) {
-   live = "aimé";
+  if (CurrentDate.isAfter('2021-06-04T16:00:00')) {
+   live = "blair";
   //  document.getElementById('join-arts-club').style.display = "none";
   };
-  if (CurrentDate.isAfter('2021-05-28T17:00:00')) {
-   live = 'terrace';
+  if (CurrentDate.isAfter('2021-06-04T17:00:00')) {
+   live = 'broken elements w/ SMIFF';
   };
-  if (CurrentDate.isAfter('2021-05-28T18:00:00')) {
-    live = 'the placid howff';
+  if (CurrentDate.isAfter('2021-06-04T19:00:00')) {
+    live = 'PIPE';
    };
-  if (CurrentDate.isAfter('2021-05-28T19:00:00')) {
-   live = 'in-flight w/ lancelot';
+  if (CurrentDate.isAfter('2021-06-04T20:00:00')) {
+   live = 'other scapes (r)';
   };
-  if (CurrentDate.isAfter('2021-05-28T20:00:00')) {
-   live = 'ZEMA';
+  if (CurrentDate.isAfter('2021-06-04T21:00:00')) {
+   live = 'bleep clique';
   };
-  if (CurrentDate.isAfter('2021-05-28T21:00:00')) {
-    live = 'KAVARI';
+  if (CurrentDate.isAfter('2021-06-04T22:00:00')) {
+    live = 'MRCL b2b kopi o';
   };
-  if (CurrentDate.isAfter('2021-05-28T22:00:00')) {
-    live = '『82.99 F.M』';
-  };
+  // if (CurrentDate.isAfter('2021-06-04T22:00:00')) {
+  //   live = '『82.99 F.M』';
+  // };
   // if (CurrentDate.isAfter('2021-05-28T23:00:00')) {
   //   live = 'broken elements w/ SMIFF' ;
   // };
@@ -114,7 +114,7 @@ function checkTime() {
   //   live = 'broken elements w/ SMIFF';
   //  };
 
-  if (CurrentDate.isAfter('2021-05-29T00:00:00')) {
+  if (CurrentDate.isAfter('2021-06-05T00:00:00')) {
    live = 'back on friday :)';
   };
 
