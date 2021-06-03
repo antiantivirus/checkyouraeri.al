@@ -35,7 +35,10 @@
   function onTouchMove(e) {
     if( e.touches.length > 0 ) {
       for( var i = 0; i < e.touches.length; i++ ) {
-        addParticle( e.touches[i].clientX, e.touches[i].clientY, possibleEmoji[Math.floor(Math.random()*possibleEmoji.length)]);
+        const random = Math.random();
+        if (random > 0.8) {
+          addParticle( e.touches[i].clientX, e.touches[i].clientY, possibleEmoji[Math.floor(Math.random()*possibleEmoji.length)]);
+        }
       }
     }
   }
@@ -97,7 +100,7 @@
     this.init = function(x, y, character) {
 
       this.velocity = {
-        x:  (Math.random() < 0.5 ? 0.5 : 5) * (Math.random() / 2),
+        x:  (Math.random() < 0.5 ? 0.5 : 2) * (Math.random() / 2),
         y: 1
       };
       
