@@ -2,7 +2,7 @@ var width = window.innerWidth;
 var height = window.innerHeight;
 var starContainer = document.getElementById('star-container');
 var liveNow = document.getElementById('who-is-live-now');
-var liveNowMobile = document.getElementById('who-is-live-now-mobile')
+var liveNowMobile = document.getElementById('who-is-live-now-mobile');
 
 //random aerial logos appearing and floating upwards
 //
@@ -52,6 +52,8 @@ for (let i = 0; i < listen.length; i++) {
  }
 
 
+
+
 //schedule
 
 
@@ -63,6 +65,9 @@ for (let i = 0; i < listen.length; i++) {
 // 2000 → other scapes (r) 
 // 2100 → bleep clique 
 // 2200 → MRCL b2b kopi o
+
+
+
 
 function checkTime() {
 
@@ -126,14 +131,88 @@ function checkTime() {
   liveNow.innerHTML = isItLive + '<marquee>' + live + '</marquee>';
   liveNowMobile.innerHTML = '<marquee>' + isItLive + ' ' + live + '</marquee>'
 
-  setTimeout(checkTime, 30000);
+  // setTimeout(checkTime, 30000);
 }
 
-checkTime();
+// checkTime();
+
+
+function updateliveNow(x){
+  liveNow.innerHTML = 'live now: ' + '<marquee>' + x + '</marquee>';
+  liveNowMobile.innerHTML = '<marquee>' + isItLive + ' ' + x + '</marquee>'
+}
+
+
+function getLiveFromAPI(){
+// Make a request for a user with a given ID
+axios.get('https://public.radio.co/stations/s3f1d8bc0f/status')
+  .then(function (response) {
+    // handle success
+    // console.log(response);
+    updateliveNow(response.data.current_track.title);
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+  });
+  
+  
+  setTimeout(getLiveFromAPI, 30000);
+
+}
+
+// getLiveFromAPI()
 
 
 
+function updateliveNowFromSchedule(schedule, time){
+  console.log(schedule)
+  console.log(time)
+  for (const i in schedule) {
+    const start = moment(schedule[i].start)
+    const end = moment(schedule[i].end)
+    // console.log(start.isAfter(time))
+    
+    if (start.isAfter(time) && time.isBefore(end)) {
+      console.log()
+      console.log(schedule[i].playlist.name)
+      break;
+    }
+  }
+}
 
+function getSchedule(){
+// Make a request for a user with a given ID
+axios.get('https://public.radio.co/stations/s3f1d8bc0f/embed/schedule')
+  .then(function (response) {
+    // handle success
+    console.log(response);
+    var CurrentDate = moment().tz('Europe/London');
+    console.log(CurrentDate)
+    updateliveNowFromSchedule(response.data.data, CurrentDate);
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+  });
+  
+  
+  // setTimeout(updateliveNowFromSchedule, 30000);
+
+}
+
+getSchedule()
+
+
+
+// URL FOR SCHEDULE
+// https://public.radio.co/stations/s3f1d8bc0f/embed/schedule
 
 //tracking mouse position relative to centre
 
@@ -209,6 +288,10 @@ checkTime();
 //
 //   document.onmousemove = onMouseMoveHandler;
 // })();
+
+
+
+
 
 var xMovement = document.getElementById('x-movement');
 var yMovement = document.getElementById('y-movement');
