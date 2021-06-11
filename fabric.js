@@ -33,7 +33,7 @@ if (window.innerWidth > 1500) {
 // create a wrapper around native canvas element (with id="c")
 var canvas = new fabric.Canvas('c');
 
-var skybound = new fabric.IText("sky-bound sounds from the north", {
+var skybound = new fabric.IText("deep sea departures from the north", {
   fontFamily: 'Arial Narrow',
   fontStyle: 'italic',
   fill: '#FFFFFF',
@@ -66,9 +66,8 @@ var about = new fabric.IText("aerial is an independent internet-based community\
 canvas.add(about);
 
 
-
 var schedule = new fabric.IText(
-  "✳︎ schedule 04.06.2021 ✳︎\n1300 → discoloured\n1400 → star suite\n1600 → blair\n1700 → broken elements w/ SMIFF\n1900 → PIPE\n2000 → other scapes (r)\n2100 → bleep clique\n2200 → MRCL b2b kopi o", {
+  "✳︎ schedule 11.06.2021 ✳︎\n1200 → blair\n1300 → thawing w/ xivro\n1400 → warp and weft\n1500 → gloam\n1600 → let's meet in the beatiful\nand new decade\n1700 → novy mir (r)\n1800 → subterra\n1900 → terrace 2\n2000 → hyperdome invites\n2100 → lockdown sessions w/ .CORPSE\n2200 → J.YOUNG", {
   fontFamily: 'Arial Narrow',
   fill: '#FFFFFF',
   fontSize: h4,
@@ -128,7 +127,7 @@ var group = new fabric.Group([ circle, text ], {
 canvas.add(group);
 
 
-var community = new fabric.IText('community\nradio\nis\nsick\nget involved →', {
+var community = new fabric.IText('oceans\nare\nsick\nplease\ndonate →', {
   fontFamily: 'Arial Narrow',
   fill: 'white',
   fontSize: h3,
@@ -142,7 +141,7 @@ var community = new fabric.IText('community\nradio\nis\nsick\nget involved →',
 
 
 community.on('selected', function() {
-  window.open("/get-involved.html");
+  window.open("https://www.mcsuk.org/what-you-can-do/join-us/");
 })
 
 canvas.add(community);
