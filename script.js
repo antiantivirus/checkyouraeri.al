@@ -57,16 +57,18 @@ for (let i = 0; i < listen.length; i++) {
 //schedule
 
 
-// 1300 → discoloured
-// 1400 → star suite 
-// 1600 → blair 
-// 1700 → broken elements w/ SMIFF
-// 1900 → PIPE
-// 2000 → other scapes (r) 
-// 2100 → bleep clique 
-// 2200 → MRCL b2b kopi o
-
-
+// 1200 → blair
+// 1300 → thawing w/ xivro
+// 1400 → warp and weft
+// 1500 → gloam
+// 1600 → let's meet in the beatiful
+// and new decade
+// 1700 → novy mir (r)
+// 1800 → subterra
+// 1900 → terrace 2
+// 2000 → hyperdome invites
+// 2100 → lockdown sessions w/ .CORPSE
+// 2200 → J.YOUNG
 
 
 function checkTime() {
@@ -78,48 +80,48 @@ function checkTime() {
   var live = "back on friday :)";
   var isItLive = '';
 
-  if (CurrentDate.isAfter('2021-06-04T00:00:00')) {
+  if (CurrentDate.isAfter('2021-06-11T00:00:00')) {
     isItLive = ''
-    live = "live from 1300 BST :)";
+    live = "live from 1200 BST :)";
   };
-  if (CurrentDate.isAfter('2021-06-04T13:00:00')) {
+  if (CurrentDate.isAfter('2021-06-11T12:00:00')) {
     isItLive = 'live now:'
-    live = "discoloured";
+    live = "blair";
   };
-   if (CurrentDate.isAfter('2021-06-04T14:00:00')) {
-    live = "star suite";
+   if (CurrentDate.isAfter('2021-06-11T13:00:00')) {
+    live = "thawing w/ xivro";
     // document.getElementById('join-arts-club').style.display = "block";
   };
-  if (CurrentDate.isAfter('2021-06-04T16:00:00')) {
-   live = "blair";
+  if (CurrentDate.isAfter('2021-06-11T14:00:00')) {
+   live = "warp and weft";
   //  document.getElementById('join-arts-club').style.display = "none";
   };
-  if (CurrentDate.isAfter('2021-06-04T17:00:00')) {
-   live = 'broken elements w/ SMIFF';
+  if (CurrentDate.isAfter('2021-06-11T15:00:00')) {
+   live = 'gloam';
   };
-  if (CurrentDate.isAfter('2021-06-04T19:00:00')) {
-    live = 'PIPE';
+  if (CurrentDate.isAfter('2021-06-11T16:00:00')) {
+    live = "let's meet in the beatiful and new decade w/ antivirus and deep sea world";
    };
-  if (CurrentDate.isAfter('2021-06-04T20:00:00')) {
-   live = 'other scapes (r)';
+  if (CurrentDate.isAfter('2021-06-11T17:00:00')) {
+   live = 'novy mir (r)';
   };
-  if (CurrentDate.isAfter('2021-06-04T21:00:00')) {
-   live = 'bleep clique';
+  if (CurrentDate.isAfter('2021-06-11T18:00:00')) {
+   live = 'subterra';
   };
-  if (CurrentDate.isAfter('2021-06-04T22:00:00')) {
-    live = 'MRCL b2b kopi o';
+  if (CurrentDate.isAfter('2021-06-11T19:00:00')) {
+    live = 'terrace 2';
   };
-  // if (CurrentDate.isAfter('2021-06-04T22:00:00')) {
-  //   live = '『82.99 F.M』';
-  // };
-  // if (CurrentDate.isAfter('2021-05-28T23:00:00')) {
-  //   live = 'broken elements w/ SMIFF' ;
-  // };
-  // if (CurrentDate.isAfter('2021-04-23T23:00:00')) {
-  //   live = 'broken elements w/ SMIFF';
-  //  };
+  if (CurrentDate.isAfter('2021-06-11T20:00:00')) {
+    live = 'hyperdome invites';
+  };
+  if (CurrentDate.isAfter('2021-06-11T23:00:00')) {
+    live = 'lockdown sessions w/ .CORPSE' ;
+  };
+  if (CurrentDate.isAfter('2021-06-11T23:00:00')) {
+    live = 'J.YOUNG';
+   };
 
-  if (CurrentDate.isAfter('2021-06-05T00:00:00')) {
+  if (CurrentDate.isAfter('2021-06-12T00:00:00')) {
    live = 'back on friday :)';
   };
 
@@ -131,10 +133,10 @@ function checkTime() {
   liveNow.innerHTML = isItLive + '<marquee>' + live + '</marquee>';
   liveNowMobile.innerHTML = '<marquee>' + isItLive + ' ' + live + '</marquee>'
 
-  // setTimeout(checkTime, 30000);
+  setTimeout(checkTime, 30000);
 }
 
-// checkTime();
+checkTime();
 
 
 function updateliveNow(x){
@@ -160,7 +162,7 @@ axios.get('https://public.radio.co/stations/s3f1d8bc0f/status')
   });
   
   
-  setTimeout(getLiveFromAPI, 30000);
+  // setTimeout(getLiveFromAPI, 30000);
 
 }
 
@@ -207,7 +209,7 @@ axios.get('https://public.radio.co/stations/s3f1d8bc0f/embed/schedule')
 
 }
 
-getSchedule()
+// getSchedule()
 
 
 
