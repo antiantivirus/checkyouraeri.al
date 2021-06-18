@@ -15,14 +15,15 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js" integrity="sha512-Izh34nqeeR7/nwthfeE0SI3c8uhFSnqxV0sI9TvTcXiFJkMd6fB644O64BRq2P/LA/+7eRvCw4GmLsXksyTHBg==" crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.31/moment-timezone-with-data-10-year-range.min.js" integrity="sha512-Rb9RCtecTEK3SdnnQhrZx4GM1ascb2CNHybgugRDTriP/b1As79OemxeIT5qs6RMJ/fCpeJrDjtpASh7I7EKMQ==" crossorigin="anonymous"></script>    <!-- import the webpage's javascript file -->
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.5/plugin/utc.min.js" integrity="sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.2.0/fabric.min.js" integrity="sha512-Pdu3zoEng2TLwwjnDne3O7zaeWZfEJHU5B63T+zLtME/wg1zfeSH/1wrtOzOC37u2Y1Ki8pTCdKsnbueOlFlMg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="/script.js?v=120" defer></script>
-    <script src="/fabric.js?v=120" defer></script>
-    <!-- <script src="/cursor.js" defer></script> -->
+    <script src="/script.js?v=119" defer></script>
+    <script src="/fabric.js?v=119" defer></script>
+    <script src="/cursor.js" defer></script>
 
 
     <!-- favicon bits -->
@@ -45,7 +46,7 @@
 
     <!-- sikkk -->
     <div class="d-lg-none">
-      <h1>deep sea departures from the north</h1>
+      <h1>sky—bound sounds from the north</h1>
     </div>
 
     <!-- starz -->
@@ -79,7 +80,7 @@
         </div>
       </div>
   </div>
-  
+
   <button tabindex="0" aria-label="Play and pause the broadcast" class="play-pause d-none d-lg-block"></button>
 
   <!-- arts club -->
@@ -118,20 +119,8 @@
   <div class="two-columns">
     <div class="relative" id="schedule-mobile">
       <div class="purple-blur"></div>
-      <p class="text-center"><span class="text-bold text-italic">✳︎ schedule 11.06.2021 ✳︎</span></p>
-        <p class="lineup">
-          1200 → blair<br>
-          1300 → thawing w/ xivro<br>
-          1400 → warp and weft<br>
-          1500 → gloam<br>
-          1600 → let's meet in the beatiful and new decade w/ antivirus and deep sea world<br>
-          1700 → novy mir (r)<br>
-          1800 → subterra<br>
-          1900 → terrace 2<br>
-          2000 → hyperdome invites<br>
-          2100 → lockdown sessions<br>
-          2200 → J.YOUNG
-        </p>
+      <p class="text-center" id="mobileSchedule"><span class="text-bold text-italic">✳︎ loading... ✳︎</span>
+      </p>
     </div>
     <div class="d-none d-lg-block">
       <a href="https://www.mixcloud.com/checkyouraerial/" target="_blank"><p class="text-center">archive →</p></a>
@@ -141,16 +130,8 @@
     </div>
   </div>
   <div class="space"></div>
-
-
-
-  <h4>to coincide with world ocean day on tuesday we are taking the e-zone to the depths of the north sea. we are asking all attending to please <a target="_blank" href="https://www.mcsuk.org/what-you-can-do/join-us/">donate</a> what you can to the marine conservation society helping to protect the valuable seas.</h4>
-
-  <div class="space"></div>
-
   <div class="relative d-lg-none">
     <div class="purple-blur"></div>
-
     <a href="http://check-your-aerial.chatango.com/" target="_blank"><p class="text-center">e-zone lounge →</p></a>
   </div>
 
@@ -164,8 +145,6 @@
   <h4 class="mt-0 mb-0">
     aerial is an independent internet-based community radio broadcasting from aberdeen, scotland.<br>
   </h4>
-
-
 
   <div class="space"></div>
   <h4 class="mt-0 mb-0">
@@ -207,12 +186,15 @@
 
 
   <div class="vimeo-wrapper">
-    <iframe src="https://player.vimeo.com/video/561741043?autoplay=1&controls=0&loop=1&title=0&byline=0&portrait=0&background=1&muted=1"
+    <iframe src="https://player.vimeo.com/video/464554102?autoplay=1&controls=0&loop=1&title=0&byline=0&portrait=0&background=1&muted=1"
     frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen muted autoplay></iframe>
     <!-- <img src="images/bg-image-subcity.jpg" style="width: 100%" /> -->
   </div>
 
 
+  <div id="cursor-trails" class="" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+
+  </div>
 
 
   </body>
