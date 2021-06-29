@@ -1,5 +1,8 @@
 <template>
   <div>
+
+    <IntroAnimation></IntroAnimation>
+
     <!-- sikkk -->
     <div class="lg:hidden">
       <h1>sky—bound sounds from the north</h1>
@@ -122,13 +125,16 @@
     <a href="http://check-your-aerial.chatango.com/" target="_blank"><img src="images/chatmobile.png"/></a>
   </div>
 
-  <fabric></fabric>
-  <background-video></background-video>
-  <chatroom></chatroom>
-  <mixcloud></mixcloud>
-  <archive><Nuxt /></archive>
+  <Fabric></Fabric>
+  <BackgroundVideo></BackgroundVideo>
+  <Chatroom></Chatroom>
+  <Mixcloud></Mixcloud>
+  <Archive><Nuxt /></Archive>
   
 
   </div>
 </template>
+
+
+
 
