@@ -113,7 +113,7 @@ function doTheFabricBits(){
   // create a wrapper around native canvas element (with id="c")
   canvas = new fabric.Canvas('c');
 
-  var skybound = new fabric.IText("!! no drones in the e-zone ¡¡", {
+  var skybound = new fabric.IText("onward to the 𝓮-zone", {
     fontFamily: 'Arial Narrow',
     fontStyle: 'italic',
     fill: '#FFFFFF',
