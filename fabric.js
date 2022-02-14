@@ -207,7 +207,7 @@ function doTheFabricBits(){
   canvas.add(group);
 
 
-  var community = new fabric.IText('community\nradio\nis\nsick\nget involved →', {
+  var community = new fabric.IText('e-zone\ngathering\nthis sat! →', {
     fontFamily: 'Arial Narrow',
     fill: 'white',
     fontSize: h3,
@@ -221,7 +221,7 @@ function doTheFabricBits(){
 
 
   community.on('selected', function() {
-    window.open("/get-involved.html");
+    window.open("https://ra.co/events/1501448");
   })
 
   canvas.add(community);
