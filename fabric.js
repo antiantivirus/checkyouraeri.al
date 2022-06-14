@@ -207,7 +207,7 @@ function doTheFabricBits(){
   canvas.add(group);
 
 
-  var community = new fabric.IText('e-zone\ngathering\nthis sat! →', {
+  var community = new fabric.IText('we are taking a\n little break to refuel\n and will be back on the air soon\n', {
     fontFamily: 'Arial Narrow',
     fill: 'white',
     fontSize: h3,
