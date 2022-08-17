@@ -28,28 +28,28 @@ var liveNowMobile = document.getElementById('who-is-live-now-mobile');
 
 //listen to the radio
 
-var listen = document.querySelectorAll('.play-pause');
-var radio = new Audio('https://s4.radio.co/s3f1d8bc0f/listen');
-var listening = false;
-var aerial = document.getElementById('aerial-anim');
+// var listen = document.querySelectorAll('.play-pause');
+// var radio = new Audio('https://s4.radio.co/s3f1d8bc0f/listen');
+// var listening = false;
+// var aerial = document.getElementById('aerial-anim');
 
 
-for (let i = 0; i < listen.length; i++) {
-     listen[i].addEventListener("click", function() {
+// for (let i = 0; i < listen.length; i++) {
+//      listen[i].addEventListener("click", function() {
 
-         if (listen[i].classList.contains('listening')) {
-           radio.pause();
-         } else {
-           radio.load();
-           radio.play();
-         }
+//          if (listen[i].classList.contains('listening')) {
+//            radio.pause();
+//          } else {
+//            radio.load();
+//            radio.play();
+//          }
 
-         listen[0].classList.toggle('listening');
-         listen[1].classList.toggle('listening');
-         aerial.classList.toggle('animate-the-aerial');
+//          listen[0].classList.toggle('listening');
+//          listen[1].classList.toggle('listening');
+//          aerial.classList.toggle('animate-the-aerial');
 
-     });
- }
+//      });
+//  }
 
 
 
