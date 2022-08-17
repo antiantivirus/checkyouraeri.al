@@ -72,7 +72,6 @@ function compileSchedule(schedule, startDate, indexToStart){
 
 
 // getScheduleFromAPI()
-doTheFabricBits()
 
 
 
@@ -799,3 +798,5 @@ function resizeCanvas() {
 resizeCanvas();
 
 }
+
+doTheFabricBits()
