@@ -71,7 +71,7 @@ function compileSchedule(schedule, startDate, indexToStart){
 
 
 
-getScheduleFromAPI()
+// getScheduleFromAPI()
 
 
 
@@ -147,7 +147,7 @@ function doTheFabricBits(){
 
 
   var schedule = new fabric.IText(
-    scheduleFabric, {
+    "✳︎ ✸ ✹ ❇︎\nWe are taking a summer break and will be back shortly.\n✳︎ ✸ ✹ ❇︎ ✯", {
     fontFamily: 'Arial Narrow',
     fill: '#FFFFFF',
     fontSize: h4,
@@ -158,7 +158,6 @@ function doTheFabricBits(){
     originY: 'bottom',
     scaleX: scale,
     scaleY: scale
-
   });
 
   // var schedule = new fabric.IText(
