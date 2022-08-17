@@ -72,6 +72,7 @@ function compileSchedule(schedule, startDate, indexToStart){
 
 
 // getScheduleFromAPI()
+doTheFabricBits()
 
 
 
