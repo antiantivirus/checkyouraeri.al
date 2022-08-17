@@ -146,19 +146,19 @@ function doTheFabricBits(){
   canvas.add(about);
 
 
-  var schedule = new fabric.IText(
-    "✳︎ ✸ ✹ ❇︎\nwe are taking a little break over the summer period and will be back soon\n✳︎ ✸ ✹ ❇︎ ✯", {
-    fontFamily: 'Arial Narrow',
-    fill: '#FFFFFF',
-    fontSize: h4,
-    textAlign: 'left',
-    left: padding,
-    top: (pageHeight - padding),
-    originX: 'left',
-    originY: 'bottom',
-    scaleX: scale,
-    scaleY: scale
-  });
+  // var schedule = new fabric.IText(
+  //   "✳︎ ✸ ✹ ❇︎\nwe are taking a little break over the summer period and will be back soon\n✳︎ ✸ ✹ ❇︎ ✯", {
+  //   fontFamily: 'Arial Narrow',
+  //   fill: '#FFFFFF',
+  //   fontSize: h4,
+  //   textAlign: 'left',
+  //   left: padding,
+  //   top: (pageHeight - padding),
+  //   originX: 'left',
+  //   originY: 'bottom',
+  //   scaleX: scale,
+  //   scaleY: scale
+  // });
 
   // var schedule = new fabric.IText(
   //   "✳︎\n✳︎ ✸ \n✳︎ ✸ ✹ \n✳︎ ✸ ✹ ❇︎ \n✳︎ ✸ ✹ ❇︎ ✯\n✳︎ ✸ ✹ ❇︎ ✯ ✾ \n✳︎ ✸ ✹ ❇︎ ✯ ✾ ✢ \n✳︎ ✸ ✹ ❇︎ ✯ ✾ ✢ ✺ \n|\n|", {
@@ -175,7 +175,7 @@ function doTheFabricBits(){
   //  });
 
 
-  canvas.add(schedule);
+  // canvas.add(schedule);
 
   var circle = new fabric.Circle({
     radius: 100,
@@ -217,11 +217,6 @@ function doTheFabricBits(){
     originY: 'bottom',
     hoverCursor: "pointer",
   });
-
-
-  community.on('selected', function() {
-    window.open("https://ra.co/events/1501448");
-  })
 
   canvas.add(community);
 
