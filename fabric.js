@@ -147,7 +147,7 @@ function doTheFabricBits(){
 
 
   var schedule = new fabric.IText(
-    "✳︎ ✸ ✹ ❇︎\nWe are taking a summer break and will be back shortly.\n✳︎ ✸ ✹ ❇︎ ✯", {
+    "✳︎ ✸ ✹ ❇︎\nwe are taking a little break over the summer period and will be back soon\n✳︎ ✸ ✹ ❇︎ ✯", {
     fontFamily: 'Arial Narrow',
     fill: '#FFFFFF',
     fontSize: h4,
