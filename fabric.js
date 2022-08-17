@@ -686,7 +686,7 @@ function doTheFabricBits(){
 
 
   //bring schedule to front
-  canvas.bringToFront(schedule)
+  // canvas.bringToFront(schedule)
 
 
   // customise it baby
