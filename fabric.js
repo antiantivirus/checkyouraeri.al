@@ -82,7 +82,7 @@ var pageHeight = window.innerHeight;
 var centerX = pageWidth / 2;
 var centerY = pageHeight / 2;
 
-scale = 1;
+var scale = 1;
 
 var h1 = 40;
 var h2 = 30;
